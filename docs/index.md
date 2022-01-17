@@ -16,11 +16,8 @@ Donna Albee
 Hello! I’m also a senior studying computer science. My first and only experience with VR was playing beatsaber at a convention a couple of years ago. I’m super excited to jump into the development process and learn more about VR!
 
 Annalice Ni
-<<<<<<< HEAD
+
 ![Annalice Ni](https://github.com/UWRealityLab/xrcapstone22wi-team4/blob/master/docs/Annalice.png)
-=======
-![Annalice Ni](Annalice.png)
->>>>>>> e1973522e3456d88f88a9c8dd16afb880a783eb9
 
 Hi! I’m a senior studying computer science with interdisciplinary honors at UW. I was lucky to have a bit of VR dev experience during a high school internship, and I’m really excited to get back into it through the VR Capstone!
 
