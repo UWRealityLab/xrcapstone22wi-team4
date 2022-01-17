@@ -5,18 +5,18 @@ Our app will be an educational experience where the user explores grocery stores
 ## About (to be reformatted later)
 Khushi Chaudhari
 
-![Khooooshi](./pics/Khushi.jpg)
+![Khooooshi](pics/Khushi.jpg)
 
 Hello! I’m Khushi and I’m a senior majoring in Computer Science at UW. I’ve never really worked and used much of VR before, but have been looking forward to this class since freshman year. Looking forward to learning more and creating things in VR!
 
 Donna Albee
 
-![Donna Albee](/docs/pics/profilePic2.jpg)
+![Donna Albee](pics/profilePic2.jpg)
 
 Hello! I’m also a senior studying computer science. My first and only experience with VR was playing beatsaber at a convention a couple of years ago. I’m super excited to jump into the development process and learn more about VR!
 
 Annalice Ni
-![Annalice Ni](/docs/Annalice.png)
+![Annalice Ni](Annalice.png)
 
 Hi! I’m a senior studying computer science with interdisciplinary honors at UW. I was lucky to have a bit of VR dev experience during a high school internship, and I’m really excited to get back into it through the VR Capstone!
 
