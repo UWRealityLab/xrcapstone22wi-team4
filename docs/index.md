@@ -21,9 +21,11 @@ Annalice Ni
 
 Hi! I’m a senior studying computer science with interdisciplinary honors at UW. I was lucky to have a bit of VR dev experience during a high school internship, and I’m really excited to get back into it through the VR Capstone!
 
-## Weeks 1 + 2 (also to be reformatted later)
-Getting situated (in VR), a range of ideas, and a whole lot of Beatsaber…
-What we’ve worked on
+## Weeks 1 + 2
+
+### Getting situated (in VR), a range of ideas, and a whole lot of Beatsaber…
+
+**What we’ve worked on**
 
 The first couple weeks of the quarter and the VR capstone class involved a lot of settling into the class and getting ramped up on how to use the VR headsets. We obtained the Oculus Quest 2 devices from the course staff, set them up, and immediately started playing Beatsaber to get familiarized with the VR environment. As for more productive tasks, we also completed the Intro to Unity tutorials and the VR demo project assigned in class.
 
@@ -37,15 +39,18 @@ We finally decided on a global grocery experience after going through our brains
 
 ![Open air market in China](pics/GettyImages_1203053955.0.jpg)
 
-Team member tasks:
+**Team member tasks**
+
 Annalice: brainstorming, project MVP doc, Unity VR demo project, setting up Github website
 
 Donna: brainstorming, project MVP doc, Unity VR demo project, project website setup
 
 Khushi: brainstorming, project MVP doc, Unity VR demo project
 
-Code update:
+**Code update**
+
 We haven’t started actual development of the global grocery project yet, but anticipate that we will next week after finalizing our idea more!
 
-Blocking issues:
+**Blocking issues**
+
 We don’t have any major blocking issues development-wise, but we want to get our Global Grocery app idea reviewed by the course staff before starting to code since we decided on this idea a bit late in Week 2.
