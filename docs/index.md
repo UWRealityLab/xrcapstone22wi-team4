@@ -22,7 +22,6 @@ Annalice Ni
 Hi! I’m a senior studying computer science with interdisciplinary honors at UW. I was lucky to have a bit of VR dev experience during a high school internship, and I’m really excited to get back into it through the VR Capstone!
 
 ## Weeks 1 + 2
-
 ### Getting situated (in VR), a range of ideas, and a whole lot of Beatsaber…
 
 **What we’ve worked on**
