@@ -10,7 +10,7 @@ Hello! I’m Khushi and I’m a senior majoring in Computer Science at UW. I’v
 
 
 Donna Albee
-![](./pics/profilePic2.jpg?raw=true "Donna Albee")
+![Donna Albee](/pics/profilePic2.jpg?)
 Hello! I’m also a senior studying computer science. My first and only experience with VR was playing beatsaber at a convention a couple of years ago. I’m super excited to jump into the development process and learn more about VR!
 
 
