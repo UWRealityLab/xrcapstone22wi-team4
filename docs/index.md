@@ -4,6 +4,7 @@ Our app will be an educational experience where the user explores grocery stores
 
 ## About (to be reformatted later)
 Khushi Chaudhari
+![Khooooshi](/pics/Khushi.jpg)
 ![](./pics/Khushi.jpg?raw=true "Khushi Chaudhari")
 Hello! I’m Khushi and I’m a senior majoring in Computer Science at UW. I’ve never really worked and used much of VR before, but have been looking forward to this class since freshman year. Looking forward to learning more and creating things in VR!
 
