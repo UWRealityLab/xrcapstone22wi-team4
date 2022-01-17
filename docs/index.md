@@ -16,7 +16,7 @@ Hello! I’m also a senior studying computer science. My first and only experien
 
 
 Annalice Ni
-![Annalice Ni](./pics/Annalice.jpg?)
+![Annalice Ni](./pics/Annalice.png?)
 
 Hi! I’m a senior studying computer science with interdisciplinary honors at UW. I was lucky to have a bit of VR dev experience during a high school internship, and I’m really excited to get back into it through the VR Capstone!
 
