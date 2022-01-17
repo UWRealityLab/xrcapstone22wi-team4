@@ -11,15 +11,15 @@ Hello! I’m Khushi and I’m a senior majoring in Computer Science at UW. I’v
 
 
 Donna Albee
-![Donna Albee](/docs/pics/profilePic2.jpg?)
+![Donna Albee](/docs/pics/profilePic2.jpg)
 Hello! I’m also a senior studying computer science. My first and only experience with VR was playing beatsaber at a convention a couple of years ago. I’m super excited to jump into the development process and learn more about VR!
 
 
 Annalice Ni
-![Annalice Ni](/docs/Annalice.png?)
+![Annalice Ni](./docs/Annalice.png)
 
 Hi! I’m a senior studying computer science with interdisciplinary honors at UW. I was lucky to have a bit of VR dev experience during a high school internship, and I’m really excited to get back into it through the VR Capstone!
-ooooo
+oeouoeu
 
 ## Weeks 1 + 2 (also to be reformatted later)
 Getting situated (in VR), a range of ideas, and a whole lot of Beatsaber…
