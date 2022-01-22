@@ -21,6 +21,31 @@ Annalice Ni
 
 Hi! I’m a senior studying computer science with interdisciplinary honors at UW. I was lucky to have a bit of VR dev experience during a high school internship, and I’m really excited to get back into it through the VR Capstone!
 
+## Week 3
+### Project Pitch & PRD
+
+**What we’ve worked on**
+
+This week we focused on finalizing our project idea, developing the pitch and the PRD. We found some assets that we think will be perfect for our grocery stores and can be reused for the different markets. We’ve developed a plan for how and when we want to complete the different milestones of our project implementation. We met with course staff to discuss our idea and incorporated that feedback into our PRD.
+
+**Team member tasks**
+
+All members: Project pitch slide deck, PRD writing, writing the Week 3 snippet, searching for viable 3d models on the Unity Asset store
+
+**Feature Update**
+
+No development has begun yet, but we found a lot of great assets on the Unity Asset store that we’ll likely use for development.
+
+**Blocking Issues**
+
+We currently don’t have any blocking issues, although I’m sure that’s going to change next week. We really appreciate everyone’s advice on our PRD and target product!
+
+**Links to Project Materials**
+
+[Project Pitch](https://docs.google.com/presentation/d/1O-wRpKtE78lHHFkVCTBjFJutMWWYFNX0Bi-0Y5IJ-ls/edit?usp=sharing)
+
+[PRD](https://docs.google.com/document/u/1/d/185AGIbgelPKsAtKT540JVT_d4ulaCBQ9PLYbaaWnHHI/edit)
+
 ## Weeks 1 + 2
 ### Getting situated (in VR), a range of ideas, and a whole lot of Beatsaber…
 
@@ -53,27 +78,3 @@ We haven’t started actual development of the global grocery project yet, but a
 **Blocking issues**
 
 We don’t have any major blocking issues development-wise, but we want to get our Global Grocery app idea reviewed by the course staff before starting to code since we decided on this idea a bit late in Week 2.
-
-## Week 3
-### Project Pitch & PRD
-
-**What we’ve worked on**
-
-This week we focused on finalizing our project idea, developing the pitch and the PRD. We found some assets that we think will be perfect for our grocery stores and can be reused for the different markets. We’ve developed a plan for how and when we want to complete the different milestones of our project implementation. We met with course staff to discuss our idea and incorporated that feedback into our PRD.
-
-**Team member tasks**
-
-All members: Project pitch slide deck, PRD writing, writing the Week 3 snippet, searching for viable 3d models on the Unity Asset store
-
-**Feature Update**
-
-No development has begun yet, but we found a lot of great assets on the Unity Asset store that we’ll likely use for development.
-
-**Blocking Issues**
-
-We currently don’t have any blocking issues, although I’m sure that’s going to change next week. We really appreciate everyone’s advice on our PRD and target product!
-
-**Links to Project Materials**
-[Project Pitch](https://docs.google.com/presentation/d/1O-wRpKtE78lHHFkVCTBjFJutMWWYFNX0Bi-0Y5IJ-ls/edit?usp=sharing)
-[PRD](https://docs.google.com/document/u/1/d/185AGIbgelPKsAtKT540JVT_d4ulaCBQ9PLYbaaWnHHI/edit)
-
