@@ -1,4 +1,4 @@
-# VR Capstone Winter '21: Global Grocery
+# VR Capstone Winter 2022: Global Grocery
 
 Team Members: Donna Albee, Khushi Chaudhari, Annalice Ni (Team 4)
 
