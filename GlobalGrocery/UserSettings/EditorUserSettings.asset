@@ -9,13 +9,24 @@ EditorUserSettings:
       value: 2242470311464676020a09301e104a001305152b3e232324621a1e36ece52777d1e433e7e2050c292907fd31052c0a3ae6453a1ee60e1806101cf60b05b1051d18d101
       flags: 0
     RecentlyUsedScenePath-1:
+<<<<<<< HEAD
       value: 224247031146467f080303111326511547590d24253c3f
+=======
+      value: 224247031146467c1f010f27023a6c0419051d1a3e2d35353967083debf42d
+>>>>>>> 5f1df78 (squashing past two commits together)
       flags: 0
     RecentlyUsedScenePath-2:
       value: 22424703114646680e0b0227036c6c111b07142f1f2b233e2867083debf42d
       flags: 0
     RecentlyUsedScenePath-3:
+<<<<<<< HEAD
       value: 224247031146467c1f010f27023a6c0419051d1a3e2d35353967083debf42d
+      flags: 0
+    RecentlyUsedScenePath-4:
+      value: 22424703114646680e0b0227036c6a2337240c253e2d68252320092a
+=======
+      value: 224247031146467f080303111326511547590d24253c3f
+>>>>>>> 5f1df78 (squashing past two commits together)
       flags: 0
     RecentlyUsedScenePath-4:
       value: 22424703114646680e0b0227036c6a2337240c253e2d68252320092a
