@@ -600,7 +600,12 @@ namespace UnityEngine.XR.Interaction.Toolkit
 
                 if (m_TrackRotation)
                 {
-                    transform.rotation = m_TargetWorldRotation;
+                    // Only track Y rotation of hand to set for shopping cart
+                    float yRotation = m_TargetWorldRotation.eulerAngles.y;
+                    //transform.eulerAngles = new Vector3(transform.eulerAngles.x, yRotation, transform.eulerAngles.z);
+                    transform.eulerAngles = new Vector3(0f, yRotation, 0f);
+                    //transform.rotation = Quaternion.Euler(0, m_TargetWorldRotation.y, 0);
+                    //transform.rotation = m_TargetWorldRotation;
                 }
             }
         }
@@ -621,7 +626,11 @@ namespace UnityEngine.XR.Interaction.Toolkit
                 if (m_TrackRotation)
                 {
                     m_Rigidbody.angularVelocity = Vector3.zero;
-                    m_Rigidbody.MoveRotation(m_TargetWorldRotation);
+                    // Only track Y rotation of hand to set for shopping cart
+                    //m_Rigidbody.MoveRotation(Quaternion.Euler(0, m_TargetWorldRotation.y, 0));
+                    float yRotation = m_TargetWorldRotation.eulerAngles.y;
+                    //m_Rigidbody.MoveRotation(Quaternion.Euler(transform.eulerAngles.x, yRotation, transform.eulerAngles.z));
+                    m_Rigidbody.MoveRotation(Quaternion.Euler(0f, yRotation, 0f));
                 }
             }
         }
@@ -649,7 +658,12 @@ namespace UnityEngine.XR.Interaction.Toolkit
                 {
                     // Scale initialized velocity by prediction factor
                     m_Rigidbody.angularVelocity *= (1f - m_AngularVelocityDamping);
-                    var rotationDelta = m_TargetWorldRotation * Quaternion.Inverse(transform.rotation);
+                    // Only track Y rotation of hand to set for shopping cart
+                    //var rotationDelta = Quaternion.Euler(transform.eulerAngles.x, m_TargetWorldRotation.eulerAngles.y, transform.eulerAngles.z) * Quaternion.Inverse(transform.rotation);
+                    var rotationDelta = Quaternion.Euler(0f, m_TargetWorldRotation.eulerAngles.y, 0f) * Quaternion.Inverse(transform.rotation);
+
+                    //var rotationDelta = m_TargetWorldRotation * Quaternion.Inverse(transform.rotation);
+
                     rotationDelta.ToAngleAxis(out var angleInDegrees, out var rotationAxis);
                     if (angleInDegrees > 180f)
                         angleInDegrees -= 360f;
