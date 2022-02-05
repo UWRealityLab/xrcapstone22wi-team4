@@ -31,6 +31,68 @@
 			<div class="container">
 
 				<header class="major special">
+					<h2>Week 5</h2>
+					<p>USA Store and More Shopping Cart Physics</p>
+				</header>
+
+				<!-- <a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a> -->
+				
+				<header>
+					<h4>What We've Accomplished</h4>
+				</header>
+				<p>This week, we focused on debugging some issues with the grocery cart by modifying the default XRGrabInteractable script on the cart to create a custom grab script for it. The shopping cart rotation is improved now as it can’t be turned in the x or z rotational axis, and stays upright even when grabbed from an angle. We will continue working on the cart in following weeks to iron out some bugs with the grabbing physics. </p>
+				<p>We also built out the structure of the grocery store scene that will be used as the base setting for all 3 of our grocery stores. We are also starting to put products in their specific places in the store, which will be an ongoing process. Doing research on average grocery prices in the USA, Mexico, and China we had to consider what kind of sources we got the price data from. We wrote about some considerations at the end of the snippet.</p>
+				<p>Link to cart demo:</p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Sj8JCB0L3MQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>				<p>As you can see, there’s clearly some bugs that we need to fix. When the cart moves, items in the cart have a tendency to bounce around. We plan on fixing this sometime next week. </p>
+
+				<header>
+					<h4>Individual Contributions</h4>
+				</header>
+				<p>Annalice:  modified XRGrabInteractable script on cart to lock the x and z rotation on the cart and only track the y rotation of the controller when moving the cart, compiled grocery price information </br> Donna: made objects in shopping cart not fly out when pushing cart with things in it by adding custom script that changes kinematic state, compiled grocery price information </br> Khushi: built the grocery store structure scene with all building structures, shelves, and signs</p>
+				
+				<header>
+					<h4>Code Updates</h4>
+				</header>
+				<p>
+				Created new branch for creating grocery store scene</br>
+				&emsp;Put up walls and floors of store with realistic pillars and other building assets</br>
+				&emsp;Put in grocery shelves, freezers, produce aisles, etc into store</br>
+				Created a new script based off of XRGrabInteractable to place on the cart to control how grabbing the cart works</br>
+				&emsp;Makes the cart only track the controller’s y rotation when grabbed so that user cannot turn cart on its sides</br>
+				Created a new collider on the cart that turns off the kinematic setting on objects that go into the cart so that they don’t fly around when the cart is pushed</br>
+				</p>
+
+				<header>
+					<h4>Plans for Next Week</h4>
+				</header>
+				<p>Since the MVP presentation is coming up next Tuesday and we’re a little behind schedule, we plan on trying to crunch out the content needed for the MVP so that we can be on schedule again. This work includes creating a opening menu for the VR app, creating an object price script that attaches a price attribute to each item based on the price database that we’ve compiled, putting items on their shelves, cloning the base grocery store to create the Mexican and Chinese stores, and creating a basic checkout system.</p>
+
+				<header>
+					<h4>Files to review</h4>
+				</header>
+				<p>master/GlobalGrocery/Assets/Custom/EnterCartBehavior.cs OnTriggerExit</p>
+				<p>master/GlobalGrocery/Assets/Custom/XRObjectGrabInteractable.cs SetupRigidbodyDrop line 828</p>
+				<p>In particular, we are having issues with de-parenting objects and setting the isKinematic to false in EnterCartBehavior. The commented out portion of SetupRigidbodyDrop should do the same thing as the else clause in OnTriggerExit. However, the else clause fails to move the object outside of the parent. Using the else clause, the object freezes in the air even though we can see in the inspector that isKinematic is set to true. (Using SetupRigidbody achieves the desired behavior, however OnTriggerExit does not).</p>
+				
+
+				<header>
+					<h4>Blockers</h4>
+				</header>
+				<p>We’re currently having issues with getting the shopping cart to behave the way we want it to in terms of grabbing and having items stored in it. We’ll continue to debug the shopping cart issues as we work on other parts of the project, but we would like tips on how to make custom grab physics work. Specifically, how should we make the cart lock x and z rotation completely when being grabbed or when items are thrown into / at it. Also, what are potential solutions for putting objects in the cart without having the objects fly around when we push the cart?</p>
+
+				<header>
+					<h4>Grocery Pricing Considerations</h4>
+				</header>
+				<p>When we were doing research on the average prices of groceries in the USA, Mexico, and China this week, we started thinking about the rationale for using one type of cost aggregation versus another. We initially considered using a crowdsourced cost-of-living site that calculated the mean costs of common grocery items like bananas or a pound of chicken in a certain country. We also looked into the official US Bureau of Labor Statistics webpage that aggregated US grocery prices across the countries. We ran into the dilemma of what matters most in calculating the mean costs for a county: the mean, median, or another calculation for grocery costs? We weren’t sure if the crowdsourced site was the most accurate representation of prices we could get, especially for the Mexico and China prices. The US Labor Statistics page’s numbers were calculated using city costs, which may contain an urban bias. An idea we had was to use grocery prices from the largest grocery chain in each country to use for items since that would give us a relatively “average” price experience from each country and would help us price each item, even obscure ones. However, the question still stands of what kind or pricing aggregate is considered the most representative of a country’s grocery prices, especially when there is such a large gap between the cost of living in urban versus rural areas in each country. For now, we decided to go with Walmart's grocery pickup prices for median cost cities in each country so that we can find prices on very specific grocery items while maintaining an average cost per country.</p>
+				<a href="https://www.bls.gov/regions/mid-atlantic/data/averageretailfoodandenergyprices_usandmidwest_table.htm"></a>
+			</div>
+		</section>
+		
+		<!-- Main -->
+		<section id="main" class="wrapper">
+			<div class="container">
+
+				<header class="major special">
 					<h2>Week 4</h2>
 					<p>Research and Shopping Cart Physics</p>
 				</header>
