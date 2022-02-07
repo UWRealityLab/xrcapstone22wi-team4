@@ -61,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1740880602072048981, guid: 01cdda436a2b1324fa6ed7fcbf2e09a6, type: 3}
       propertyPath: m_Name
-      value: Beer_lryra7_Var01_Pack01
+      value: BeerLager_Pack
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01cdda436a2b1324fa6ed7fcbf2e09a6, type: 3}
@@ -79,7 +79,7 @@ MeshCollider:
   m_GameObject: {fileID: 6698992317331308566}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
