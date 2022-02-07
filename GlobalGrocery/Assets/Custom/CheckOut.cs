@@ -21,6 +21,7 @@ public class CheckOut : MonoBehaviour
         {
             Transform child = cart_items.GetChild(i);
             string name = child.name.Split(' ')[0];
+            Debug.Log(name);
             double item_cost = child.GetComponent<GetPrice>().getPrice();
 
             if (!item_price.ContainsKey(name))

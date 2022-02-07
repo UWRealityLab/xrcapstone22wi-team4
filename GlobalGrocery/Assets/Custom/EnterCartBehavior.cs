@@ -29,6 +29,7 @@ public class EnterCartBehavior : MonoBehaviour
                 rg.useGravity = true;
                 Debug.Log("here 2");
                 transform.parent = null;
+                Debug.Log(transform.parent);
                 Debug.Log("here 3");
             }
 
@@ -37,7 +38,7 @@ public class EnterCartBehavior : MonoBehaviour
 
     IEnumerator cartDelayEnter(Collider other)
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         Rigidbody rg = GetComponent<Rigidbody>();
         Debug.Log("Changed isKinematic to true");
         rg.velocity = Vector3.zero;

@@ -828,15 +828,15 @@ namespace UnityEngine.XR.Interaction.Toolkit
         protected virtual void SetupRigidbodyDrop(Rigidbody rigidbody)
         {
             // Restore Rigidbody settings
-            /*rigidbody.isKinematic = m_WasKinematic;
+            rigidbody.isKinematic = m_WasKinematic;
             rigidbody.useGravity = m_UsedGravity;
             rigidbody.drag = m_OldDrag;
             rigidbody.angularDrag = m_OldAngularDrag;
 
             if (!isSelected)
-                m_Rigidbody.useGravity |= m_ForceGravityOnDetach;*/
+                m_Rigidbody.useGravity |= m_ForceGravityOnDetach;
 
-            rigidbody.isKinematic = false; // m_WasKinematic;
+            /*rigidbody.isKinematic = false; // m_WasKinematic;
 
             if (transform.parent != null && transform.parent.name == "Cart_nabnuh")
             {
@@ -847,7 +847,7 @@ namespace UnityEngine.XR.Interaction.Toolkit
             rigidbody.angularDrag = m_OldAngularDrag;
 
             if (!isSelected)
-                m_Rigidbody.useGravity |= m_ForceGravityOnDetach;
+                m_Rigidbody.useGravity |= m_ForceGravityOnDetach;*/
         }
 
         void SmoothVelocityStart(IXRInteractor interactor)
