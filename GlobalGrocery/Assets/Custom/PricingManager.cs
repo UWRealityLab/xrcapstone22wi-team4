@@ -60,7 +60,6 @@ public class PricingManager : MonoBehaviour
     {
         double cost = 0.0;
 
-        Debug.Log("getting price for item " + item);
         if (location.Equals("CHINA"))
         {
             cost = prices_CHINA[item];
@@ -74,8 +73,6 @@ public class PricingManager : MonoBehaviour
         {
             Debug.Log("location not recognized");
         }
-
-        Debug.Log("price was " + cost);
         return cost * getScaler();
     }
 

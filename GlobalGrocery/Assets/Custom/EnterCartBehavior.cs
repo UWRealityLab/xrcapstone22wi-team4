@@ -13,7 +13,7 @@ public class EnterCartBehavior : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Cart")
+        if (other.tag == "Cart Collider")
         {
             Debug.Log("Entered Cart");
             Rigidbody rg = GetComponent<Rigidbody>();
@@ -44,7 +44,8 @@ public class EnterCartBehavior : MonoBehaviour
         rg.isKinematic = true;
         rg.velocity = Vector3.zero;
         Vector3 originalScale = transform.localScale;
-        transform.SetParent(other.transform.parent.transform);
+        Transform cart_items = other.transform.parent.transform.Find("Cart_Items").transform;
+        transform.SetParent(cart_items);
         transform.localScale = originalScale;
 
         /*GameObject cart = GameObject.Find("Cart_nabruh");
