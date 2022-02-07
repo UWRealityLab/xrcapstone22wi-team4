@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5024723712433558979}
   - component: {fileID: 8220401985490950758}
   - component: {fileID: 6192532245380230828}
-  - component: {fileID: 2739821626990448230}
   m_Layer: 0
   m_Name: MashPotatoe_3n44xc_Pack01
   m_TagString: Untagged
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2739821626990448230
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5688247766500102009}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4106872611847740822, guid: 2f00913adb0ebff40b35f3d38436d98f, type: 3}

@@ -53,7 +53,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4563047810625401852, guid: 00f4cc6b9cb376c4082532221963c346, type: 3}
       propertyPath: m_Name
-      value: BeerPack_74mugc_Var02
+      value: BeerPackBK
+      objectReference: {fileID: 0}
+    - target: {fileID: 6888844006160054148, guid: 00f4cc6b9cb376c4082532221963c346, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8587829925992608820, guid: 00f4cc6b9cb376c4082532221963c346, type: 3}
       propertyPath: m_LightProbeUsage

@@ -7,9 +7,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3731825070574822705, guid: c575196db0c276c489dbd25b02243794, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7017247817746457543, guid: c575196db0c276c489dbd25b02243794, type: 3}
       propertyPath: m_Name
-      value: Ham_wplnxm_Pack01_Var01
+      value: ham_norway_pack
       objectReference: {fileID: 0}
     - target: {fileID: 7649809383368030589, guid: c575196db0c276c489dbd25b02243794, type: 3}
       propertyPath: m_RootOrder
