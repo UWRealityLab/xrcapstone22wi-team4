@@ -59,6 +59,7 @@ public class PricingManager : MonoBehaviour
     public double getPrice(String item)
     {
         double cost = 0.0;
+        item = item.Split(' ')[0];
 
         if (location.Equals("CHINA"))
         {
