@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 public class GetPrice : MonoBehaviour
 {
     // Start is called before the first frame update
     public double cost;
+
     void Start()
     {
         GameObject pricingManager = GameObject.Find("PricingManager");

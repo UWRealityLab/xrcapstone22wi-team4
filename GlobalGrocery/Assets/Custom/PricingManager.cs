@@ -77,6 +77,11 @@ public class PricingManager : MonoBehaviour
         return cost * getScaler();
     }
 
+    public string getLocation()
+    {
+        return location;
+    }
+
     private double getScaler()
     {
         // location equals display currency

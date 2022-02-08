@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEditor;
+using UnityEngine.SceneManagement;
 
 public class CheckOut : MonoBehaviour
 {
@@ -14,16 +16,41 @@ public class CheckOut : MonoBehaviour
 
         Debug.Log("Entered Checkout Zone");
         Transform cart_items = GameObject.Find("Cart_Items").transform;
+        PricingManager pricingManager = GameObject.Find("PricingManager").GetComponent<PricingManager>();
 
         double cost = 0;
         Dictionary<string, double> item_price = new Dictionary<string, double>();
         Dictionary<string, int> item_count = new Dictionary<string, int>();
+        if (pricingManager.getLocation() == "USA")
+        {
+            PlayerHistory.USA = new List<string>();
+        }
+        else if (pricingManager.getLocation() == "CHINA")
+        {
+            PlayerHistory.CHINA = new List<string>();
+        }
+        else
+        {
+            PlayerHistory.MEXICO = new List<string>();
+        }
         for (int i = 0; i < cart_items.childCount; i++)
         {
             Transform child = cart_items.GetChild(i);
             string name = child.name.Split(' ')[0];
-            Debug.Log(name);
+
             if (child.GetComponent<GetPrice>() == null) continue;
+
+            if (pricingManager.getLocation() == "USA")
+            {
+                PlayerHistory.USA.Add(name);
+            } else if (pricingManager.getLocation() == "CHINA")
+            {
+                PlayerHistory.CHINA.Add(name);
+            } else
+            {
+                PlayerHistory.MEXICO.Add(name);
+            }
+
             double item_cost = child.GetComponent<GetPrice>().getPrice();
 
             if (!item_price.ContainsKey(name))
@@ -58,6 +85,26 @@ public class CheckOut : MonoBehaviour
         Debug.Log(text);
         receipt.GetComponent<TextMeshPro>().text = text;
 
+        if (pricingManager.getLocation() == "USA")
+        {
+            PlayerHistory.USA_Receipt = text;
+        }
+        else if (pricingManager.getLocation() == "CHINA")
+        {
+            PlayerHistory.CHINA_Receipt = text;
+        }
+        else
+        {
+            PlayerHistory.MEXICO_Receipt = text;
+        }
+
         // load in the next scene after a few seconds
+        StartCoroutine("loadNewScene");
+    }
+
+    IEnumerator loadNewScene()
+    {
+        yield return new WaitForSeconds(5f);
+        SceneManager.LoadScene("displayAllReceipts");
     }
 }
