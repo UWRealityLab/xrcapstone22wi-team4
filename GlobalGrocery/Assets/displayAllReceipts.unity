@@ -123,6 +123,8 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
+=======
 --- !u!4 &109945752
 Transform:
   m_ObjectHideFlags: 0
@@ -341,6 +343,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 433996399}
   m_Mesh: {fileID: -3431698862423461540, guid: 8e2533e2457e55c42bea5a3791044346, type: 3}
+>>>>>>> 60a7f2cd30a167e4d2dacbde72246fed661de98c
 --- !u!1001 &643543698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -501,6 +504,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+=======
 --- !u!1 &701083126
 GameObject:
   m_ObjectHideFlags: 0
@@ -950,6 +955,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+>>>>>>> 60a7f2cd30a167e4d2dacbde72246fed661de98c
 --- !u!1001 &1230897871
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1111,6 +1117,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+<<<<<<< HEAD
+=======
 --- !u!1 &1978820123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1314,6 +1322,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> 60a7f2cd30a167e4d2dacbde72246fed661de98c
 --- !u!1001 &2919988142905310601
 PrefabInstance:
   m_ObjectHideFlags: 0
