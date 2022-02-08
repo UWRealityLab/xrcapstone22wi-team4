@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -1987745489676207816}
   - component: {fileID: -2728381845680659202}
   m_Layer: 0
-  m_Name: SweetJarOrangeJam
+  m_Name: SweetJarOrange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
