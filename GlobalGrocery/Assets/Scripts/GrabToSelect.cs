@@ -15,18 +15,18 @@ public class GrabToSelect : MonoBehaviour
     {
         if (this.name == "apple")
         {
-            // call load scene 1 script
+            // call load USA script
             LoadNewScene("Assets/Scenes/USAStoreFinalSmall.unity");
         }
         else if (this.name == "avocado")
         {
-            // call load scene 2 script
-            LoadNewScene("Assets/Scenes/scene_switch_2.unity");
+            // call load Mexico script
+            LoadNewScene("Assets/Scenes/USAStoreFinalSmall_Mexico.unity");
         }
         else if (this.name == "orange")
         {
-            // call load scene 3 script
-            LoadNewScene("Assets/Scenes/scene_switch_3.unity");
+            // call load China script
+            LoadNewScene("Assets/Scenes/USAStoreFinalSmall_China.unity");
         }
         else if (this.name == "scene_cylinder")
         {

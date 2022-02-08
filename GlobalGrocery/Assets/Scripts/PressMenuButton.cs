@@ -47,7 +47,7 @@ public class PressMenuButton : MonoBehaviour
                 Vector3 playerPos = playerTransform.position;
                 Vector3 playerDirection = playerTransform.transform.forward;
                 Quaternion playerRotation = playerTransform.rotation;
-                float menuDistance = 0.45f;
+                float menuDistance = 0.42f;
 
                 Vector3 menuPosition = playerPos + (playerDirection * menuDistance);
 

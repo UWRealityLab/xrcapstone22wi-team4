@@ -81,7 +81,7 @@ public class CheckOut : MonoBehaviour
         foreach (string item in item_price.Keys) {
             text += item + " x" + item_count[item] + "  " + item_price[item] + "\n";
         }
-        text += "Total Cost:  " + cost + " USD";
+        text += "Total Cost:  " + cost + " " + pricingManager.getCurrency();
         Debug.Log(text);
         receipt.GetComponent<TextMeshPro>().text = text;
 

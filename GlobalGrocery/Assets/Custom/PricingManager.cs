@@ -56,6 +56,23 @@ public class PricingManager : MonoBehaviour
         }
     }
 
+    public string getCurrency()
+    {
+        if (currency == "USA")
+        {
+            return "USD";
+        }
+        if (currency == "CHINA")
+        {
+            return "Yuan";
+        }
+        if (currency == "MEXICO")
+        {
+            return "Peso";
+        }
+        return "";
+    }
+
     public double getPrice(String item)
     {
         double cost = 0.0;
