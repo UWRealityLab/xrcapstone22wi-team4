@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1347835465082586423, guid: 54435621f4735d440893831dc3a4db6e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2310854157815878695, guid: 54435621f4735d440893831dc3a4db6e, type: 3}
       propertyPath: m_Name
       value: WineBottle_2b6kjh_Pack01_Var02
