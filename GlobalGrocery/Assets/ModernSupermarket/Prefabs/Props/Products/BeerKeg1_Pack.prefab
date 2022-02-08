@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1961484328927821510}
   - component: {fileID: 3213120488946790755}
   - component: {fileID: 825209068177261993}
-  - component: {fileID: 8776377784313707886}
   m_Layer: 0
   m_Name: BeerKeg1_Pack
   m_TagString: Untagged
@@ -85,17 +84,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8776377784313707886
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1185369425399555196}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2610114056718052927, guid: 85b0674f64202e34e9d2065d5f37ed04, type: 3}

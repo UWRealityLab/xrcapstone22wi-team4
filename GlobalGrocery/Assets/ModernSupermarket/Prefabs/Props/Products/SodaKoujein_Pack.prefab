@@ -17,7 +17,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ec34a7fbfdc632243b756e03652e4949, type: 2}
     - target: {fileID: 5822716823162294919, guid: 139f26fcf87e91946b50160cf9b10fe2, type: 3}
       propertyPath: m_Name
-      value: Soda_d7rdw9_Pack01_Var01
+      value: SodaKoujein_Pack
       objectReference: {fileID: 0}
     - target: {fileID: 6594856129152927805, guid: 139f26fcf87e91946b50160cf9b10fe2, type: 3}
       propertyPath: m_RootOrder
@@ -63,7 +63,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 84553549535954498, guid: 139f26fcf87e91946b50160cf9b10fe2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 139f26fcf87e91946b50160cf9b10fe2, type: 3}
 --- !u!1 &319020532599415894 stripped
 GameObject:

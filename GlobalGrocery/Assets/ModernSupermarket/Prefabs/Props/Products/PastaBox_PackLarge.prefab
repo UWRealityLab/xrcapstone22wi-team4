@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4759575599091782529}
   - component: {fileID: 8476534669393042468}
   - component: {fileID: 5928500824742586606}
-  - component: {fileID: 6013100659553173694}
   m_Layer: 0
   m_Name: PastaBox_PackLarge
   m_TagString: Untagged
@@ -84,17 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6013100659553173694
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5280110365052225851}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3802704678861725038, guid: 4e078030660288c44805593df18fd3c4, type: 3}

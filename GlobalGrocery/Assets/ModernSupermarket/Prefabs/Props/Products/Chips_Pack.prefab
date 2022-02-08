@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 206768979450856019}
   - component: {fileID: 3850943680608341494}
   - component: {fileID: 1339182718182947132}
-  - component: {fileID: 6838216735195828830}
   m_Layer: 0
   m_Name: Chips_Pack
   m_TagString: Untagged
@@ -84,17 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6838216735195828830
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 690537171174381801}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -716379715792113286, guid: 16343180384f3cc4cb1922b49d52f6dc, type: 3}

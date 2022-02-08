@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5393473964872806333}
   - component: {fileID: 9040602879760572440}
   - component: {fileID: 6526379013371352274}
-  - component: {fileID: 7315460871052033494}
   m_Layer: 0
   m_Name: Cereal_Pack
   m_TagString: Untagged
@@ -84,17 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7315460871052033494
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4725022931292255495}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4884786224445456320, guid: 3fbcbebdf765bfd4da6eeebb21a2a86d, type: 3}

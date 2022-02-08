@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3541530926398321804}
   - component: {fileID: 471136370342443817}
   - component: {fileID: 2408624538810568675}
-  - component: {fileID: 458755845170224028}
   m_Layer: 0
   m_Name: CansPackAssorted_Pack
   m_TagString: Untagged
@@ -83,17 +82,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &458755845170224028
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4210262232438173238}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8212311577409429620, guid: d23ed9966529a074283dd4943b9704f5, type: 3}

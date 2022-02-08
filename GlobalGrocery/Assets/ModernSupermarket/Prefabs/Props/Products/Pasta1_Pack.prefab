@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 478441870473597554}
   - component: {fileID: 3534234776687844823}
   - component: {fileID: 1650824917255416093}
-  - component: {fileID: -318968370372774903}
   m_Layer: 0
   m_Name: Pasta1_Pack
   m_TagString: Untagged
@@ -87,17 +86,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &-318968370372774903
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1002073956333701320}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6613087323624015430, guid: 86034d54d29c7d34f9f711265ac19023, type: 3}

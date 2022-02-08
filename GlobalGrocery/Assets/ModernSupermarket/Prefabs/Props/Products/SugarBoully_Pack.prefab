@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2857578146700388343}
   - component: {fileID: 1155159811410749522}
   - component: {fileID: 4027067935735487640}
-  - component: {fileID: 5475254562782534574}
   m_Layer: 0
   m_Name: SugarBoully_Pack
   m_TagString: Untagged
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5475254562782534574
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3234702201948388685}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8882555568691313447, guid: a1c5420296c2d59459b5a61c3d18edb0, type: 3}

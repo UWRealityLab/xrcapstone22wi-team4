@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3896481560621668848}
   - component: {fileID: 125202217861502549}
   - component: {fileID: 2763021632278176415}
-  - component: {fileID: 2526496420841395972}
   m_Layer: 0
   m_Name: TinCanTunaSmall_Pack
   m_TagString: Untagged
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2526496420841395972
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4420500708106077002}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5578174183977725543, guid: 5fb0e3a0980655b498c0dc39babe30a1, type: 3}

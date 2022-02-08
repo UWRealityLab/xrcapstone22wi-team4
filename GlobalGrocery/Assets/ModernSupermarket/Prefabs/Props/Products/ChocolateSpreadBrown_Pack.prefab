@@ -17,7 +17,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: b45905882873422458802e02735bb852, type: 2}
     - target: {fileID: 1366301364303718558, guid: fbb302f813a145149a8127cd2c43f4eb, type: 3}
       propertyPath: m_Name
-      value: ChocolateSpread_xhkyij_Pack01_Var01
+      value: ChocolateSpreadBrown_Pack
       objectReference: {fileID: 0}
     - target: {fileID: 1854853535431406116, guid: fbb302f813a145149a8127cd2c43f4eb, type: 3}
       propertyPath: m_RootOrder
@@ -63,5 +63,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7087894060176960097, guid: fbb302f813a145149a8127cd2c43f4eb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fbb302f813a145149a8127cd2c43f4eb, type: 3}

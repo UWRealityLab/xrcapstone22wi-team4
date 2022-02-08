@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 695562139376784520}
   - component: {fileID: 4470096966282156845}
   - component: {fileID: 1867884198427914215}
-  - component: {fileID: 5708105594658301330}
   m_Layer: 0
   m_Name: Butter_Pack
   m_TagString: Untagged
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5708105594658301330
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 210810154775727666}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6054511332030382010, guid: 88d38c5810cf76845a6f2aebded5de41, type: 3}

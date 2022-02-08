@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1053192482235487717}
   - component: {fileID: 4121474732439444032}
   - component: {fileID: 2222135158207540874}
-  - component: {fileID: 6453852202612742318}
   m_Layer: 0
   m_Name: ham_crown_pack
   m_TagString: Untagged
@@ -83,17 +82,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6453852202612742318
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 420629542478171999}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8742747339497961259, guid: 8d250a526bb97474eab30812743d2aa4, type: 3}

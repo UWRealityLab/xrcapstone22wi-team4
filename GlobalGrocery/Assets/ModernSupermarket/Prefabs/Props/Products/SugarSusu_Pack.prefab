@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3741597979641235746}
   - component: {fileID: 307098118675678855}
   - component: {fileID: 2569302854196671053}
-  - component: {fileID: 3196914139011439613}
   m_Layer: 0
   m_Name: SugarSusu_Pack
   m_TagString: Untagged
@@ -84,17 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3196914139011439613
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4082235046803903384}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 328001795525987041, guid: 078493651e9c9f94c898b216252c6a5a, type: 3}

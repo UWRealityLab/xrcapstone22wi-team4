@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6854802869065703605}
   - component: {fileID: 7534237889919610640}
   - component: {fileID: 5722397515180055514}
-  - component: {fileID: 3964136592651715081}
   m_Layer: 0
   m_Name: CansPackSodaPack_Pack
   m_TagString: Untagged
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3964136592651715081
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6082945038051785231}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2173039330358001789, guid: b1f3b8455f98a784197c19e305d2f260, type: 3}

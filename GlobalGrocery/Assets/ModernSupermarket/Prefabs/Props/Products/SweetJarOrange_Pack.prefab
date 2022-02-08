@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8784438722954572273}
   - component: {fileID: 5640551753270935124}
   - component: {fileID: 7612126423145990814}
-  - component: {fileID: 6395450957688989385}
   m_Layer: 0
   m_Name: SweetJarOrange_Pack
   m_TagString: Untagged
@@ -84,17 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6395450957688989385
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8260526228077079371}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6728633643046022539, guid: f514b8b42e42a6548b5aceaeab3c2b87, type: 3}

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7318313242807359277}
   - component: {fileID: 5917734907804571784}
   - component: {fileID: 8486175614109101122}
-  - component: {fileID: 3770495811411272126}
   m_Layer: 0
   m_Name: SlicedBreadVertical_Pack
   m_TagString: Untagged
@@ -83,17 +82,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3770495811411272126
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7981521698163887511}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1217452901133866628, guid: 7fe2132b4d468f74fa6ba7cff2c4915a, type: 3}

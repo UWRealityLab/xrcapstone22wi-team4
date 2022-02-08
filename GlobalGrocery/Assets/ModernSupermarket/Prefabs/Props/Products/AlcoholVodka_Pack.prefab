@@ -9,7 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2663439125295256703, guid: 3f7d9422ac20c664697d560ac100550d, type: 3}
       propertyPath: m_Name
-      value: Alcohol_ao62w_Var01_Pack01
+      value: AlcoholVodka_Pack
+      objectReference: {fileID: 0}
+    - target: {fileID: 2934936807637264738, guid: 3f7d9422ac20c664697d560ac100550d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3440116150131330757, guid: 3f7d9422ac20c664697d560ac100550d, type: 3}
       propertyPath: m_RootOrder

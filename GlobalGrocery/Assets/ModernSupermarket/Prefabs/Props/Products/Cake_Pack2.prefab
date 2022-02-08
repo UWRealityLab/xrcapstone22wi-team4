@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 9077360119506414126}
   - component: {fileID: 5356637556261070219}
   - component: {fileID: 7904501465092575553}
-  - component: {fileID: 3896592337149621899}
   m_Layer: 0
   m_Name: Cake_Pack2
   m_TagString: Untagged
@@ -84,17 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3896592337149621899
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8553059462410825876}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1337318004796086707, guid: 16a22b0ac9383da409b468b46a8d61fe, type: 3}

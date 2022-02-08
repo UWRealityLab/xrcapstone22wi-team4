@@ -21,7 +21,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0a07846fe9c8f3f4ca25a9dc35938b31, type: 2}
     - target: {fileID: 3567260573497584894, guid: 5f7efea257e22ae41a365428c68d5a95, type: 3}
       propertyPath: m_Name
-      value: CansPack_f98qxo_Var02
+      value: CansPackSodaPop
       objectReference: {fileID: 0}
     - target: {fileID: 3762727116058840333, guid: 5f7efea257e22ae41a365428c68d5a95, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -89,4 +89,5 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0a07846fe9c8f3f4ca25a9dc35938b31, type: 2}
     m_RemovedComponents:
     - {fileID: 8137012466245219350, guid: 5f7efea257e22ae41a365428c68d5a95, type: 3}
+    - {fileID: 2147519312481328293, guid: 5f7efea257e22ae41a365428c68d5a95, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5f7efea257e22ae41a365428c68d5a95, type: 3}

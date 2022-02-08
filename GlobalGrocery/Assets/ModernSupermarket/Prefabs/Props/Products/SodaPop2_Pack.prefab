@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2257675241871054193}
   - component: {fileID: 2952958649299114708}
   - component: {fileID: 1089857327641980446}
-  - component: {fileID: -2716857740705613699}
   m_Layer: 0
   m_Name: SodaPop2_Pack
   m_TagString: Untagged
@@ -84,17 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &-2716857740705613699
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1449894128368963531}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3628894858422767836, guid: b7c0bbb49c014f34abedbe4741b18e89, type: 3}
