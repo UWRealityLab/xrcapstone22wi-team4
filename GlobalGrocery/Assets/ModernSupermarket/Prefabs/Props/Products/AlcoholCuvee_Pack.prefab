@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6715894438133428031}
   - component: {fileID: 7682153594194878618}
   - component: {fileID: 5582364244124963920}
-  - component: {fileID: 6369083164732681012}
   m_Layer: 0
   m_Name: AlcoholCuvee_Pack
   m_TagString: Untagged
@@ -84,17 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6369083164732681012
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6230860669311694213}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8276182922059170742, guid: 6d30ae52d5866a8459f40f4b5b623d1a, type: 3}

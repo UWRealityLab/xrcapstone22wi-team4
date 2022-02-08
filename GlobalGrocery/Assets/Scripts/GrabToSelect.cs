@@ -16,7 +16,7 @@ public class GrabToSelect : MonoBehaviour
         if (this.name == "apple")
         {
             // call load scene 1 script
-            LoadNewScene("Assets/Scenes/scene_switch_1.unity");
+            LoadNewScene("Assets/Scenes/USAStoreFinalSmall.unity");
         }
         else if (this.name == "avocado")
         {

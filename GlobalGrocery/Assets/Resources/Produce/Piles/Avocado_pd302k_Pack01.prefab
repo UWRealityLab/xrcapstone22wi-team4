@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 4846582570199112050}
   - component: {fileID: 8425494648308258519}
   - component: {fileID: 5983500462476665373}
-  - component: {fileID: 2150391411531654803}
   m_Layer: 0
-  m_Name: Avocado_Pile
+  m_Name: Avocado_pd302k_Pack01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2150391411531654803
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5190774087284229064}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 772904251950625600, guid: cfce5b21ef43f7040a0c86df2ed4caac, type: 3}

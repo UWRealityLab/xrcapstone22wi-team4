@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8705129303730107354}
   - component: {fileID: 5719869973948677247}
   - component: {fileID: 7531698795226253493}
-  - component: {fileID: 6602102367557160972}
   m_Layer: 0
   m_Name: AlcoholJapaneseWhisky_Pack
   m_TagString: Untagged
@@ -84,17 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6602102367557160972
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8324064255726676320}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8270773335450898435, guid: dc61b3341e6b7a54cba431c3ae3da928, type: 3}

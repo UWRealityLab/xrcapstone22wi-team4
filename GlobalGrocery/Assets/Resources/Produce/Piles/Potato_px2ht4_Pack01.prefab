@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 435996572859458680}
   - component: {fileID: 3576741046171495389}
   - component: {fileID: 1605485224132386583}
-  - component: {fileID: 5869062002744077707}
   m_Layer: 0
-  m_Name: Potato_Pile
+  m_Name: Potato_px2ht4_Pack01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5869062002744077707
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 956777693299556034}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8121876656601984663, guid: fb845a2734cb6d1409fa27761af2d805, type: 3}

@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 866754831890926226}
   - component: {fileID: 4298843590424610103}
   - component: {fileID: 2039136886532452861}
-  - component: {fileID: 821484459094361024}
   m_Layer: 0
-  m_Name: Banana_Pile
+  m_Name: Banana_zjs4oz_Pack01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &821484459094361024
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 525940675439890472}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1442403211491136723, guid: f8401068e838d89459b477c07d663e08, type: 3}

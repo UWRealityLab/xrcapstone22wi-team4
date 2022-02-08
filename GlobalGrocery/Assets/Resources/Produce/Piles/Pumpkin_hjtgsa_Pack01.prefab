@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 2971070370980592621}
   - component: {fileID: 2203534927955457096}
   - component: {fileID: 4138931333800099970}
-  - component: {fileID: 1003024815613345509}
   m_Layer: 0
-  m_Name: Pumpkin_Pile
+  m_Name: Pumpkin_hjtgsa_Pack01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1003024815613345509
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2481637800001937751}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5930554327143132639, guid: a80524aaa2c584e48bb2e623a4cccf43, type: 3}

@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 7557255129563187593}
   - component: {fileID: 6867734436655646252}
   - component: {fileID: 8695306687181173478}
-  - component: {fileID: 6361747535103804198}
   m_Layer: 0
-  m_Name: Artichoke_Pile
+  m_Name: Artichoke_fdde0u_Pack01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6361747535103804198
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7181855112756499251}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -803228860622060436, guid: 17885e206510d0b49993af90c16b0093, type: 3}

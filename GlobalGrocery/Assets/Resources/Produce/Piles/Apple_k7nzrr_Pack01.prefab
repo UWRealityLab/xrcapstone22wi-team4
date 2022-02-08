@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 2090566306757138650}
   - component: {fileID: 3075102505020413823}
   - component: {fileID: 957017284687635381}
-  - component: {fileID: 4913717604779571302}
   m_Layer: 0
-  m_Name: Apple_Pile
+  m_Name: Apple_k7nzrr_Pack01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4913717604779571302
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1605812913939448416}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1797886296711857609, guid: d75e2ae9ddf167c4d97a1fb52a3eab42, type: 3}

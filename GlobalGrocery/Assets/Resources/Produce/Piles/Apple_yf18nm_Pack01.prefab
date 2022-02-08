@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 1093285498347798436}
   - component: {fileID: 4072374237876465665}
   - component: {fileID: 2262792193716831435}
-  - component: {fileID: 679987239615350135}
   m_Layer: 0
-  m_Name: AppleGreen_Pile
+  m_Name: Apple_yf18nm_Pack01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &679987239615350135
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 317488324156286238}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1826359816036909765, guid: 80f41a940855c0a4887e17fe1330cf00, type: 3}

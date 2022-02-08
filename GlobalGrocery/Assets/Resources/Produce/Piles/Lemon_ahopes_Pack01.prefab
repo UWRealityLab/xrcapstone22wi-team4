@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 6166663338255221130}
   - component: {fileID: 7078453787721961007}
   - component: {fileID: 5034830313461611237}
-  - component: {fileID: 9033033493107794194}
   m_Layer: 0
-  m_Name: Lemon_Pile
+  m_Name: Lemon_ahopes_Pack01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &9033033493107794194
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6836379634843573040}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6129684991282436728, guid: dae042f8a55f72141b62f541c873b237, type: 3}

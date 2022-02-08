@@ -79,9 +79,9 @@ public class CheckOut : MonoBehaviour
 
         string text = "Receipt:\n";
         foreach (string item in item_price.Keys) {
-            text += item + " x" + item_count[item] + "       " + item_price[item] + "\n";
+            text += item + " x" + item_count[item] + "  " + item_price[item] + "\n";
         }
-        text += "Total Cost:      " + cost + " USD";
+        text += "Total Cost:  " + cost + " USD";
         Debug.Log(text);
         receipt.GetComponent<TextMeshPro>().text = text;
 
@@ -105,6 +105,6 @@ public class CheckOut : MonoBehaviour
     IEnumerator loadNewScene()
     {
         yield return new WaitForSeconds(5f);
-        SceneManager.LoadScene("displayAllReceipts");
+        SceneManager.LoadScene("Assets/Scenes/vr-menu-demo.unity");
     }
 }

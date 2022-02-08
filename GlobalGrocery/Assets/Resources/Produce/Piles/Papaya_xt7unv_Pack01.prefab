@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 3200208558579173318}
   - component: {fileID: 2001488500180502627}
   - component: {fileID: 4333096599008394409}
-  - component: {fileID: 2618445946640930738}
   m_Layer: 0
-  m_Name: Papaya_Pile
+  m_Name: Papaya_xt7unv_Pack01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2618445946640930738
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2820023119898910076}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2571946300908261703, guid: 67030b27794299749b47ad760f5b8f30, type: 3}

@@ -810,6 +810,8 @@ namespace UnityEngine.XR.Interaction.Toolkit
                 m_Rigidbody.velocity = m_DetachVelocity;
                 m_Rigidbody.angularVelocity = m_DetachAngularVelocity;
             }
+            m_Rigidbody.velocity = Vector3.zero;
+            m_Rigidbody.angularVelocity = Vector3.zero;
         }
 
         /// <summary>

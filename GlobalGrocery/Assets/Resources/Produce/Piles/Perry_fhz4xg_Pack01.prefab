@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 5933738450881937766}
   - component: {fileID: 7347345970891984579}
   - component: {fileID: 4761416903740291593}
-  - component: {fileID: 1425092652715859589}
   m_Layer: 0
-  m_Name: Pear_Pile
+  m_Name: Perry_fhz4xg_Pack01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1425092652715859589
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6418490396545211356}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7760198652861265587, guid: 9f1813cf7c0e0ed4f846ae46f903f22e, type: 3}

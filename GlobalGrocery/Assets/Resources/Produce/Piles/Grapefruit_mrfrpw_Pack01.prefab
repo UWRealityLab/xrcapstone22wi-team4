@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 5471542717821564119}
   - component: {fileID: 8953446920893643634}
   - component: {fileID: 6603965630473228216}
-  - component: {fileID: 6940087945833094128}
   m_Layer: 0
-  m_Name: Grapefruit_Pile
+  m_Name: Grapefruit_mrfrpw_Pack01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6940087945833094128
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4658133445637140077}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5121531410419572471, guid: c9426d9979d601d4b8eadc6213337ef6, type: 3}

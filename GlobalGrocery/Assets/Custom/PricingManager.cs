@@ -38,7 +38,6 @@ public class PricingManager : MonoBehaviour
 
         reader = new StreamReader(File.OpenRead(path));
         string header = reader.ReadLine();
-
         // put each line in a map
         while (!reader.EndOfStream)
         {
@@ -50,6 +49,7 @@ public class PricingManager : MonoBehaviour
             double price_china = Convert.ToDouble(values[2]);
             double price_mexico = Convert.ToDouble(values[3]);
 
+            Debug.Log(item + " " + price_usa);
             prices_USA.Add(item, price_usa);
             prices_CHINA.Add(item, price_china);
             prices_MEXICO.Add(item, price_mexico);
@@ -60,6 +60,11 @@ public class PricingManager : MonoBehaviour
     {
         double cost = 0.0;
         item = item.Split(' ')[0];
+
+        if (!prices_CHINA.ContainsKey(item))
+        {
+            return 3.2;
+        }
 
         if (location.Equals("CHINA"))
         {

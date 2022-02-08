@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 5095751104572744800}
   - component: {fileID: 8149374803327052741}
   - component: {fileID: 6268045848031207183}
-  - component: {fileID: 4053738585820384238}
   m_Layer: 0
-  m_Name: Mushroom_Pile
+  m_Name: Mushroom_43xvit_Pack01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4053738585820384238
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5619487437323288282}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4520984769364297120, guid: ffcae042fbea6b8439bd9d7a26ab7a86, type: 3}
