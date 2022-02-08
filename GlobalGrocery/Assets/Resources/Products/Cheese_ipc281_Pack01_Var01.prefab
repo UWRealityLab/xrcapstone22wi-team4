@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6222007056736468403, guid: dca0cc266ba87f1428e0520cb17d59da, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7465767377082112606, guid: dca0cc266ba87f1428e0520cb17d59da, type: 3}
       propertyPath: m_Name
       value: Cheese_ipc281_Pack01_Var01
