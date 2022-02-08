@@ -759,6 +759,7 @@ namespace UnityEngine.XR.Interaction.Toolkit
         /// <seealso cref="Grab"/>
         protected virtual void Drop()
         {
+            m_RetainTransformParent = false;
             if (m_RetainTransformParent && m_OriginalSceneParent != null && !m_OriginalSceneParent.gameObject.activeInHierarchy)
             {
 #if UNITY_EDITOR
@@ -808,7 +809,7 @@ namespace UnityEngine.XR.Interaction.Toolkit
         protected virtual void SetupRigidbodyGrab(Rigidbody rigidbody)
         {
             // Remember Rigidbody settings and setup to move
-            m_WasKinematic = rigidbody.isKinematic;
+            m_WasKinematic = false;
             m_UsedGravity = rigidbody.useGravity;
             m_OldDrag = rigidbody.drag;
             m_OldAngularDrag = rigidbody.angularDrag;

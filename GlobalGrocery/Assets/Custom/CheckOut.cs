@@ -9,7 +9,8 @@ public class CheckOut : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag != "Cart") return;
+        Debug.Log(other.tag);
+        if (other.tag != "Player") return;
 
         Debug.Log("Entered Checkout Zone");
         Transform cart_items = GameObject.Find("Cart_Items").transform;
@@ -22,6 +23,7 @@ public class CheckOut : MonoBehaviour
             Transform child = cart_items.GetChild(i);
             string name = child.name.Split(' ')[0];
             Debug.Log(name);
+            if (child.GetComponent<GetPrice>() == null) continue;
             double item_cost = child.GetComponent<GetPrice>().getPrice();
 
             if (!item_price.ContainsKey(name))
@@ -42,15 +44,20 @@ public class CheckOut : MonoBehaviour
 
         // create text receipt 
         Transform player = GameObject.Find("Cart_nabnuh").transform;
-        Vector3 player_position = player.position + Vector3.Normalize(player.position);
-        GameObject receipt = Instantiate(receipt_prefab, player_position, player.rotation) as GameObject;
+        Vector3 position = Vector3.zero;
+        position.z += 1f;
+        position.y += 1f;
+        GameObject receipt = Instantiate(receipt_prefab, position, Quaternion.identity);
+        receipt.transform.SetParent(GameObject.Find("XR Origin").transform, false);
 
         string text = "Receipt:\n";
         foreach (string item in item_price.Keys) {
             text += item + " x" + item_count[item] + "       " + item_price[item] + "\n";
         }
-        text += "Total Cost:      " + cost;
+        text += "Total Cost:      " + cost + " USD";
         Debug.Log(text);
         receipt.GetComponent<TextMeshPro>().text = text;
+
+        // load in the next scene after a few seconds
     }
 }

@@ -25,12 +25,9 @@ public class EnterCartBehavior : MonoBehaviour
             {
                 Debug.Log("Changed isKinematic to false");
                 rg.isKinematic = false;
-                Debug.Log("here 1");
                 rg.useGravity = true;
-                Debug.Log("here 2");
                 transform.parent = null;
                 Debug.Log(transform.parent);
-                Debug.Log("here 3");
             }
 
         }
@@ -38,12 +35,13 @@ public class EnterCartBehavior : MonoBehaviour
 
     IEnumerator cartDelayEnter(Collider other)
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         Rigidbody rg = GetComponent<Rigidbody>();
         Debug.Log("Changed isKinematic to true");
-        rg.velocity = Vector3.zero;
         rg.isKinematic = true;
         rg.velocity = Vector3.zero;
+        rg.centerOfMass = Vector3.zero;
+        rg.inertiaTensorRotation = Quaternion.identity;
         Vector3 originalScale = transform.localScale;
         Transform cart_items = other.transform.parent.transform.Find("Cart_Items").transform;
         transform.SetParent(cart_items);
