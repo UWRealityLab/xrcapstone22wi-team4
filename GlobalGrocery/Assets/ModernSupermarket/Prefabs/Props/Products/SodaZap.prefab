@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1981178380810348897}
   - component: {fileID: -281405138994959771}
   m_Layer: 0
-  m_Name: SodaZapPop
+  m_Name: SodaZap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
