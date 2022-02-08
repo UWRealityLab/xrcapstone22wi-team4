@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9185641760460266811}
   - component: {fileID: 7545887977077522877}
   m_Layer: 0
-  m_Name: ChocolateBox
+  m_Name: ChocolateBoxPurple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
