@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 5869542392151198419}
   - component: {fileID: 7411541939944408438}
   - component: {fileID: 4701724380078223804}
-  - component: {fileID: 7500667361876279241}
   - component: {fileID: 7266036199179577575}
   - component: {fileID: -4485218666104778594}
   - component: {fileID: 9084713997582018756}
   - component: {fileID: 6668551771977955436}
+  - component: {fileID: 4887114650137456694}
   m_Layer: 0
   m_Name: Garlic
   m_TagString: Untagged
@@ -86,20 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7500667361876279241
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6502948382388293737}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -794061518015939733, guid: ed775dd2d6a64694e92332b28058e36c, type: 3}
 --- !u!114 &7266036199179577575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,3 +242,16 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!135 &4887114650137456694
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6502948382388293737}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.035
+  m_Center: {x: -0.000000009313226, y: -0.01, z: 0}

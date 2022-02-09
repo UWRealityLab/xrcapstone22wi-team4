@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 1930560069420849192}
   - component: {fileID: 3271128125067302797}
   - component: {fileID: 757052218221126471}
-  - component: {fileID: 3665539219666028654}
   - component: {fileID: 7448543350005605137}
   - component: {fileID: 8285733058760883747}
   - component: {fileID: -4769164768245400931}
   - component: {fileID: -6051639127216926959}
+  - component: {fileID: 8848483540349098297}
   m_Layer: 0
   m_Name: Artichoke
   m_TagString: Untagged
@@ -86,20 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3665539219666028654
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1261406516038222482}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1062156408706501504, guid: c5cf24414e9ed9944afbafce14f24b36, type: 3}
 --- !u!114 &7448543350005605137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,3 +242,16 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!135 &8848483540349098297
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261406516038222482}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.065
+  m_Center: {x: -0.0000000037252903, y: 0.06, z: 0.000000007450581}

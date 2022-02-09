@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 7225361592225813105}
   - component: {fileID: 6046785651931733460}
   - component: {fileID: 8362771961557887262}
-  - component: {fileID: 5956837485948999395}
   - component: {fileID: -116566536209402100}
   - component: {fileID: 8402742438581865697}
   - component: {fileID: 804806824551366732}
   - component: {fileID: -7248902898149644075}
+  - component: {fileID: 2081491298361285583}
   m_Layer: 0
   m_Name: Clementine
   m_TagString: Untagged
@@ -86,20 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5956837485948999395
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8002461933266438347}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6005196553717223273, guid: fef32c5a71b08ed42b5402ba7299df10, type: 3}
 --- !u!114 &-116566536209402100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,3 +242,16 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!135 &2081491298361285583
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8002461933266438347}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.03
+  m_Center: {x: -0.0000000055879354, y: -0.01, z: 0.000000007450581}

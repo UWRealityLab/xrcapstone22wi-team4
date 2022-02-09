@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 8600891088008364954}
   - component: {fileID: 4680184996953115711}
   - component: {fileID: 7428595486896961781}
-  - component: {fileID: 4737198390445286096}
   - component: {fileID: -2100226534478043383}
   - component: {fileID: 3717556411263417941}
   - component: {fileID: -9149681855885860242}
   - component: {fileID: -3376872987003023575}
+  - component: {fileID: 2918401991683359703}
   m_Layer: 0
   m_Name: Avocado
   m_TagString: Untagged
@@ -86,20 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4737198390445286096
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8941703875170113824}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -9136372855596604969, guid: 2413cef3e37978e4cba58a781ae702e6, type: 3}
 --- !u!114 &-2100226534478043383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,3 +242,16 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!135 &2918401991683359703
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8941703875170113824}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.05
+  m_Center: {x: 0, y: 0, z: 0}

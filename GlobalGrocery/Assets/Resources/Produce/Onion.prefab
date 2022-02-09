@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 5209104168646445292}
   - component: {fileID: 9215964838346524489}
   - component: {fileID: 6341447026461537155}
-  - component: {fileID: 5989217090258978943}
   - component: {fileID: 7597078327798133511}
   - component: {fileID: 6116409061569626904}
   - component: {fileID: 4763692877629497439}
   - component: {fileID: 512552149694536207}
+  - component: {fileID: 3412851264352411393}
   m_Layer: 0
   m_Name: Onion
   m_TagString: Untagged
@@ -86,20 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5989217090258978943
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4828320633687233110}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2202330457633602160, guid: 5bc4e3133877e1a4b940688072420287, type: 3}
 --- !u!114 &7597078327798133511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,3 +242,16 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!135 &3412851264352411393
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828320633687233110}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.04
+  m_Center: {x: -0.000000020489097, y: -0.00025000982, z: 0.00004998222}

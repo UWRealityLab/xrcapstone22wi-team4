@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 1756530741379660636}
   - component: {fileID: 3445157998823208185}
   - component: {fileID: 588669436033171507}
-  - component: {fileID: 9215323044115894679}
   - component: {fileID: -2610569721038260462}
   - component: {fileID: 7154465738123121162}
   - component: {fileID: -5207507633210778311}
   - component: {fileID: -852351274450352511}
+  - component: {fileID: 9164104110518988834}
   m_Layer: 0
   m_Name: Watermelon
   m_TagString: Untagged
@@ -86,20 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &9215323044115894679
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1381377805246046694}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8388517605789706323, guid: f0f51b80115b1784bb4dcb310eacb9a9, type: 3}
 --- !u!114 &-2610569721038260462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,3 +242,16 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!135 &9164104110518988834
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381377805246046694}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.08685
+  m_Center: {x: -0.0016000643, y: 0.00094999373, z: -0.00060002506}

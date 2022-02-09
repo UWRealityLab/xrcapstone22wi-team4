@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4143651006845235484}
   - component: {fileID: 1022017181845307065}
   - component: {fileID: 3011246237479127667}
-  - component: {fileID: 3076196060099317545}
+  - component: {fileID: 5774734465758076917}
   m_Layer: 0
-  m_Name: FlourBlue
+  m_Name: FlourPack_ckgfmu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,8 +82,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3076196060099317545
-MeshCollider:
+--- !u!65 &5774734465758076917
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -92,7 +92,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3733558576623177121, guid: b175a2ed1190dbd41a90baba65fbb10e, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.17, y: 0.2435627, z: 0.1}
+  m_Center: {x: 0.0010975562, y: 0.121800914, z: -0.002037771}

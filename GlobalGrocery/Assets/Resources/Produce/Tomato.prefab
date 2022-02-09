@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 6661431329993846801}
   - component: {fileID: 7772635805343809460}
   - component: {fileID: 5492426016354667390}
-  - component: {fileID: 5782585665081269675}
   - component: {fileID: -2856841248094650002}
   - component: {fileID: 7652294721080563532}
   - component: {fileID: 5560050337033782103}
   - component: {fileID: -4581729137424784310}
+  - component: {fileID: 55485129512289566}
   m_Layer: 0
   m_Name: Tomato
   m_TagString: Untagged
@@ -86,20 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5782585665081269675
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6285327625741183659}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7933456217224407086, guid: dc1808f6ee8b2df48a558a1b48089537, type: 3}
 --- !u!114 &-2856841248094650002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,3 +242,16 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!135 &55485129512289566
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6285327625741183659}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.05
+  m_Center: {x: 0, y: 0.0000000055879354, z: 0.0000000055879354}

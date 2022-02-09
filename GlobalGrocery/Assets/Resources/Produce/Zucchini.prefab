@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 4771618563084764826}
   - component: {fileID: 8473498887974078783}
   - component: {fileID: 5941124296516320757}
-  - component: {fileID: 4927183239402229936}
   - component: {fileID: 286722134789192256}
   - component: {fileID: -8891851626768070051}
   - component: {fileID: -9073135974183400318}
   - component: {fileID: 1460769429777458683}
+  - component: {fileID: 554556567607993598}
   m_Layer: 0
   m_Name: Zucchini
   m_TagString: Untagged
@@ -86,20 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4927183239402229936
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5292821797222456352}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6866347031417840089, guid: 7916e867594c65348882e8dd68c41a07, type: 3}
 --- !u!114 &286722134789192256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,3 +242,16 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!65 &554556567607993598
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5292821797222456352}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.26920003, y: 0.05, z: 0.045}
+  m_Center: {x: 0.000000007450581, y: 0.000000013038516, z: 0.000000017695129}

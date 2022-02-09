@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 6200920786986230068}
   - component: {fileID: 7035118563508186769}
   - component: {fileID: 5063510834399517275}
-  - component: {fileID: 6179815423441295170}
   - component: {fileID: 973038212536971586}
   - component: {fileID: 2799206235833013096}
   - component: {fileID: -3417139976351436192}
   - component: {fileID: 4679261479013952498}
+  - component: {fileID: 3701703955266616783}
   m_Layer: 0
   m_Name: Squash
   m_TagString: Untagged
@@ -86,20 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6179815423441295170
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6720998155557944206}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7832216418004185897, guid: 868345c533a9e194b97fae136c3094e5, type: 3}
 --- !u!114 &973038212536971586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,3 +242,16 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!135 &3701703955266616783
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6720998155557944206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.08
+  m_Center: {x: -0.0010500029, y: -0.002199985, z: 0.000000007450581}
