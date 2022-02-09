@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 6737201340534119340}
   - component: {fileID: -2559214509367970045}
   - component: {fileID: -6776750594030363197}
-  - component: {fileID: 6122364132278211726}
   - component: {fileID: 871055831274071861}
-  - component: {fileID: 3342937067750053578}
+  - component: {fileID: -2883087794641638676}
+  - component: {fileID: 7269806982725830896}
   m_Layer: 0
   m_Name: CheeseComte
   m_TagString: Untagged
@@ -112,7 +112,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &6122364132278211726
+--- !u!65 &871055831274071861
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5079959897781435001}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.12970465, y: 0.031108914, z: 0.18651581}
+  m_Center: {x: -0.0000000037252903, y: 0.015646674, z: 0.0000000037252903}
+--- !u!54 &-2883087794641638676
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -128,20 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &871055831274071861
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5079959897781435001}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.12970465, y: 0.031108914, z: 0.18651581}
-  m_Center: {x: -0.0000000037252903, y: 0.015646674, z: 0.0000000037252903}
---- !u!114 &3342937067750053578
+--- !u!114 &7269806982725830896
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

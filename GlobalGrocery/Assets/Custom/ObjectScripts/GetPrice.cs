@@ -13,7 +13,6 @@ public class GetPrice : MonoBehaviour
     {
         //gameObject.GetComponent<XRAObjectGrabInteractable>().interactionManager = GameObject.Find("XR Interaction Manager").GetComponent<XRInteractionManager>();
         string name = gameObject.name.Split(' ')[0].Replace("(Clone)", " ");
-        Debug.Log(name);
         gameObject.AddComponent<Rigidbody>();
         GameObject pricingManager = GameObject.Find("PricingManager");
         cost = pricingManager.GetComponent<PricingManager>().getPrice(name);

@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: -8155538651880626214}
   - component: {fileID: -9171580702843030211}
   - component: {fileID: 796114393116160185}
-  - component: {fileID: 3742002309074474439}
-  - component: {fileID: 2493726721466860688}
+  - component: {fileID: -4614942774795877035}
+  - component: {fileID: 8422922250542387418}
   m_Layer: 0
   m_Name: BookDonnine
   m_TagString: Untagged
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &3742002309074474439
+--- !u!54 &-4614942774795877035
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2493726721466860688
+--- !u!114 &8422922250542387418
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

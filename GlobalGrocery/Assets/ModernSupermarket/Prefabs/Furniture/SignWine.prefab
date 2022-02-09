@@ -73,11 +73,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4216474142088616750, guid: 47c91b64530d3e6419877775c1450dea, type: 3}
       propertyPath: m_Name
-      value: Sign_04h2fw_Wine
+      value: SignWine
       objectReference: {fileID: 0}
     - target: {fileID: 4216474142088616750, guid: 47c91b64530d3e6419877775c1450dea, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 47c91b64530d3e6419877775c1450dea, type: 3}

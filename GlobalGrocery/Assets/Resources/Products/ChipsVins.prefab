@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 8755725234952116823}
   - component: {fileID: 50997575017643067}
   - component: {fileID: -8064933293436887289}
-  - component: {fileID: 5709165468842924844}
-  - component: {fileID: -4914891535029301579}
+  - component: {fileID: 1099443355569600578}
+  - component: {fileID: -4953341198806982911}
   m_Layer: 0
   m_Name: ChipsVins
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &5709165468842924844
+--- !u!54 &1099443355569600578
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-4914891535029301579
+--- !u!114 &-4953341198806982911
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

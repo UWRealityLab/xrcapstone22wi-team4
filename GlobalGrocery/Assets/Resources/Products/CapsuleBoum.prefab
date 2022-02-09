@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 4582236509395689202}
   - component: {fileID: 577249187227625589}
   - component: {fileID: 1483427169793909761}
-  - component: {fileID: 725384225163215388}
-  - component: {fileID: 7298513251901879712}
+  - component: {fileID: -7626601578648028893}
+  - component: {fileID: -4642958705077789905}
   m_Layer: 0
   m_Name: CapsuleBoum
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &725384225163215388
+--- !u!54 &-7626601578648028893
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7298513251901879712
+--- !u!114 &-4642958705077789905
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

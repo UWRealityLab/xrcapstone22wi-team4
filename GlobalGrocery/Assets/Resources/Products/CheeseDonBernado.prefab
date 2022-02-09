@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 6020895620475818805}
   - component: {fileID: -8338484581308800720}
   - component: {fileID: -4733752251793552534}
-  - component: {fileID: 7084297718775099299}
   - component: {fileID: 1254801220389431262}
-  - component: {fileID: 1249587813475230272}
+  - component: {fileID: -5940392111931009730}
+  - component: {fileID: 7716261725028925554}
   m_Layer: 0
   m_Name: CheeseDonBernado
   m_TagString: Untagged
@@ -111,7 +111,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &7084297718775099299
+--- !u!65 &1254801220389431262
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5228249097378804448}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15490016, y: 0.040675744, z: 0.16637114}
+  m_Center: {x: 0.0018234067, y: 0.018770218, z: 0.0029664934}
+--- !u!54 &-5940392111931009730
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,20 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &1254801220389431262
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5228249097378804448}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.15490016, y: 0.040675744, z: 0.16637114}
-  m_Center: {x: 0.0018234067, y: 0.018770218, z: 0.0029664934}
---- !u!114 &1249587813475230272
+--- !u!114 &7716261725028925554
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

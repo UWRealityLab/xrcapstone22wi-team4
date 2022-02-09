@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 4145281213094134313}
   - component: {fileID: -538654166030558264}
   - component: {fileID: 3684093557791457570}
-  - component: {fileID: 3774340792585609552}
-  - component: {fileID: -1666151889181004615}
+  - component: {fileID: 7490596059307104941}
+  - component: {fileID: 8844747577197555811}
   m_Layer: 0
   m_Name: Alcohol
   m_TagString: Untagged
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &3774340792585609552
+--- !u!54 &7490596059307104941
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +143,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-1666151889181004615
+--- !u!114 &8844747577197555811
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

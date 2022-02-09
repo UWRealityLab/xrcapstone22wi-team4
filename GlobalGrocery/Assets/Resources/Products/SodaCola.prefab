@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 6768639285042331734}
   - component: {fileID: 4043507045425168455}
   - component: {fileID: 7689101239638310595}
-  - component: {fileID: -2987903488695677410}
-  - component: {fileID: -506125629296266856}
+  - component: {fileID: 6715501500545849913}
+  - component: {fileID: 7392635574146971289}
   m_Layer: 0
   m_Name: SodaCola
   m_TagString: Untagged
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-2987903488695677410
+--- !u!54 &6715501500545849913
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +143,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-506125629296266856
+--- !u!114 &7392635574146971289
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

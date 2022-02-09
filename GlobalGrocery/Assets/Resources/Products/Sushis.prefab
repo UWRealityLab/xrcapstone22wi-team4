@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 2019503541523213483}
   - component: {fileID: 4551575690908988771}
   - component: {fileID: 2000149301424185999}
-  - component: {fileID: -6453271819745528993}
-  - component: {fileID: 6445919851551350402}
+  - component: {fileID: 6230919025200252846}
+  - component: {fileID: -4874967270659628588}
   m_Layer: 0
   m_Name: Sushis
   m_TagString: Untagged
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-6453271819745528993
+--- !u!54 &6230919025200252846
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +143,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6445919851551350402
+--- !u!114 &-4874967270659628588
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

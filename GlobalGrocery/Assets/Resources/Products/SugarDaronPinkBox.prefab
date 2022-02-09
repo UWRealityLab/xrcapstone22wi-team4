@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 8255085651377023255}
   - component: {fileID: 3753506581261578308}
   - component: {fileID: -4396300595529025482}
-  - component: {fileID: 2717803236177510096}
-  - component: {fileID: -3793890782592230714}
+  - component: {fileID: -2682069245381726197}
+  - component: {fileID: 3095063277084378835}
   m_Layer: 0
   m_Name: SugarDaronPinkBox
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &2717803236177510096
+--- !u!54 &-2682069245381726197
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-3793890782592230714
+--- !u!114 &3095063277084378835
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

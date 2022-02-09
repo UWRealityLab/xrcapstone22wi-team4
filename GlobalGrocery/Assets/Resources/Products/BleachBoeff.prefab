@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 7349609694000041548}
   - component: {fileID: 8401967666872088311}
   - component: {fileID: 493790449642717282}
-  - component: {fileID: 1570426568028100135}
-  - component: {fileID: -6757942252920380375}
+  - component: {fileID: -1870899631679907246}
+  - component: {fileID: 6628487422513158805}
   m_Layer: 0
   m_Name: BleachBoeff
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &1570426568028100135
+--- !u!54 &-1870899631679907246
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-6757942252920380375
+--- !u!114 &6628487422513158805
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

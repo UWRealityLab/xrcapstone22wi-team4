@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 292175165757647843}
   - component: {fileID: -6595713435920412045}
   - component: {fileID: 5819452339817794246}
-  - component: {fileID: 3017043545160420812}
-  - component: {fileID: -82006450666149855}
+  - component: {fileID: 637964076025382345}
+  - component: {fileID: 6253762196503204668}
   m_Layer: 0
   m_Name: BookMotherAndChild
   m_TagString: Untagged
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &3017043545160420812
+--- !u!54 &637964076025382345
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-82006450666149855
+--- !u!114 &6253762196503204668
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

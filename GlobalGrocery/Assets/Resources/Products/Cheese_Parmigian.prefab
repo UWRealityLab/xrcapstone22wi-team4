@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 5119618757734390441}
   - component: {fileID: 2552815271829536114}
   - component: {fileID: 4006583456705597501}
-  - component: {fileID: 1567761188628997956}
-  - component: {fileID: 4439629284428451264}
+  - component: {fileID: -923890278014760431}
+  - component: {fileID: 1599344548716589556}
   m_Layer: 0
   m_Name: Cheese_Parmigian
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &1567761188628997956
+--- !u!54 &-923890278014760431
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4439629284428451264
+--- !u!114 &1599344548716589556
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

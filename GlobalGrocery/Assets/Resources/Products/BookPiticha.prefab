@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 7148281754152457161}
   - component: {fileID: -2852088133746815915}
   - component: {fileID: -3781936388850386801}
-  - component: {fileID: 2397399595207619257}
-  - component: {fileID: 6718033177500555071}
+  - component: {fileID: -6532680348553488911}
+  - component: {fileID: -2078976363982812514}
   m_Layer: 0
   m_Name: BookPiticha
   m_TagString: Untagged
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &2397399595207619257
+--- !u!54 &-6532680348553488911
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6718033177500555071
+--- !u!114 &-2078976363982812514
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

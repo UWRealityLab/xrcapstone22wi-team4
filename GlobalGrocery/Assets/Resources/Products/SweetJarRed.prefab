@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 8747195147164461942}
   - component: {fileID: -8248062042722719409}
   - component: {fileID: -2356044412491661133}
-  - component: {fileID: 2335120908285084096}
-  - component: {fileID: 2519083271606721528}
+  - component: {fileID: 3285626078084658650}
+  - component: {fileID: 9111449708392392970}
   m_Layer: 0
   m_Name: SweetJarRed
   m_TagString: Untagged
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f30b755c575c080478fc9e2e71a0b8e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &2335120908285084096
+--- !u!54 &3285626078084658650
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,7 +129,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2519083271606721528
+--- !u!114 &9111449708392392970
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

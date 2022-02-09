@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: -1223254811964122912}
   - component: {fileID: 3806707713262183229}
   - component: {fileID: -682620524510937592}
-  - component: {fileID: -2472016009421319112}
-  - component: {fileID: 5377552942914424454}
+  - component: {fileID: -7350392639999997643}
+  - component: {fileID: -3896638758621516469}
   m_Layer: 0
   m_Name: BookVintageStorybook
   m_TagString: Untagged
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-2472016009421319112
+--- !u!54 &-7350392639999997643
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &5377552942914424454
+--- !u!114 &-3896638758621516469
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

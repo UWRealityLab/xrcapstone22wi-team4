@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 7256865470223166753}
   - component: {fileID: 819559273521900000}
   - component: {fileID: 3987329282081082055}
-  - component: {fileID: -1773876950613810877}
-  - component: {fileID: -8855377222244179642}
+  - component: {fileID: -7669373836683451949}
+  - component: {fileID: -4599639684278723867}
   m_Layer: 0
   m_Name: Salt
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-1773876950613810877
+--- !u!54 &-7669373836683451949
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-8855377222244179642
+--- !u!114 &-4599639684278723867
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

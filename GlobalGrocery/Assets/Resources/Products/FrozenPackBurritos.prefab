@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 2356965486504736870}
   - component: {fileID: -3581103411890246674}
   - component: {fileID: 808598485127697001}
-  - component: {fileID: -3279385454243582282}
-  - component: {fileID: 4587639649238777478}
+  - component: {fileID: 7056239204952118724}
+  - component: {fileID: -7054112850257341578}
   m_Layer: 0
   m_Name: FrozenPackBurritos
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-3279385454243582282
+--- !u!54 &7056239204952118724
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4587639649238777478
+--- !u!114 &-7054112850257341578
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

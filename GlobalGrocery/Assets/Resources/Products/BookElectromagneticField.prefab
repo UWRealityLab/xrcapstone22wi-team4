@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: -312851799303487693}
   - component: {fileID: -7616630158638099620}
   - component: {fileID: -2918599423106046705}
-  - component: {fileID: -8992215670757423364}
-  - component: {fileID: 1770199850504537405}
+  - component: {fileID: -3369422161383011655}
+  - component: {fileID: 2437175969182223955}
   m_Layer: 0
   m_Name: BookElectromagneticField
   m_TagString: Untagged
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-8992215670757423364
+--- !u!54 &-3369422161383011655
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1770199850504537405
+--- !u!114 &2437175969182223955
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 4313380375439723824}
   - component: {fileID: 229721818133302748}
   - component: {fileID: -8463601929105316701}
-  - component: {fileID: -8720056236045325368}
-  - component: {fileID: 4910328376329661922}
+  - component: {fileID: -4369470890489002597}
+  - component: {fileID: 1152598940621661828}
   m_Layer: 0
   m_Name: BookMuddleheadedWombat
   m_TagString: Untagged
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-8720056236045325368
+--- !u!54 &-4369470890489002597
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4910328376329661922
+--- !u!114 &1152598940621661828
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

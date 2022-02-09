@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 7828048469305571781}
   - component: {fileID: 5424066585242324239}
   - component: {fileID: 3285682244206713131}
-  - component: {fileID: -5135980478228479459}
   - component: {fileID: -5524088353669831294}
   - component: {fileID: 4944691947750552998}
-  - component: {fileID: -1818579259482810987}
+  - component: {fileID: 2874737813983610475}
+  - component: {fileID: -824923324566436327}
   m_Layer: 0
   m_Name: WineBottle5Y
   m_TagString: Untagged
@@ -102,22 +102,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -7611736850168098942, guid: 9aa3ddff11120c6448f6439569348410, type: 3}
---- !u!54 &-5135980478228479459
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2757454164628460641}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &-5524088353669831294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,7 +127,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!114 &-1818579259482810987
+--- !u!54 &2874737813983610475
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2757454164628460641}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &-824923324566436327
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -69,7 +69,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1907180542737003782, guid: 5216e785d6e568d4db22a355d3c81a15, type: 3}
       propertyPath: m_Name
-      value: Sign_04h2fw_Produce
+      value: SignProduce
       objectReference: {fileID: 0}
     - target: {fileID: 1907180542737003782, guid: 5216e785d6e568d4db22a355d3c81a15, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -79,5 +79,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5935570767339707577, guid: 5216e785d6e568d4db22a355d3c81a15, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5216e785d6e568d4db22a355d3c81a15, type: 3}

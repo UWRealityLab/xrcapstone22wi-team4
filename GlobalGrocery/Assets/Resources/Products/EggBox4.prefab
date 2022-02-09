@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 3230488646740832683}
   - component: {fileID: 2995792854790809704}
   - component: {fileID: -5639081817349403803}
-  - component: {fileID: 5623088780331832068}
-  - component: {fileID: -6622105745752315124}
+  - component: {fileID: -5088312016759011006}
+  - component: {fileID: 949840454377294751}
   m_Layer: 0
   m_Name: EggBox4
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &5623088780331832068
+--- !u!54 &-5088312016759011006
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-6622105745752315124
+--- !u!114 &949840454377294751
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

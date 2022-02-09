@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 6498840770413276909}
   - component: {fileID: -5335991013015728750}
   - component: {fileID: -1939996427356551943}
-  - component: {fileID: -914991173343478832}
-  - component: {fileID: -6609761788800377957}
+  - component: {fileID: 8418272752712458187}
+  - component: {fileID: -5010764020917542847}
   m_Layer: 0
   m_Name: Cleanser
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-914991173343478832
+--- !u!54 &8418272752712458187
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-6609761788800377957
+--- !u!114 &-5010764020917542847
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

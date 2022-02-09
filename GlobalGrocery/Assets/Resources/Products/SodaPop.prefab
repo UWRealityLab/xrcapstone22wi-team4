@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: -8579477721661960175}
   - component: {fileID: 2595455940315770789}
   - component: {fileID: -1385214507127214364}
-  - component: {fileID: -7860657557357557867}
-  - component: {fileID: -6880324723219826772}
+  - component: {fileID: 1341333234228966281}
+  - component: {fileID: 4556473072236128074}
   m_Layer: 0
   m_Name: SodaPop
   m_TagString: Untagged
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-7860657557357557867
+--- !u!54 &1341333234228966281
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +143,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-6880324723219826772
+--- !u!114 &4556473072236128074
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 4646385914361480679}
   - component: {fileID: -8478860245442857046}
   - component: {fileID: 7823940705640546544}
-  - component: {fileID: 8472051291523231003}
-  - component: {fileID: 2488248281764712495}
+  - component: {fileID: -8012710009402857682}
+  - component: {fileID: 8254322956508467827}
   m_Layer: 0
   m_Name: LaundryBottle
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &8472051291523231003
+--- !u!54 &-8012710009402857682
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2488248281764712495
+--- !u!114 &8254322956508467827
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

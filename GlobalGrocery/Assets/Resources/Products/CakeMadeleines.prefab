@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 622255284432377722}
   - component: {fileID: -3195576512615073788}
   - component: {fileID: 191510396570742399}
-  - component: {fileID: -3206887678273947707}
   - component: {fileID: 6225753973947942000}
-  - component: {fileID: -8614888250006951837}
+  - component: {fileID: 4801560382762030103}
+  - component: {fileID: -8981810767901389478}
   m_Layer: 0
   m_Name: CakeMadeleines
   m_TagString: Untagged
@@ -111,7 +111,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-3206887678273947707
+--- !u!65 &6225753973947942000
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414778523794290351}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.13090234, y: 0.19254321, z: 0.050973862}
+  m_Center: {x: 0.00021798909, y: 0.08476557, z: 0.00013475772}
+--- !u!54 &4801560382762030103
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,20 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &6225753973947942000
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1414778523794290351}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.13090234, y: 0.19254321, z: 0.050973862}
-  m_Center: {x: 0.00021798909, y: 0.08476557, z: 0.00013475772}
---- !u!114 &-8614888250006951837
+--- !u!114 &-8981810767901389478
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

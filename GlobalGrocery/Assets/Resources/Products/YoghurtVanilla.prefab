@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 7815230461783360026}
   - component: {fileID: -7048290327758258581}
   - component: {fileID: -4580809088700946247}
-  - component: {fileID: -3725256412347506238}
-  - component: {fileID: -55925124595994483}
+  - component: {fileID: -6003351655718446952}
+  - component: {fileID: -574494150581774370}
   m_Layer: 0
   m_Name: YoghurtVanilla
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-3725256412347506238
+--- !u!54 &-6003351655718446952
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-55925124595994483
+--- !u!114 &-574494150581774370
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

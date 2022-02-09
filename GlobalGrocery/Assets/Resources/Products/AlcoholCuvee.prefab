@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 7941121614899024345}
   - component: {fileID: -504909516707326464}
   - component: {fileID: -9191796826062785221}
-  - component: {fileID: 4355191641600824616}
-  - component: {fileID: 7377211095601039037}
+  - component: {fileID: 2610350034655594662}
+  - component: {fileID: -2478517954652693518}
   m_Layer: 0
   m_Name: AlcoholCuvee
   m_TagString: Untagged
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &4355191641600824616
+--- !u!54 &2610350034655594662
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +143,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7377211095601039037
+--- !u!114 &-2478517954652693518
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

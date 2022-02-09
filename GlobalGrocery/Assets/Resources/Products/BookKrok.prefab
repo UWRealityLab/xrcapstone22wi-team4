@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: -3519644651758144608}
   - component: {fileID: 6618211603258550840}
   - component: {fileID: -8981522605970358838}
-  - component: {fileID: 3511103004147031537}
-  - component: {fileID: 3221548684989251900}
+  - component: {fileID: 8295596870985118479}
+  - component: {fileID: -5693519228023767169}
   m_Layer: 0
   m_Name: BookKrok
   m_TagString: Untagged
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &3511103004147031537
+--- !u!54 &8295596870985118479
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3221548684989251900
+--- !u!114 &-5693519228023767169
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

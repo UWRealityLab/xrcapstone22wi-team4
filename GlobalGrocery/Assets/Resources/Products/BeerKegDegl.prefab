@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 6033609481192363626}
   - component: {fileID: -1565881197452023822}
   - component: {fileID: 8803249759722503300}
-  - component: {fileID: -6993159053475855402}
-  - component: {fileID: 7602668141476819854}
+  - component: {fileID: 7538041059368671051}
+  - component: {fileID: -7244218378055846684}
   m_Layer: 0
   m_Name: BeerKegDegl
   m_TagString: Untagged
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-6993159053475855402
+--- !u!54 &7538041059368671051
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,7 +142,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7602668141476819854
+--- !u!114 &-7244218378055846684
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

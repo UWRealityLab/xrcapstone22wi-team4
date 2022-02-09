@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 979860226574193275}
   - component: {fileID: 4194806435884965342}
   - component: {fileID: 2148785966144481556}
-  - component: {fileID: 2128481172204455532}
+  - component: {fileID: 6656600320899731500}
   m_Layer: 0
   m_Name: Ceiling
   m_TagString: Untagged
@@ -82,8 +82,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2128481172204455532
-MeshCollider:
+--- !u!65 &6656600320899731500
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -92,7 +92,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3633865748600368068, guid: 6af53fe2e1e421d49807c1173c1b1ad3, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 6.000002, y: 1.1021824e-15, z: 6.000002}
+  m_Center: {x: 0, y: 0, z: 0}

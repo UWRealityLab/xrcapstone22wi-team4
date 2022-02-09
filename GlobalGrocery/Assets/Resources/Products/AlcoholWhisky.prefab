@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 8662147642644704100}
   - component: {fileID: 3760020236482490847}
   - component: {fileID: -6955781025120975113}
-  - component: {fileID: 4400905645879696579}
-  - component: {fileID: 5614167044839222504}
+  - component: {fileID: 8080769085231943957}
+  - component: {fileID: -296002013072124995}
   m_Layer: 0
   m_Name: AlcoholWhisky
   m_TagString: Untagged
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &4400905645879696579
+--- !u!54 &8080769085231943957
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +143,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &5614167044839222504
+--- !u!114 &-296002013072124995
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

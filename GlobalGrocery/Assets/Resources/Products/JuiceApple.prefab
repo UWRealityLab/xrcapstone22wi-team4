@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 2661742439911185738}
   - component: {fileID: 1285140196160862223}
   - component: {fileID: -4095996109105073845}
-  - component: {fileID: -5272454307440394262}
   - component: {fileID: 4029810758965455548}
-  - component: {fileID: 2416905549804824660}
+  - component: {fileID: 1128465129328841341}
+  - component: {fileID: 169866772865103271}
   m_Layer: 0
   m_Name: JuiceApple
   m_TagString: Untagged
@@ -111,7 +111,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-5272454307440394262
+--- !u!65 &4029810758965455548
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4607346064315612319}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.08712542, y: 0.220872, z: 0.08712542}
+  m_Center: {x: -0.000000009313226, y: 0.110435985, z: 0.000000013038516}
+--- !u!54 &1128465129328841341
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,20 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &4029810758965455548
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4607346064315612319}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.08712542, y: 0.220872, z: 0.08712542}
-  m_Center: {x: -0.000000009313226, y: 0.110435985, z: 0.000000013038516}
---- !u!114 &2416905549804824660
+--- !u!114 &169866772865103271
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

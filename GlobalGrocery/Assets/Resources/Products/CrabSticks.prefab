@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 232614052166444173}
   - component: {fileID: -2060850186543880481}
   - component: {fileID: 9100372086039558684}
-  - component: {fileID: -7980989951372414521}
-  - component: {fileID: -5735266737834784352}
+  - component: {fileID: -383186806062879549}
+  - component: {fileID: -3976037983474975922}
   m_Layer: 0
   m_Name: CrabSticks
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-7980989951372414521
+--- !u!54 &-383186806062879549
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-5735266737834784352
+--- !u!114 &-3976037983474975922
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

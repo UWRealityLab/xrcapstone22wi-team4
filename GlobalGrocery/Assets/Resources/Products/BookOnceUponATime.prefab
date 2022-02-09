@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: -2311337945854795666}
   - component: {fileID: 6913277145625925271}
   - component: {fileID: -2648419127704280003}
-  - component: {fileID: -2700301020284005084}
-  - component: {fileID: -5433162929296675856}
+  - component: {fileID: -5501939717234731610}
+  - component: {fileID: -7853718462164795712}
   m_Layer: 0
   m_Name: BookOnceUponATime
   m_TagString: Untagged
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-2700301020284005084
+--- !u!54 &-5501939717234731610
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-5433162929296675856
+--- !u!114 &-7853718462164795712
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 1518822076210865137}
   - component: {fileID: 3180369265201544748}
   - component: {fileID: -3568128560156244743}
-  - component: {fileID: -1817382159455241040}
-  - component: {fileID: -2840221845053130616}
+  - component: {fileID: 4192144992678040444}
+  - component: {fileID: -440545815335423359}
   m_Layer: 0
   m_Name: BeerKegBlond
   m_TagString: Untagged
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-1817382159455241040
+--- !u!54 &4192144992678040444
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,7 +142,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-2840221845053130616
+--- !u!114 &-440545815335423359
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

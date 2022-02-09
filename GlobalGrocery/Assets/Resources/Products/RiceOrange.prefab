@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 8443904420633500879}
   - component: {fileID: -6638959058217868647}
   - component: {fileID: 1590723587256480364}
-  - component: {fileID: -7352098119289813848}
   - component: {fileID: 7759618525040403921}
-  - component: {fileID: -1165949356867839612}
+  - component: {fileID: -6271724329792623368}
+  - component: {fileID: -2216518909630503833}
   m_Layer: 0
   m_Name: RiceOrange
   m_TagString: Untagged
@@ -111,7 +111,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-7352098119289813848
+--- !u!65 &7759618525040403921
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7939347123749420314}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.13208261, y: 0.19307181, z: 0.08962737}
+  m_Center: {x: -0.0029171482, y: 0.09653589, z: -0.000032072887}
+--- !u!54 &-6271724329792623368
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,20 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &7759618525040403921
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7939347123749420314}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.13208261, y: 0.19307181, z: 0.08962737}
-  m_Center: {x: -0.0029171482, y: 0.09653589, z: -0.000032072887}
---- !u!114 &-1165949356867839612
+--- !u!114 &-2216518909630503833
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

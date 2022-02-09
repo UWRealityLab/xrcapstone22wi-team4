@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 1012431097821579661}
   - component: {fileID: 5404826428845699148}
   - component: {fileID: 1267142742284288970}
-  - component: {fileID: 5026982595440932119}
   - component: {fileID: 1651664023384467923}
-  - component: {fileID: 4087035846125841762}
+  - component: {fileID: 8100571668811665}
+  - component: {fileID: -4533020859476547806}
   m_Layer: 0
   m_Name: MashPotatoes
   m_TagString: Untagged
@@ -111,7 +111,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &5026982595440932119
+--- !u!65 &1651664023384467923
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516618820366198872}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.14767778, y: 0.21586804, z: 0.04697937}
+  m_Center: {x: -0.0032615773, y: 0.107934006, z: -0.000016795471}
+--- !u!54 &8100571668811665
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,20 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &1651664023384467923
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1516618820366198872}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.14767778, y: 0.21586804, z: 0.04697937}
-  m_Center: {x: -0.0032615773, y: 0.107934006, z: -0.000016795471}
---- !u!114 &4087035846125841762
+--- !u!114 &-4533020859476547806
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

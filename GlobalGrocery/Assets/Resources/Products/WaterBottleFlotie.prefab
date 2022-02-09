@@ -70,7 +70,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2872247952419144235, guid: c4caa4f13e2e7814789dda031b4f499e, type: 3}
   m_PrefabInstance: {fileID: 7535494373392081928}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &8148019274238287656
+--- !u!54 &-3308541357902088587
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -86,7 +86,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6165500537605473654
+--- !u!114 &-3947845360269728550
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

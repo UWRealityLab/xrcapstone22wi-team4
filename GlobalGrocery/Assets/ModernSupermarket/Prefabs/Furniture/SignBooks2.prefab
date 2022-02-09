@@ -21,7 +21,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 9db5b5f5587c1244d80c64df99850fc3, type: 2}
     - target: {fileID: 6283148435914895360, guid: 200bdf6ff9f10f146b6838c487560787, type: 3}
       propertyPath: m_Name
-      value: Sign_04h2fw_Books
+      value: SignBooks2
       objectReference: {fileID: 0}
     - target: {fileID: 6663615071277705914, guid: 200bdf6ff9f10f146b6838c487560787, type: 3}
       propertyPath: m_RootOrder
@@ -67,5 +67,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2241370421437651391, guid: 200bdf6ff9f10f146b6838c487560787, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 200bdf6ff9f10f146b6838c487560787, type: 3}

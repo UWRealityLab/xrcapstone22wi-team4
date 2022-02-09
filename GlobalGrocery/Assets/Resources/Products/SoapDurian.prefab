@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 960712491111760047}
   - component: {fileID: -5854139002588800504}
   - component: {fileID: -6867273057262688223}
-  - component: {fileID: -7102326528701564953}
-  - component: {fileID: -6958467901898949831}
+  - component: {fileID: -8025074838302793921}
+  - component: {fileID: 654213326682382181}
   m_Layer: 0
   m_Name: SoapDurian
   m_TagString: Untagged
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-7102326528701564953
+--- !u!54 &-8025074838302793921
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +143,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-6958467901898949831
+--- !u!114 &654213326682382181
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 6161116448718736385}
   - component: {fileID: -4558857095848495530}
   - component: {fileID: 770601626151165469}
-  - component: {fileID: -8750794419376338743}
-  - component: {fileID: -8983218085079272994}
+  - component: {fileID: 4828359174144900355}
+  - component: {fileID: -7181638374742408436}
   m_Layer: 0
   m_Name: SweetJarBrown
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-8750794419376338743
+--- !u!54 &4828359174144900355
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-8983218085079272994
+--- !u!114 &-7181638374742408436
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

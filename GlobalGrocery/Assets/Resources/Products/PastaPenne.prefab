@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 8098066305058304154}
   - component: {fileID: -6840126664820004369}
   - component: {fileID: 8669539716381654070}
-  - component: {fileID: 5923946634254348102}
   - component: {fileID: 2401918134425851654}
-  - component: {fileID: 8680624970776591597}
+  - component: {fileID: 1283496854799623053}
+  - component: {fileID: 4930322177106199851}
   m_Layer: 0
   m_Name: PastaPenne
   m_TagString: Untagged
@@ -112,7 +112,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &5923946634254348102
+--- !u!65 &2401918134425851654
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8487822268470002715}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.14, y: 0.25, z: 0.1}
+  m_Center: {x: -0.0019444898, y: 0.12924892, z: 0.0032348037}
+--- !u!54 &1283496854799623053
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -128,20 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &2401918134425851654
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8487822268470002715}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.14, y: 0.25, z: 0.1}
-  m_Center: {x: -0.0019444898, y: 0.12924892, z: 0.0032348037}
---- !u!114 &8680624970776591597
+--- !u!114 &4930322177106199851
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

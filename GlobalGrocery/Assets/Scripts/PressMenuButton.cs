@@ -51,7 +51,10 @@ public class PressMenuButton : MonoBehaviour
 
                 Vector3 menuPosition = playerPos + (playerDirection * menuDistance);
 
-                pauseMenu.transform.position = menuPosition + (transform.up * 1.6f);
+                // fiddle with the menu height if it's weird
+                Vector3 yOffset = (transform.up * 1.6f);
+
+                pauseMenu.transform.position = menuPosition;
                 pauseMenu.transform.rotation = playerRotation;
 
                 pauseMenu.SetActive(true);

@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 6586003669580076310}
   - component: {fileID: -400841903993347550}
   - component: {fileID: 7457192757121671255}
-  - component: {fileID: -1652922921672904812}
-  - component: {fileID: 4591051761029843351}
+  - component: {fileID: 3174552762851024648}
+  - component: {fileID: 8038304748627856346}
   m_Layer: 0
   m_Name: PotatoeBag
   m_TagString: Untagged
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-1652922921672904812
+--- !u!54 &3174552762851024648
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +143,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4591051761029843351
+--- !u!114 &8038304748627856346
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

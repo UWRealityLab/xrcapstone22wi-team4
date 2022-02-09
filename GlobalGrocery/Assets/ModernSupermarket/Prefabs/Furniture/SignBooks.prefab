@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3109291760427622947}
   - component: {fileID: 2056376966245346694}
   - component: {fileID: 4282150002522429772}
-  - component: {fileID: 7513539638321991974}
   m_Layer: 0
   m_Name: SignBooks
   m_TagString: Untagged
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7513539638321991974
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2336731372374603929}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 9008757974573539411, guid: 3e08285a71f6bd44e9ec20de31cf5f1f, type: 3}

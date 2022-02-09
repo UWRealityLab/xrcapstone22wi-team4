@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 5812306625581683833}
   - component: {fileID: -6634241085538062604}
   - component: {fileID: 1976474575755943915}
-  - component: {fileID: -3382447508852844665}
   - component: {fileID: 7550473485318818156}
-  - component: {fileID: 891023764263355906}
+  - component: {fileID: -2935128766564541699}
+  - component: {fileID: 3489862284957050497}
   m_Layer: 0
   m_Name: CoffeeBlack
   m_TagString: Untagged
@@ -111,7 +111,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-3382447508852844665
+--- !u!65 &7550473485318818156
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5452040988323067308}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.14457385, y: 0.24454005, z: 0.073826}
+  m_Center: {x: 0.0006787479, y: 0.12227001, z: -0.000042738393}
+--- !u!54 &-2935128766564541699
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,20 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &7550473485318818156
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5452040988323067308}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.14457385, y: 0.24454005, z: 0.073826}
-  m_Center: {x: 0.0006787479, y: 0.12227001, z: -0.000042738393}
---- !u!114 &891023764263355906
+--- !u!114 &3489862284957050497
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 6677867509180052160}
   - component: {fileID: -3451178289240953093}
   - component: {fileID: -2398051130070459806}
-  - component: {fileID: -1257700041193603874}
-  - component: {fileID: 1003874950717800377}
+  - component: {fileID: 6016387557935659234}
+  - component: {fileID: 845199498128033547}
   m_Layer: 0
   m_Name: FrozenPackGreenBeans
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-1257700041193603874
+--- !u!54 &6016387557935659234
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1003874950717800377
+--- !u!114 &845199498128033547
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

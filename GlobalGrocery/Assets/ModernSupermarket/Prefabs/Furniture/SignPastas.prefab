@@ -69,7 +69,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6489402075110998314, guid: 5bc12c99a1df09444a52ed31e866b8cd, type: 3}
       propertyPath: m_Name
-      value: Sign_04h2fw_Pastas
+      value: SignPastas
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 5bc12c99a1df09444a52ed31e866b8cd, type: 3}

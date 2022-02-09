@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 188971096521728865}
   - component: {fileID: -2302401446053958698}
   - component: {fileID: -233555063820559541}
-  - component: {fileID: -6302790818341933184}
-  - component: {fileID: 1190865223809620873}
+  - component: {fileID: 8987411660251593996}
+  - component: {fileID: 2013208920333328290}
   m_Layer: 0
   m_Name: PizzaCheese
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-6302790818341933184
+--- !u!54 &8987411660251593996
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1190865223809620873
+--- !u!114 &2013208920333328290
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

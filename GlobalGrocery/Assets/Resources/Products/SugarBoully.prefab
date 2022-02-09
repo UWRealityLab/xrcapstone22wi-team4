@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 6246417515343976636}
   - component: {fileID: -5492417648789974913}
   - component: {fileID: 7555823125635836960}
-  - component: {fileID: 4508763010303462016}
-  - component: {fileID: -1979560045165024166}
+  - component: {fileID: 8033023063422171285}
+  - component: {fileID: 6685240168543601579}
   m_Layer: 0
   m_Name: SugarBoully
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &4508763010303462016
+--- !u!54 &8033023063422171285
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-1979560045165024166
+--- !u!114 &6685240168543601579
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

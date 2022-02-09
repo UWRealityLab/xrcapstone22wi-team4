@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 8434592805910061847}
   - component: {fileID: -3004307386116103152}
   - component: {fileID: 5166458214513481271}
-  - component: {fileID: 2498925629601228984}
-  - component: {fileID: 4783299148429639514}
+  - component: {fileID: -6503722998521752127}
+  - component: {fileID: -4530026943354582614}
   m_Layer: 0
   m_Name: ChipsVinsCrumpled
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &2498925629601228984
+--- !u!54 &-6503722998521752127
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4783299148429639514
+--- !u!114 &-4530026943354582614
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

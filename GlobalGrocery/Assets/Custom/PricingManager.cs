@@ -49,7 +49,6 @@ public class PricingManager : MonoBehaviour
             double price_china = Convert.ToDouble(values[2]);
             double price_mexico = Convert.ToDouble(values[3]);
 
-            Debug.Log(item + " " + price_usa);
             prices_USA.Add(item, price_usa);
             prices_CHINA.Add(item, price_china);
             prices_MEXICO.Add(item, price_mexico);

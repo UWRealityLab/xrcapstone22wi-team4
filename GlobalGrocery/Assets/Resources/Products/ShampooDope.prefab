@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 652795383836664679}
   - component: {fileID: 9159279296320692793}
   - component: {fileID: -3469646362694434625}
-  - component: {fileID: 3370435490127728397}
-  - component: {fileID: -8048915034517278736}
+  - component: {fileID: 4617893657532973942}
+  - component: {fileID: -8761014270144564512}
   m_Layer: 0
   m_Name: ShampooDope
   m_TagString: Untagged
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &3370435490127728397
+--- !u!54 &4617893657532973942
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,7 +142,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-8048915034517278736
+--- !u!114 &-8761014270144564512
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2336731372374603929, guid: fdb459abb4f9ba047871edccfb9e72d6, type: 3}
       propertyPath: m_Name
-      value: Sign_04h2fw_Toilet
+      value: SignToilet
       objectReference: {fileID: 0}
     - target: {fileID: 3109291760427622947, guid: fdb459abb4f9ba047871edccfb9e72d6, type: 3}
       propertyPath: m_RootOrder
@@ -79,5 +79,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b1b3d34e7fa91ed45bd3582737ea6a3f, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: fdb459abb4f9ba047871edccfb9e72d6, type: 3}

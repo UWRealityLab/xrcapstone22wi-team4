@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 2694891522338545789}
   - component: {fileID: -2584550118879456380}
   - component: {fileID: -1892659005732690249}
-  - component: {fileID: -4248241851221048210}
-  - component: {fileID: 3646247874867943229}
+  - component: {fileID: -4215580778997422897}
+  - component: {fileID: -63909059684780406}
   m_Layer: 0
   m_Name: FrozenMaxiCones
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-4248241851221048210
+--- !u!54 &-4215580778997422897
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3646247874867943229
+--- !u!114 &-63909059684780406
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

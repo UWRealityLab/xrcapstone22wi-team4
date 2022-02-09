@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 1679950049109356653}
   - component: {fileID: 1225191183884974020}
   - component: {fileID: -6182661061618628565}
-  - component: {fileID: -8154054287037243543}
-  - component: {fileID: 8592785627760558768}
+  - component: {fileID: 5453845792640865397}
+  - component: {fileID: 2601815089660887547}
   m_Layer: 0
   m_Name: Pepper
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-8154054287037243543
+--- !u!54 &5453845792640865397
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8592785627760558768
+--- !u!114 &2601815089660887547
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

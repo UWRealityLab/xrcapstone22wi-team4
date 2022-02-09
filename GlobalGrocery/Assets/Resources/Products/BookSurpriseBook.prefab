@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: -8001367599669615179}
   - component: {fileID: 7608233223504554690}
   - component: {fileID: -4385145132095900735}
-  - component: {fileID: 1858902927327016199}
-  - component: {fileID: -7885956069377132454}
+  - component: {fileID: -7398330122744676281}
+  - component: {fileID: -4510714123261440589}
   m_Layer: 0
   m_Name: BookSurpriseBook
   m_TagString: Untagged
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &1858902927327016199
+--- !u!54 &-7398330122744676281
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-7885956069377132454
+--- !u!114 &-4510714123261440589
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

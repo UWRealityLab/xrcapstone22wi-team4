@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 120735922118939586}
   - component: {fileID: 3653969249859534960}
   - component: {fileID: -4155965376987222153}
-  - component: {fileID: -6642392449949226158}
-  - component: {fileID: -8826943528137626500}
+  - component: {fileID: 5033290924885763082}
+  - component: {fileID: 2521913501961007495}
   m_Layer: 0
   m_Name: Butter
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-6642392449949226158
+--- !u!54 &5033290924885763082
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-8826943528137626500
+--- !u!114 &2521913501961007495
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

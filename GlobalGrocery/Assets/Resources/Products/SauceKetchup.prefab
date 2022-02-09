@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 4971458297756959231}
   - component: {fileID: 3713003041598807305}
   - component: {fileID: -4702240515159721757}
-  - component: {fileID: -8684445751984738261}
-  - component: {fileID: 6478738172519469582}
+  - component: {fileID: -5723381528572052202}
+  - component: {fileID: -8710558136933028893}
   m_Layer: 0
   m_Name: SauceKetchup
   m_TagString: Untagged
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-8684445751984738261
+--- !u!54 &-5723381528572052202
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6478738172519469582
+--- !u!114 &-8710558136933028893
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

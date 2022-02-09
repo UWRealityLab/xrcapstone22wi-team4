@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1918554766090955877}
   - component: {fileID: 611198530404865880}
   - component: {fileID: 2694891522338545789}
-  - component: {fileID: -665222658168587303}
-  - component: {fileID: -6086082544429987750}
+  - component: {fileID: 7881371813638151922}
+  - component: {fileID: -6165521087125011607}
   m_Layer: 0
   m_Name: Frozen_vhvpd4
   m_TagString: Untagged
@@ -98,7 +98,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -416022032302572731, guid: 3794626168de55645aa0fc7244f5c1d8, type: 3}
---- !u!54 &-665222658168587303
+--- !u!54 &7881371813638151922
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -114,7 +114,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-6086082544429987750
+--- !u!114 &-6165521087125011607
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 4353159558759587698}
   - component: {fileID: 1684213714341891267}
   - component: {fileID: 4462022703368567032}
-  - component: {fileID: -9566044080607784}
-  - component: {fileID: 8660351785215140794}
+  - component: {fileID: -8824648732146404836}
+  - component: {fileID: -3817570004120195285}
   m_Layer: 0
   m_Name: BeerKegLager
   m_TagString: Untagged
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-9566044080607784
+--- !u!54 &-8824648732146404836
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,7 +142,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8660351785215140794
+--- !u!114 &-3817570004120195285
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 8870070461949918622}
   - component: {fileID: 7212848196006440173}
   - component: {fileID: -9026155298916505589}
-  - component: {fileID: 4920402278778740894}
   - component: {fileID: 5425645173740769090}
-  - component: {fileID: -7535848548280798933}
+  - component: {fileID: -30276896419910398}
+  - component: {fileID: -5890420691888097111}
   m_Layer: 0
   m_Name: OilOlive
   m_TagString: Untagged
@@ -113,7 +113,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &4920402278778740894
+--- !u!65 &5425645173740769090
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700608553132491027}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.09, y: 0.25313008, z: 0.09}
+  m_Center: {x: 0.0000000055879354, y: 0.12656504, z: 0.000000013038516}
+--- !u!54 &-30276896419910398
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,20 +142,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &5425645173740769090
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1700608553132491027}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.09, y: 0.25313008, z: 0.09}
-  m_Center: {x: 0.0000000055879354, y: 0.12656504, z: 0.000000013038516}
---- !u!114 &-7535848548280798933
+--- !u!114 &-5890420691888097111
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

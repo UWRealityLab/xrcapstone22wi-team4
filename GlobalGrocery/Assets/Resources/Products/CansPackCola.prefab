@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 6683759978998843354}
   - component: {fileID: -3147911285011798048}
   - component: {fileID: 3252429227194222442}
-  - component: {fileID: -5192038931865637664}
-  - component: {fileID: -1467144658815020344}
+  - component: {fileID: 194645795217821340}
+  - component: {fileID: 5802028743273743499}
   m_Layer: 0
   m_Name: CansPackCola
   m_TagString: Untagged
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-5192038931865637664
+--- !u!54 &194645795217821340
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,7 +126,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-1467144658815020344
+--- !u!114 &5802028743273743499
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

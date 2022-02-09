@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 3777862761541960558}
   - component: {fileID: 2252785527485062506}
   - component: {fileID: 1813733891976141711}
-  - component: {fileID: 5649785988405149001}
-  - component: {fileID: -2534248714238915473}
+  - component: {fileID: 5147616842704976216}
+  - component: {fileID: 2957802667469254093}
   m_Layer: 0
   m_Name: chicken_whole
   m_TagString: Untagged
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &5649785988405149001
+--- !u!54 &5147616842704976216
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +143,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-2534248714238915473
+--- !u!114 &2957802667469254093
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 1314395849060355951}
   - component: {fileID: -8774299635689908538}
   - component: {fileID: 3608995018650969746}
-  - component: {fileID: 3042937542947271829}
-  - component: {fileID: 4516732627467030258}
+  - component: {fileID: 9217175468752821064}
+  - component: {fileID: 4426800172133341769}
   m_Layer: 0
   m_Name: ChocolateSpreadWhite
   m_TagString: Untagged
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &3042937542947271829
+--- !u!54 &9217175468752821064
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +143,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4516732627467030258
+--- !u!114 &4426800172133341769
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

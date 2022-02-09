@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 5188309362334086395}
   - component: {fileID: -7663650162839999543}
   - component: {fileID: -1412665459242712417}
-  - component: {fileID: -3024980449503584418}
-  - component: {fileID: -4164609053495294814}
+  - component: {fileID: 6695151227126186078}
+  - component: {fileID: -5307418960981622}
   m_Layer: 0
   m_Name: PaperTowel
   m_TagString: Untagged
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-3024980449503584418
+--- !u!54 &6695151227126186078
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,7 +142,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-4164609053495294814
+--- !u!114 &-5307418960981622
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

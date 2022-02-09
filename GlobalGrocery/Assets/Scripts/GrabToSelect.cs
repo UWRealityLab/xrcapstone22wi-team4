@@ -16,17 +16,17 @@ public class GrabToSelect : MonoBehaviour
         if (this.name == "apple")
         {
             // call load USA script
-            LoadNewScene("Assets/Scenes/USAStoreFinalSmall.unity");
+            LoadNewScene("Assets/Scenes/USAStoreFinalTiny.unity");
         }
         else if (this.name == "avocado")
         {
             // call load Mexico script
-            LoadNewScene("Assets/Scenes/USAStoreFinalSmall_Mexico.unity");
+            LoadNewScene("Assets/Scenes/MEXICOStoreFinalTiny.unity");
         }
         else if (this.name == "orange")
         {
             // call load China script
-            LoadNewScene("Assets/Scenes/USAStoreFinalSmall_China.unity");
+            LoadNewScene("Assets/Scenes/CHINAStoreFinalTiny.unity");
         }
         else if (this.name == "scene_cylinder")
         {

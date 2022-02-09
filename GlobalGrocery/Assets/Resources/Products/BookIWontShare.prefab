@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: -1918921591217944526}
   - component: {fileID: 4614130708275654186}
   - component: {fileID: 139419060376377621}
-  - component: {fileID: -3637920691141703079}
-  - component: {fileID: -3044682021468615139}
+  - component: {fileID: 582892774485093166}
+  - component: {fileID: 4409061023994775358}
   m_Layer: 0
   m_Name: BookIWontShare
   m_TagString: Untagged
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-3637920691141703079
+--- !u!54 &582892774485093166
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-3044682021468615139
+--- !u!114 &4409061023994775358
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 1268384783038326976}
   - component: {fileID: 5670974478104518628}
   - component: {fileID: 1597347040986078817}
-  - component: {fileID: -1052923569786571363}
-  - component: {fileID: 1969255874211208280}
+  - component: {fileID: -3764130061487651620}
+  - component: {fileID: 7009164542866686479}
   m_Layer: 0
   m_Name: PastaPenne2
   m_TagString: Untagged
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-1052923569786571363
+--- !u!54 &-3764130061487651620
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,7 +142,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1969255874211208280
+--- !u!114 &7009164542866686479
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

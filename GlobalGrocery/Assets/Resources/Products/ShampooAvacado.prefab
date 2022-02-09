@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 4172439510569046748}
   - component: {fileID: -7597520857809117744}
   - component: {fileID: -211893136574725799}
-  - component: {fileID: -2063351162894956912}
-  - component: {fileID: -7424201103084090440}
+  - component: {fileID: -112969699163767632}
+  - component: {fileID: 1773673822616190142}
   m_Layer: 0
   m_Name: ShampooAvacado
   m_TagString: Untagged
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-2063351162894956912
+--- !u!54 &-112969699163767632
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,7 +142,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-7424201103084090440
+--- !u!114 &1773673822616190142
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

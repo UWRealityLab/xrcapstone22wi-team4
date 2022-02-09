@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 3477397115336406822}
   - component: {fileID: -2793074789337541326}
   - component: {fileID: 2555872073185036546}
-  - component: {fileID: 6366129424287326545}
-  - component: {fileID: 1655856823889560088}
+  - component: {fileID: 2619262462414154065}
+  - component: {fileID: -3466659204902609583}
   m_Layer: 0
   m_Name: SoapSmall
   m_TagString: Untagged
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &6366129424287326545
+--- !u!54 &2619262462414154065
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +143,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1655856823889560088
+--- !u!114 &-3466659204902609583
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

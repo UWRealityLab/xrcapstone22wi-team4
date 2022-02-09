@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 4800760038586193236}
   - component: {fileID: 6980170803668566596}
   - component: {fileID: -5635918684524075127}
-  - component: {fileID: -7883784026965275912}
   - component: {fileID: 3035803679559552228}
-  - component: {fileID: 6624023481777432957}
+  - component: {fileID: 4827434674904688605}
+  - component: {fileID: 4834745795770249120}
   m_Layer: 0
   m_Name: CerealCrispyChibi
   m_TagString: Untagged
@@ -111,7 +111,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-7883784026965275912
+--- !u!65 &3035803679559552228
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6457956952650396801}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.19197002, y: 0.28061223, z: 0.061069675}
+  m_Center: {x: -0.0042398013, y: 0.14030612, z: -0.000021827407}
+--- !u!54 &4827434674904688605
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,20 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &3035803679559552228
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6457956952650396801}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.19197002, y: 0.28061223, z: 0.061069675}
-  m_Center: {x: -0.0042398013, y: 0.14030612, z: -0.000021827407}
---- !u!114 &6624023481777432957
+--- !u!114 &4834745795770249120
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

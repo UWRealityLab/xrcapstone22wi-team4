@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: -1729637072588640116}
   - component: {fileID: -8803580593709198238}
   - component: {fileID: -3179744307869319014}
-  - component: {fileID: -389270226902269555}
-  - component: {fileID: -8418282050611590892}
+  - component: {fileID: -5299889982671428498}
+  - component: {fileID: -7681627644409298774}
   m_Layer: 0
   m_Name: BookAbc
   m_TagString: Untagged
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-389270226902269555
+--- !u!54 &-5299889982671428498
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-8418282050611590892
+--- !u!114 &-7681627644409298774
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

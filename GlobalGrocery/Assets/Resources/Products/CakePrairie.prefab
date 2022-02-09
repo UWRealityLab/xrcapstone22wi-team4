@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 2364276866256074220}
   - component: {fileID: 3539197156340221704}
   - component: {fileID: -866403058250427787}
-  - component: {fileID: -6621236122883307257}
   - component: {fileID: 1240729468570638942}
-  - component: {fileID: 8428971192498202375}
+  - component: {fileID: -4251151137593865296}
+  - component: {fileID: 5735005859084452220}
   m_Layer: 0
   m_Name: CakePrairie
   m_TagString: Untagged
@@ -111,7 +111,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-6621236122883307257
+--- !u!65 &1240729468570638942
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4309774662787814457}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.21906777, y: 0.10877223, z: 0.062002227}
+  m_Center: {x: 0.000000007450581, y: 0.054386124, z: 0.000000010244548}
+--- !u!54 &-4251151137593865296
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,20 +140,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &1240729468570638942
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4309774662787814457}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.21906777, y: 0.10877223, z: 0.062002227}
-  m_Center: {x: 0.000000007450581, y: 0.054386124, z: 0.000000010244548}
---- !u!114 &8428971192498202375
+--- !u!114 &5735005859084452220
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

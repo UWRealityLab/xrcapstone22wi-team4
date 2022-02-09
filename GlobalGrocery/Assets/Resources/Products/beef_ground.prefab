@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 1655342406004840353}
   - component: {fileID: -6308218965751173416}
   - component: {fileID: 8033950529468332707}
-  - component: {fileID: -7003024549877103141}
   - component: {fileID: 3225631297009441935}
-  - component: {fileID: -2615301390831149370}
+  - component: {fileID: 5401819506017321067}
+  - component: {fileID: 1852421061660776402}
   m_Layer: 0
   m_Name: beef_ground
   m_TagString: Untagged
@@ -113,7 +113,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &-7003024549877103141
+--- !u!65 &3225631297009441935
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3300205934652857675}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2085748, y: 0.032001734, z: 0.14857729}
+  m_Center: {x: -0.0000000037252903, y: 9.313226e-10, z: 0}
+--- !u!54 &5401819506017321067
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,20 +142,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &3225631297009441935
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3300205934652857675}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.2085748, y: 0.032001734, z: 0.14857729}
-  m_Center: {x: -0.0000000037252903, y: 9.313226e-10, z: 0}
---- !u!114 &-2615301390831149370
+--- !u!114 &1852421061660776402
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

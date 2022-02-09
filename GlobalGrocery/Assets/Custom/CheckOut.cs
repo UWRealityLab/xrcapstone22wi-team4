@@ -72,7 +72,6 @@ public class CheckOut : MonoBehaviour
         // create text receipt 
         Vector3 position = Vector3.zero;
         position.z += 1f;
-        /*position.y += 1f;*/
         GameObject receipt = Instantiate(receipt_prefab, position, Quaternion.identity);
         receipt.transform.SetParent(GameObject.Find("Main Camera").transform, false);
 
@@ -81,7 +80,6 @@ public class CheckOut : MonoBehaviour
             text += item + " x" + item_count[item] + "  " + item_price[item] + "\n";
         }
         text += "Total Cost:  " + cost + " " + pricingManager.getCurrency();
-        Debug.Log(text);
         receipt.GetComponent<TextMeshPro>().text = text;
 
         if (pricingManager.getLocation() == "USA")

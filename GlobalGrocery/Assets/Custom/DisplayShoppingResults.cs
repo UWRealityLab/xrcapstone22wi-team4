@@ -45,10 +45,15 @@ public class DisplayShoppingResults : MonoBehaviour
         foreach (string name in items)
         {
             yield return new WaitForSeconds(0.5f);
+            Debug.Log(name);
             Object loadPrefab = Resources.Load("Produce/" + name);
             if (loadPrefab == null)
             {
                 loadPrefab = Resources.Load("Products/" + name);
+            }
+            if (loadPrefab == null)
+            {
+                loadPrefab = Resources.Load("Products/Other/" + name);
             }
             if (loadPrefab == null) continue;
 

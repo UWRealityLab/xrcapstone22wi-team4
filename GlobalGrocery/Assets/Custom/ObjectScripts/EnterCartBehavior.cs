@@ -15,7 +15,6 @@ public class EnterCartBehavior : MonoBehaviour
     {
         if (other.tag == "Cart Collider")
         {
-            Debug.Log("Entered Cart");
             Rigidbody rg = GetComponent<Rigidbody>();
             if (!rg.isKinematic)
             {
@@ -23,7 +22,6 @@ public class EnterCartBehavior : MonoBehaviour
             }
             else
             {
-                Debug.Log("Changed isKinematic to false");
                 rg.isKinematic = false;
                 rg.useGravity = true;
                 transform.parent = null;
@@ -35,10 +33,8 @@ public class EnterCartBehavior : MonoBehaviour
 
     IEnumerator cartDelayEnter(Collider other)
     {
-        Debug.Log("entered");
         yield return new WaitForSeconds(0.5f);
         Rigidbody rg = GetComponent<Rigidbody>();
-        Debug.Log("Changed isKinematic to true");
         rg.isKinematic = true;
         rg.velocity = Vector3.zero;
         rg.centerOfMass = Vector3.zero;

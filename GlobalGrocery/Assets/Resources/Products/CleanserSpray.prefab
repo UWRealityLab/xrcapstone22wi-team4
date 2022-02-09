@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 1934240338356678955}
   - component: {fileID: -5114643785785766964}
   - component: {fileID: 8856727598919150260}
-  - component: {fileID: 2103706786570442580}
-  - component: {fileID: -3861034066898907606}
+  - component: {fileID: 5753264258485605209}
+  - component: {fileID: -2644320244683980672}
   m_Layer: 0
   m_Name: CleanserSpray
   m_TagString: Untagged
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
---- !u!54 &2103706786570442580
+--- !u!54 &5753264258485605209
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +143,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-3861034066898907606
+--- !u!114 &-2644320244683980672
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
