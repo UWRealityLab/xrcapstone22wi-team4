@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 528289419892914650}
   - component: {fileID: 4018465670239180169}
   - component: {fileID: 1162072144673612099}
-  - component: {fileID: 6826477611386512369}
   - component: {fileID: 6638234914895163350}
   - component: {fileID: 4461825965381314530}
+  - component: {fileID: -1692599901847200420}
+  - component: {fileID: 99662829641882723}
   m_Layer: 0
   m_Name: SlicedBreadSmall
   m_TagString: Untagged
@@ -85,20 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6826477611386512369
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 873430876638159712}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5079017643199086640, guid: 49ac507c3d5aeae42b3ed61f814278f7, type: 3}
 --- !u!114 &6638234914895163350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124,3 +111,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
+--- !u!54 &-1692599901847200420
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873430876638159712}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &99662829641882723
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873430876638159712}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.2, z: 0.16}
+  m_Center: {x: -0.0026265606, y: 0.1, z: -0.0033038817}

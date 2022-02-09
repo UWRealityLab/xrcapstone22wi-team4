@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 2776327760324249585}
   - component: {fileID: 3538706070918652779}
   - component: {fileID: 1655342406004840353}
-  - component: {fileID: 5113200215863247045}
   - component: {fileID: -6308218965751173416}
   - component: {fileID: 8033950529468332707}
+  - component: {fileID: -7003024549877103141}
+  - component: {fileID: 3225631297009441935}
   m_Layer: 0
   m_Name: beef_ground
   m_TagString: Untagged
@@ -86,20 +87,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5113200215863247045
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3300205934652857675}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6370089744797701730, guid: a14ebc665610e4e44be3a9abb3e57fd6, type: 3}
 --- !u!114 &-6308218965751173416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,3 +112,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
+--- !u!54 &-7003024549877103141
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3300205934652857675}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &3225631297009441935
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3300205934652857675}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2085748, y: 0.032001734, z: 0.14857729}
+  m_Center: {x: -0.0000000037252903, y: 9.313226e-10, z: 0}

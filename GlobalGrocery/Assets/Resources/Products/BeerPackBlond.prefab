@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6888844006160054148}
   - component: {fileID: 3528949563088697732}
   - component: {fileID: 8185082996375414881}
+  - component: {fileID: 5467053111790287439}
   m_Layer: 0
   m_Name: BeerPackBlond
   m_TagString: Untagged
@@ -122,3 +123,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
+--- !u!54 &5467053111790287439
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4563047810625401852}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

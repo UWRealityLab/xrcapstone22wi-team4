@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 615176982767026487}
   - component: {fileID: 4550420825154277010}
   - component: {fileID: 1784165322694900312}
-  - component: {fileID: 3062749875432465756}
   - component: {fileID: -6141512989608420776}
   - component: {fileID: -6202094476055739875}
   - component: {fileID: 1854364895147497422}
   - component: {fileID: 2690156326247396361}
+  - component: {fileID: 1402764937211361578}
   m_Layer: 0
   m_Name: MilkCarton
   m_TagString: Untagged
@@ -86,20 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3062749875432465756
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 270880736597449613}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6822165548386397103, guid: 7cf92c5185012c44c93fe6dfeff05c40, type: 3}
 --- !u!54 &-6141512989608420776
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -256,3 +242,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
+--- !u!65 &1402764937211361578
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270880736597449613}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.08712542, y: 0.220872, z: 0.08712542}
+  m_Center: {x: -0.000000009313226, y: 0.110435985, z: 0.000000013038516}

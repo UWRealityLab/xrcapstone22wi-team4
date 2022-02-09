@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 3496118858673163907}
   - component: {fileID: 516627534478901542}
   - component: {fileID: 2364276866256074220}
-  - component: {fileID: 2364732409565307838}
   - component: {fileID: 3539197156340221704}
   - component: {fileID: -866403058250427787}
+  - component: {fileID: -6621236122883307257}
+  - component: {fileID: 1240729468570638942}
   m_Layer: 0
   m_Name: CakePrairie
   m_TagString: Untagged
@@ -84,20 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2364732409565307838
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4309774662787814457}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 690106047850165013, guid: 0c97c4a3a777a1f489cded26640c0fb5, type: 3}
 --- !u!114 &3539197156340221704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,3 +110,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
+--- !u!54 &-6621236122883307257
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4309774662787814457}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1240729468570638942
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4309774662787814457}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.21906777, y: 0.10877223, z: 0.062002227}
+  m_Center: {x: 0.000000007450581, y: 0.054386124, z: 0.000000010244548}

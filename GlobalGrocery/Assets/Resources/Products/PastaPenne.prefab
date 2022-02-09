@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 9115599888799653537}
   - component: {fileID: 6306986918540182608}
   - component: {fileID: 8098066305058304154}
-  - component: {fileID: -2886962496712045981}
   - component: {fileID: -6840126664820004369}
   - component: {fileID: 8669539716381654070}
+  - component: {fileID: 5923946634254348102}
+  - component: {fileID: 2401918134425851654}
   m_Layer: 0
   m_Name: PastaPenne
   m_TagString: Untagged
@@ -85,20 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &-2886962496712045981
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8487822268470002715}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4425571807036873177, guid: 51857a3f053e37e4dae17d6c8d0812de, type: 3}
 --- !u!114 &-6840126664820004369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124,3 +111,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
+--- !u!54 &5923946634254348102
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8487822268470002715}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2401918134425851654
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8487822268470002715}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.14, y: 0.25, z: 0.1}
+  m_Center: {x: -0.0019444898, y: 0.12924892, z: 0.0032348037}

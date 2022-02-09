@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 3358268878845568018}
   - component: {fileID: 1816406771952642999}
   - component: {fileID: 4526640014658445181}
-  - component: {fileID: 2958951532620121087}
   - component: {fileID: 6151563021068870719}
   - component: {fileID: -7664375225869874330}
+  - component: {fileID: -6985431698423555786}
+  - component: {fileID: 4268541531628929119}
   m_Layer: 0
   m_Name: ChocolatePowder
   m_TagString: Untagged
@@ -84,20 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2958951532620121087
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2725002594436431528}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5147625397790614640, guid: 861a1da256dc2c5489661481d01540bf, type: 3}
 --- !u!114 &6151563021068870719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,3 +110,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
+--- !u!54 &-6985431698423555786
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2725002594436431528}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &4268541531628929119
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2725002594436431528}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16426432, y: 0.14110418, z: 0.057200223}
+  m_Center: {x: 0.00006819889, y: 0.068291955, z: -0.000000004656613}

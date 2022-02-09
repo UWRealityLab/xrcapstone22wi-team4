@@ -63,25 +63,30 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: d732bd5c7cdf14343aeaa26b698276fa, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6870397696605923849, guid: d95be38afc74ad341961c8b9c718df38, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d95be38afc74ad341961c8b9c718df38, type: 3}
 --- !u!1 &1668362263995926229 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7324317022562452100, guid: d95be38afc74ad341961c8b9c718df38, type: 3}
   m_PrefabInstance: {fileID: 8251163125748483153}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1306121372615428229
-MonoBehaviour:
+--- !u!54 &-6394949427284475394
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1668362263995926229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f30b755c575c080478fc9e2e71a0b8e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &-3134499303686828393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,3 +100,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 0
+--- !u!114 &1306121372615428229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668362263995926229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f30b755c575c080478fc9e2e71a0b8e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &2184894872507837318
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668362263995926229}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.12970465, y: 0.031108914, z: 0.18651581}
+  m_Center: {x: -0.0000000037252903, y: 0.015646674, z: 0.0000000037252903}

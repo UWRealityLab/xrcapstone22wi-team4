@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 8339668981574988970}
   - component: {fileID: 4905457201177557775}
   - component: {fileID: 7203323008348393413}
-  - component: {fileID: -3954307161784054275}
   - component: {fileID: 6613553165474743657}
   - component: {fileID: -2631687839207118062}
   - component: {fileID: -3026914891976505768}
   - component: {fileID: -1079672714379707037}
+  - component: {fileID: 6973889199621973530}
   m_Layer: 0
   m_Name: AppleGreen
   m_TagString: Untagged
@@ -86,20 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &-3954307161784054275
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8716616388865601040}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1158131312896713983, guid: 40f00bcbd172db04c90258fcf155d5df, type: 3}
 --- !u!114 &6613553165474743657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,3 +242,16 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!135 &6973889199621973530
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8716616388865601040}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.045099996
+  m_Center: {x: 0, y: 0, z: 0}
