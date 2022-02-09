@@ -70,12 +70,11 @@ public class CheckOut : MonoBehaviour
         Debug.Log("total cost: " + cost);
 
         // create text receipt 
-        Transform player = GameObject.Find("Cart_nabnuh").transform;
         Vector3 position = Vector3.zero;
         position.z += 1f;
-        position.y += 1f;
+        /*position.y += 1f;*/
         GameObject receipt = Instantiate(receipt_prefab, position, Quaternion.identity);
-        receipt.transform.SetParent(GameObject.Find("XR Origin").transform, false);
+        receipt.transform.SetParent(GameObject.Find("Main Camera").transform, false);
 
         string text = "Receipt:\n";
         foreach (string item in item_price.Keys) {
