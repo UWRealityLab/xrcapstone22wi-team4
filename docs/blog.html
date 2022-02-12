@@ -26,6 +26,72 @@
 
 			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
+
+<!-- Main -->
+		<section id="main" class="wrapper">
+			<div class="container">
+
+				<header class="major special">
+					<h2>Week 6</h2>
+					<p>MVP Demo and Team App Swap!</p>
+				</header>
+
+				<header>
+					<h4>What We've Accomplished</h4>
+				</header>
+				<p>In the past week, we focused on getting the Global Grocery app to where we wanted for our minimum viable product since the MVP demo was on Tuesday. We completed a lot of remaining tasks on our MVP plan including creating a start / pause menu for the game, gathering all grocery item prices, developing a pricing and checkout system, displaying the items bought from every different store, placing items in the grocery store and making some of the items XR Grab Interactable. A lot of this work was brand new, and other parts were just piecing together components of the app that we had developed in different scenes together in our final app. We were able to finish a large majority of the features listed in our MVP goals, which was really exciting!</p>
+				<p>Our major issue so far has been lag in the app because of all of our assets and grabbable items, and this will be something we continue to debug moving forward. We ran into this issue when switching from testing with Oculus Link on a computer with a really strong graphics card to testing the app’s apk on only the Oculus Quest, because our MVP demo app was basically unplayable on only the Oculus. We had to downscale the grocery store and make only a few items grabbable to combat the lag, and still haven’t solved it completely.</p>
+			`
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/9FIvxYAZ8ZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				<p>Link for downloading our MVP apk: <a href="https://drive.google.com/file/d/1ODZsSCq-Pg6oTfDU8F0K7uMaT6qnswK7/view?usp=sharing">Link</a></p>
+				
+				<header>
+					<h4>Individual Contributions</h4>
+				</header>
+				<p>Annalice: Created start menu and pause menu, scene that user starts in with menu, scene switching script between the store and the start scene, compiled item prices, added some store item components.</p>
+				
+				<p>Donna: Item placement in a few sections of the store, store size reduction. Pricing system and scripts, checkout system and scripts, receipt display and final receipt aggregate display.</p>
+
+				<p>Khushi: Put final store scene together, placed most static and grabbable items in store, compiled item prices.</p>
+				
+				<header>
+					<h4>Code Updates</h4>
+				</header>
+				
+				<p>
+
+
+				Created a start menu interaction using the UI canvas, grabbable fruits, and scene switching</br>
+				Created a pause menu interaction using a UI canvas</br>
+				&emsp;Wrote a script for the left hand controller that detects when the menu button is pressed and pops the menu up in front of the user position</br>
+				Created a new branch for implementation of item pricing and checkout</br>
+				&emsp;Scripts that parse CSV files for item prices and then assign to objects</br>
+				&emsp;Custom XR Grab Interactable scripts on items for better interaction</br>
+				&emsp;Scripts for processing item checkout, generating receipts and storing receipts between scenes</br>
+				&emsp;Scripts for spawning objects into the main menu screen</br>
+				Placed all desired items into a final grocery store scene and added custom XR Grab Interactable and price scripts to each that we wanted to be interactable</br>
+				&emsp;Copied the scene twice to create the scene for all countries</br>
+				</p>
+
+				<header>
+					<h4>Plans for Next Week</h4>
+				</header>
+				<p>In the next week, we plan to do a lot of bug fixing. In particular, fixing user interactions with the cart as well as using baked in lighting to try and reduce lag. We will also be changing the structure / decorations of the Chinese store to make it look more unique and authentic. We were originally planning on also adding hands for the user, but we completed that already!</p>
+
+				<header>
+					<h4>Files to review</h4>
+				</header>
+				<p>Nothing at the moment.</p>
+
+				<header>
+					<h4>Blockers</h4>
+				</header>
+				<p>Our main blocker right now is the lag when trying to run our application on the Oculus without streaming through Oculus link. After talking to other teams we plan on trying baked in lighting, but if that doesn’t work, we will definitely need help from staff resolving the issue. We are also still having some bugs with our cart physics and will continue hammering that out.</p>
+				
+			</div>
+		</section>
+
 		<!-- Main -->
 		<section id="main" class="wrapper">
 			<div class="container">
@@ -174,7 +240,7 @@
 			</section>
 		
 		<!-- Main -->
-			<section id="main" class="wrapper">
+			<section id="main" class="wrapper style2">
 				<div class="container">
 
 					<header class="major special">
