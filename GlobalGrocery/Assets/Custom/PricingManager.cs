@@ -84,13 +84,13 @@ public class PricingManager : MonoBehaviour
 
         if (location.Equals("CHINA"))
         {
-            cost = prices_CHINA[item];
+            cost = prices_CHINA[item] * getScaler();
         } else if (location.Equals("MEXICO"))
         {
-            cost = prices_MEXICO[item];
+            cost = prices_MEXICO[item] * getScaler();
         } else if (location.Equals("USA"))
         {
-            cost = prices_USA[item];
+            cost = prices_USA[item] * getScaler();
         } else
         {
             Debug.Log("location not recognized");

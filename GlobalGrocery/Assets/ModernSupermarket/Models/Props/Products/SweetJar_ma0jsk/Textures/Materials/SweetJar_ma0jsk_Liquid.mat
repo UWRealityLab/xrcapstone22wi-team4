@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SweetJar_ma0jsk_Liquid
-  m_Shader: {fileID: 4800000, guid: 0379e4cd21e1eeb4b87c75a9d04fe5a7, type: 3}
-  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _METALLICGLOSSMAP _NORMALMAP
+  m_Shader: {fileID: 4800000, guid: 29174f02782eebc45a792bdf14cdceb3, type: 3}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION _METALLICGLOSSMAP _NORMALMAP
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -96,3 +96,4 @@ Material:
     - _Color1: {r: 1, g: 0.085130155, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SurfaceColor: {r: 0.8, g: 0.7366892, b: 0.21960783, a: 0}
+  m_BuildTextureStacks: []

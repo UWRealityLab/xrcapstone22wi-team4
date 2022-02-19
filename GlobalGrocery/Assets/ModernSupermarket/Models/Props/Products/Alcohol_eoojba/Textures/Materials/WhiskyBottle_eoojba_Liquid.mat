@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: WhiskyBottle_eoojba_Liquid
-  m_Shader: {fileID: 4800000, guid: 0379e4cd21e1eeb4b87c75a9d04fe5a7, type: 3}
+  m_Shader: {fileID: 4800000, guid: 29174f02782eebc45a792bdf14cdceb3, type: 3}
   m_ShaderKeywords: _ALPHAMODULATE_ON _METALLICGLOSSMAP _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
@@ -118,3 +118,4 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SurfaceColor: {r: 1, g: 0.56647104, b: 0.05660379, a: 0}
+  m_BuildTextureStacks: []
