@@ -3128,6 +3128,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 406241001}
     m_Modifications:
+    - target: {fileID: -4581729137424784310, guid: b375b6595c87b3941be3b6e02e97f1b3, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4581729137424784310, guid: b375b6595c87b3941be3b6e02e97f1b3, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4581729137424784310, guid: b375b6595c87b3941be3b6e02e97f1b3, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 131893460}
+    - target: {fileID: -4581729137424784310, guid: b375b6595c87b3941be3b6e02e97f1b3, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6285327625741183659, guid: b375b6595c87b3941be3b6e02e97f1b3, type: 3}
       propertyPath: m_Name
       value: Tomato
@@ -3178,6 +3194,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b375b6595c87b3941be3b6e02e97f1b3, type: 3}
+--- !u!1 &131893460 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6285327625741183659, guid: b375b6595c87b3941be3b6e02e97f1b3, type: 3}
+  m_PrefabInstance: {fileID: 131893459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &131893461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131893460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ea59deb59084b31abe26ae90283271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 0}
+  continueObject: {fileID: 0}
+  exitObject: {fileID: 0}
+  togglePriceText: {fileID: 0}
+  toggleCurrencyText: {fileID: 557436170}
 --- !u!1 &132023144 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 599936611115461527, guid: 6f69968ae2b31da44adf0067a0d84788, type: 3}
@@ -36770,6 +36808,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 406241001}
     m_Modifications:
+    - target: {fileID: -4989080904006679602, guid: c0889901347356141b4192c62d50be1a, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4989080904006679602, guid: c0889901347356141b4192c62d50be1a, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4989080904006679602, guid: c0889901347356141b4192c62d50be1a, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1420488592}
+    - target: {fileID: -4989080904006679602, guid: c0889901347356141b4192c62d50be1a, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4989080904006679602, guid: c0889901347356141b4192c62d50be1a, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: onPriceToggleGrabEnter
+      objectReference: {fileID: 0}
+    - target: {fileID: -4989080904006679602, guid: c0889901347356141b4192c62d50be1a, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GrabToSelect, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: -4989080904006679602, guid: c0889901347356141b4192c62d50be1a, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 275648377394802337, guid: c0889901347356141b4192c62d50be1a, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -36832,6 +36898,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0889901347356141b4192c62d50be1a, type: 3}
+--- !u!1 &1420488591 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 619416548732826651, guid: c0889901347356141b4192c62d50be1a, type: 3}
+  m_PrefabInstance: {fileID: 1420488590}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1420488592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420488591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ea59deb59084b31abe26ae90283271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 0}
+  continueObject: {fileID: 0}
+  exitObject: {fileID: 0}
+  togglePriceText: {fileID: 1373639701}
+  toggleCurrencyText: {fileID: 0}
 --- !u!1 &1422021612 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5298228576238743880, guid: a3205b692de2ea04d885098bf3a50924, type: 3}

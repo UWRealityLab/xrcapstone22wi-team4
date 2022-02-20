@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class GrabToSelect : MonoBehaviour
@@ -8,6 +9,14 @@ public class GrabToSelect : MonoBehaviour
     public GameObject pauseMenu;
     public GameObject continueObject;
     public GameObject exitObject;
+    public Text togglePriceText;
+    public Text toggleCurrencyText;
+
+    private void Start()
+    {
+        togglePriceText.text = "On";
+        toggleCurrencyText.text = "USA";
+    }
 
 
     // When object is selected
@@ -53,6 +62,33 @@ public class GrabToSelect : MonoBehaviour
     void LoadNewScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+    }
+
+    // Change price visibility toggle
+    public void onPriceToggleGrabEnter()
+    {
+        if (togglePriceText.text == "On")
+        {
+            togglePriceText.text = "Off";
+        } else
+        {
+            togglePriceText.text = "On";
+        }
+    }
+
+    // Change currency type in text
+    public void onCurrencyToggleGrabEnter()
+    {
+        if (toggleCurrencyText.text == "USA")
+        {
+            toggleCurrencyText.text = "CHINA";
+        } else if (toggleCurrencyText.text == "CHINA")
+        {
+            toggleCurrencyText.text = "MEXICO";
+        } else
+        {
+            toggleCurrencyText.text = "USA";
+        }
     }
 
 }
