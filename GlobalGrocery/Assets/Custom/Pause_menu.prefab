@@ -608,6 +608,8 @@ MonoBehaviour:
   pauseMenu: {fileID: 1160044526160958061}
   continueObject: {fileID: 1160044527188535685}
   exitObject: {fileID: 1160044527152121306}
+  togglePriceText: {fileID: 0}
+  toggleCurrencyText: {fileID: 0}
 --- !u!114 &1160044527152121284
 MonoBehaviour:
   m_ObjectHideFlags: 0

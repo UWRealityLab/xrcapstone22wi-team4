@@ -733,6 +733,14 @@ namespace UnityEngine.XR.Interaction.Toolkit
             m_OriginalSceneParent = thisTransform.parent;
             thisTransform.SetParent(null);
 
+            // Display price if necessary
+            PricingManager pricingManager = GameObject.Find("PricingManager").GetComponent<PricingManager>();
+            if (pricingManager.display)
+            {
+                DisplayItemPrice display = GameObject.Find("ItemPriceDisplay").GetComponent<DisplayItemPrice>();
+                display.onDisplay(transform.name);
+            }
+
             UpdateCurrentMovementType();
             SetupRigidbodyGrab(m_Rigidbody);
 
@@ -759,6 +767,10 @@ namespace UnityEngine.XR.Interaction.Toolkit
         /// <seealso cref="Grab"/>
         protected virtual void Drop()
         {
+            // Turn off display on drop
+            DisplayItemPrice display = GameObject.Find("ItemPriceDisplay").GetComponent<DisplayItemPrice>();
+            display.offDisplay();
+
             m_RetainTransformParent = false;
             if (m_RetainTransformParent && m_OriginalSceneParent != null && !m_OriginalSceneParent.gameObject.activeInHierarchy)
             {

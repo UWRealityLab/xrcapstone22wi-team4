@@ -9,15 +9,8 @@ public class GrabToSelect : MonoBehaviour
     public GameObject pauseMenu;
     public GameObject continueObject;
     public GameObject exitObject;
-    public Text togglePriceText;
-    public Text toggleCurrencyText;
-
-    private void Start()
-    {
-        togglePriceText.text = "On";
-        toggleCurrencyText.text = "USA";
-    }
-
+    public GameObject togglePriceObject;
+    public GameObject toggleCurrencyObject;
 
     // When object is selected
     public void OnGrabEnter()
@@ -67,6 +60,9 @@ public class GrabToSelect : MonoBehaviour
     // Change price visibility toggle
     public void onPriceToggleGrabEnter()
     {
+        PricingManager pricingManager = GameObject.Find("PricingManager").GetComponent<PricingManager>();
+        pricingManager.toggleDisplay();
+        Text togglePriceText = GameObject.Find("Toggle_price_variable").GetComponent<Text>();
         if (togglePriceText.text == "On")
         {
             togglePriceText.text = "Off";
@@ -79,15 +75,20 @@ public class GrabToSelect : MonoBehaviour
     // Change currency type in text
     public void onCurrencyToggleGrabEnter()
     {
-        if (toggleCurrencyText.text == "USA")
+        PricingManager pricingManager = GameObject.Find("PricingManager").GetComponent<PricingManager>();
+        pricingManager.toggleCurrency();
+        Text toggleCurrencyeText = GameObject.Find("Toggle_currency_variable").GetComponent<Text>();
+        if (toggleCurrencyeText.text == "Yuan")
         {
-            toggleCurrencyText.text = "CHINA";
-        } else if (toggleCurrencyText.text == "CHINA")
+            toggleCurrencyeText.text = "Peso";
+        }
+        if (toggleCurrencyeText.text == "Peso")
         {
-            toggleCurrencyText.text = "MEXICO";
-        } else
+            toggleCurrencyeText.text = "USD";
+        }
+        if (toggleCurrencyeText.text == "USD")
         {
-            toggleCurrencyText.text = "USA";
+            toggleCurrencyeText.text = "Yuan";
         }
     }
 

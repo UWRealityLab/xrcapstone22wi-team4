@@ -9,6 +9,8 @@ public class PressMenuButton : MonoBehaviour
     public GameObject pauseMenu;
     public GameObject continueObject;
     public GameObject exitObject;
+    public GameObject priceToggleObject;
+    public GameObject currencyToggleObject;
 
     public InputDeviceCharacteristics controllerCharacteristics;
     private InputDevice targetDevice;
@@ -60,6 +62,8 @@ public class PressMenuButton : MonoBehaviour
                 pauseMenu.SetActive(true);
                 continueObject.SetActive(true);
                 exitObject.SetActive(true);
+                priceToggleObject.SetActive(true);
+                currencyToggleObject.SetActive(true);
             }
         }
     }

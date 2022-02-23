@@ -8,6 +8,8 @@ public class PricingManager : MonoBehaviour
 {
     public string location = "USA"; // CHINA, MEXICO, USA
     public string currency = "USA"; // CHINA, MEXICO, USA
+    public bool display = false;
+
     private Dictionary<string, double> prices_USA;
     private Dictionary<string, double> prices_CHINA;
     private Dictionary<string, double> prices_MEXICO;
@@ -136,5 +138,26 @@ public class PricingManager : MonoBehaviour
         }
 
         return 0;
+    }
+
+    public void toggleDisplay()
+    {
+        display = !display;
+    }
+
+    public void toggleCurrency()
+    {
+        if (currency.Equals("CHINA"))
+        {
+            currency = "MEXICO";
+        }
+        if (currency.Equals("MEXICO"))
+        {
+            currency = "USA";
+        }
+        if (currency.Equals("USA"))
+        {
+            currency = "CHINA";
+        }
     }
 }

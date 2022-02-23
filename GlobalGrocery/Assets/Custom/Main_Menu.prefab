@@ -842,7 +842,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 5
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &6167805724886811844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1036,6 +1036,8 @@ MonoBehaviour:
   pauseMenu: {fileID: 0}
   continueObject: {fileID: 0}
   exitObject: {fileID: 0}
+  togglePriceText: {fileID: 0}
+  toggleCurrencyText: {fileID: 0}
 --- !u!1001 &6167805723678494486
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1146,6 +1148,8 @@ MonoBehaviour:
   pauseMenu: {fileID: 0}
   continueObject: {fileID: 0}
   exitObject: {fileID: 0}
+  togglePriceText: {fileID: 0}
+  toggleCurrencyText: {fileID: 0}
 --- !u!114 &6167805724359739071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1510,3 +1514,5 @@ MonoBehaviour:
   pauseMenu: {fileID: 0}
   continueObject: {fileID: 0}
   exitObject: {fileID: 0}
+  togglePriceText: {fileID: 0}
+  toggleCurrencyText: {fileID: 0}
