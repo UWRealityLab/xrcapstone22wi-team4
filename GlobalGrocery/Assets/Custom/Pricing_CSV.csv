@@ -22,6 +22,8 @@ BeerKegBlond,1.6625,17.15,7.06
 BeerKegDegl,1.6625,17.15,7.06
 BeerKegLager,1.2725,13.13,5.4
 BeerLager,1.2725,13.13,5.4
+BeerPackBlonde,0,0,0
+BeerPackLager,0,0,0
 BeerPackBK,7,72.21,29.73
 BleachBoeff,0,0,0
 BleachJajaBlue,0,0,0
@@ -97,6 +99,8 @@ CreamStark,2.92,30.12,12.4
 EggBox12,2.32,23.93,9.85
 EggBox4,0.84,8.66,3.57
 EggBox8,1.65,17.02,7.01
+FlourOrange,3.54,36.52,15.03
+FlourBlue,3.54,36.52,15.03
 FlourRed,3.54,36.52,15.03
 FrozenBoxCones,0,0,0
 FrozenMaxiCones,0,0,0
@@ -197,6 +201,7 @@ TeaboxAsian,2.48,25.58,10.53
 TeaboxCylinderBlack,10.82,111.61,45.95
 TeaboxCylinderGreen,9.38,96.75,39.83
 TeaboxCylinderWhite,4.94,50.96,20.98
+TinCanTunaMedium,1.56,15.21,3.42
 TinCanTunaSmall,0.68,7.01,2.89
 TinCanTunaLarge,3.28,33.83,13.93
 Tomato,1.95,20.11,8.28

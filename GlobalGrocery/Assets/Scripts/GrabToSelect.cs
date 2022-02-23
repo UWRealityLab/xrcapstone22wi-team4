@@ -76,20 +76,9 @@ public class GrabToSelect : MonoBehaviour
     public void onCurrencyToggleGrabEnter()
     {
         PricingManager pricingManager = GameObject.Find("PricingManager").GetComponent<PricingManager>();
-        pricingManager.toggleCurrency();
         Text toggleCurrencyeText = GameObject.Find("Toggle_currency_variable").GetComponent<Text>();
-        if (toggleCurrencyeText.text == "Yuan")
-        {
-            toggleCurrencyeText.text = "Peso";
-        }
-        if (toggleCurrencyeText.text == "Peso")
-        {
-            toggleCurrencyeText.text = "USD";
-        }
-        if (toggleCurrencyeText.text == "USD")
-        {
-            toggleCurrencyeText.text = "Yuan";
-        }
+        pricingManager.toggleCurrency();
+        toggleCurrencyeText.text = pricingManager.getCurrency();
     }
 
 }

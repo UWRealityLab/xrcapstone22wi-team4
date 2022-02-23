@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System;
 using System.IO;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PricingManager : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class PricingManager : MonoBehaviour
     private Dictionary<string, double> prices_USA;
     private Dictionary<string, double> prices_CHINA;
     private Dictionary<string, double> prices_MEXICO;
+    private Dictionary<string, string> displayNames;
 
     // conversions as of 2/6/2022
     private double CHINA_to_MEXICO = 8.05;
@@ -28,6 +30,7 @@ public class PricingManager : MonoBehaviour
         prices_USA = new Dictionary<string, double>();
         prices_CHINA = new Dictionary<string, double>();
         prices_MEXICO = new Dictionary<string, double>();
+        displayNames = new Dictionary<string, string>();
 
         // parse csv file of prices
         string path =  "Assets\\Custom"+ "\\Pricing_CSV.csv";
@@ -55,6 +58,8 @@ public class PricingManager : MonoBehaviour
             prices_CHINA.Add(item, price_china);
             prices_MEXICO.Add(item, price_mexico);
         }
+        Text togglePriceText = GameObject.Find("Toggle_price_variable").GetComponent<Text>();
+        togglePriceText.text = currency;
     }
 
     public string getCurrency()
@@ -62,12 +67,10 @@ public class PricingManager : MonoBehaviour
         if (currency == "USA")
         {
             return "USD";
-        }
-        if (currency == "CHINA")
+        } else if (currency == "CHINA")
         {
             return "Yuan";
-        }
-        if (currency == "MEXICO")
+        } else if (currency == "MEXICO")
         {
             return "Peso";
         }
@@ -77,7 +80,7 @@ public class PricingManager : MonoBehaviour
     public double getPrice(String item)
     {
         double cost = 0.0;
-        item = item.Split(' ')[0];
+        item = item.Split(' ')[0].Replace("(Clone)", " ");
 
         if (!prices_CHINA.ContainsKey(item))
         {
@@ -150,12 +153,10 @@ public class PricingManager : MonoBehaviour
         if (currency.Equals("CHINA"))
         {
             currency = "MEXICO";
-        }
-        if (currency.Equals("MEXICO"))
+        } else if (currency.Equals("MEXICO"))
         {
             currency = "USA";
-        }
-        if (currency.Equals("USA"))
+        } else if (currency.Equals("USA"))
         {
             currency = "CHINA";
         }
