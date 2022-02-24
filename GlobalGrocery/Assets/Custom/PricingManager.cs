@@ -9,6 +9,7 @@ public class PricingManager : MonoBehaviour
 {
     public string location = "USA"; // CHINA, MEXICO, USA
     public string currency = "USA"; // CHINA, MEXICO, USA
+    public string receiptCurrency = "USA";
     public bool display = false;
 
     private Dictionary<string, double> prices_USA;
@@ -33,22 +34,27 @@ public class PricingManager : MonoBehaviour
         displayNames = new Dictionary<string, string>();
 
         // parse csv file of prices
-        string path =  "Assets\\Custom"+ "\\Pricing_CSV.csv";
+        /*string path =  "Assets\\Custom"+ "\\Pricing_CSV.csv";
         StreamReader reader = null;
         if (!File.Exists(path))
         {
             Debug.Log(path + " file doesn't exist");
             return;
-        }
+        }*/
 
-        reader = new StreamReader(File.OpenRead(path));
+        /*reader = new StreamReader(File.OpenRead(path));
         string header = reader.ReadLine();
         // put each line in a map
         while (!reader.EndOfStream)
-        {
-            var line = reader.ReadLine();
+        {*/
+        var file = Resources.Load<TextAsset>("CSVs/Pricing_CSV");
+        string text = file.text;
+        string[] lines = text.Split('\n');
+        
+        for (int i = 1; i < lines.Length; i++) {
+            var line = lines[i]; //reader.ReadLine();
             var values = line.Split(',');
-
+            if (values.Length != 4) continue;
             string item = values[0];
             double price_usa = Convert.ToDouble(values[1]);
             double price_china = Convert.ToDouble(values[2]);
@@ -58,8 +64,6 @@ public class PricingManager : MonoBehaviour
             prices_CHINA.Add(item, price_china);
             prices_MEXICO.Add(item, price_mexico);
         }
-        Text togglePriceText = GameObject.Find("Toggle_price_variable").GetComponent<Text>();
-        togglePriceText.text = currency;
     }
 
     public string getCurrency()
@@ -71,6 +75,23 @@ public class PricingManager : MonoBehaviour
         {
             return "Yuan";
         } else if (currency == "MEXICO")
+        {
+            return "Peso";
+        }
+        return "";
+    }
+
+    public string getReceiptCurrency()
+    {
+        if (currency == "USA")
+        {
+            return "USD";
+        }
+        else if (currency == "CHINA")
+        {
+            return "Yuan";
+        }
+        else if (currency == "MEXICO")
         {
             return "Peso";
         }
@@ -100,7 +121,7 @@ public class PricingManager : MonoBehaviour
         {
             Debug.Log("location not recognized");
         }
-        return cost * getScaler();
+        return Math.Round(cost * getScaler(), 2);
     }
 
     public string getLocation()

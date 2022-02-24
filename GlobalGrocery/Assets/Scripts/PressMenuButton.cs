@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
+using UnityEngine.UI;
 
 public class PressMenuButton : MonoBehaviour
 {
@@ -64,6 +65,10 @@ public class PressMenuButton : MonoBehaviour
                 exitObject.SetActive(true);
                 priceToggleObject.SetActive(true);
                 currencyToggleObject.SetActive(true);
+
+                Text toggleCurrencyText = GameObject.Find("Toggle_currency_variable").GetComponent<Text>();
+                PricingManager pricingManager = GameObject.Find("PricingManager").GetComponent<PricingManager>();
+                toggleCurrencyText.text = pricingManager.getCurrency();
             }
         }
     }

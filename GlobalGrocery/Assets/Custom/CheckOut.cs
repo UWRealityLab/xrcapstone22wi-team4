@@ -79,7 +79,7 @@ public class CheckOut : MonoBehaviour
         foreach (string item in item_price.Keys) {
             text += item + " x" + item_count[item] + "  " + item_price[item] + "\n";
         }
-        text += "Total Cost:  " + cost + " " + pricingManager.getCurrency();
+        text += "Total Cost:  " + cost + " " + pricingManager.getReceiptCurrency();
         receipt.GetComponent<TextMeshPro>().text = text;
 
         if (pricingManager.getLocation() == "USA")

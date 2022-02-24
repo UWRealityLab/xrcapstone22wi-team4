@@ -3542,6 +3542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   location: USA
   currency: USA
+  receiptCurrency: USA
   display: 0
 --- !u!4 &144911266
 Transform:
