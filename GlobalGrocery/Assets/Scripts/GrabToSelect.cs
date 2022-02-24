@@ -17,23 +17,18 @@ public class GrabToSelect : MonoBehaviour
     {
         if (this.name == "apple")
         {
-            // call load USA script
-            LoadNewScene("Assets/Scenes/USAStoreFinalTiny.unity");
+            // call load USA scene
+            LoadNewScene("Assets/Scenes/02_24_2022_USA_Store.unity");
         }
         else if (this.name == "avocado")
         {
-            // call load Mexico script
-            LoadNewScene("Assets/Scenes/MEXICOStoreFinalTiny.unity");
+            // call load Mexico scene
+            LoadNewScene("Assets/Scenes/02_24_2022_MEXICO_Store.unity");
         }
         else if (this.name == "orange")
         {
-            // call load China script
-            LoadNewScene("Assets/Scenes/CHINAStoreFinalTiny.unity");
-        }
-        else if (this.name == "scene_cylinder")
-        {
-            // call load main scene script
-            LoadNewScene("Assets/Scenes/vr-menu-demo.unity");
+            // call load China scene
+            LoadNewScene("Assets/Scenes/02_24_2022_CHINA_Store.unity");
         }
     }
 
