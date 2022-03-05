@@ -17,8 +17,11 @@ public class GrabToSelect : MonoBehaviour
     {
         if (this.name == "apple")
         {
+
             // call load USA scene
             LoadNewScene("Assets/Scenes/02_24_2022_USA_Store.unity");
+
+            // unfade orb
         }
         else if (this.name == "avocado")
         {
