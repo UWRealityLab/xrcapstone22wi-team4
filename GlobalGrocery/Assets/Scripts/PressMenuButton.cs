@@ -48,16 +48,16 @@ public class PressMenuButton : MonoBehaviour
             if (menuValue) {
 
                 // set position of pause menu right in front of player
-                Vector3 playerPos = playerTransform.position;
-                Vector3 playerDirection = playerTransform.transform.forward;
-                float menuDistance = 0.31f;
+                //Vector3 playerPos = playerTransform.position;
+                //Vector3 playerDirection = playerTransform.transform.forward;
+                //float menuDistance = 0.305f;
 
-                Vector3 menuPosition = playerPos + (playerDirection * menuDistance);
+                //Vector3 menuPosition = playerPos + (playerDirection * menuDistance);
 
-                // fiddle with the menu height if it's weird
-                Vector3 yOffset = (transform.up * 1.6f);
+                //// fiddle with the menu height if it's weird
+                //Vector3 yOffset = (transform.up * 1.6f);
 
-                pauseMenu.transform.position = menuPosition;
+                //pauseMenu.transform.position = menuPosition;
 
                 // sets pause menu rotation to follow camera head
                 pauseMenu.transform.SetParent(GameObject.Find("Main Camera").transform, false);
