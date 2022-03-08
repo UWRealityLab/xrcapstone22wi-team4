@@ -54,12 +54,12 @@ public class GrabToSelect : MonoBehaviour
         else if (this.name == "avocado")
         {
             // call load Mexico scene
-            LoadNewScene("Assets/Scenes/02_24_2022_MEXICO_Store.unity");
+            LoadNewScene("Assets/Scenes/03_07_2022_MEXICO_Store.unity");
         }
         else if (this.name == "orange")
         {
             // call load China scene
-            LoadNewScene("Assets/Scenes/02_24_2022_CHINA_Store.unity");
+            LoadNewScene("Assets/Scenes/03_07_2022_CHINA_Store.unity");
         }
     }
 
