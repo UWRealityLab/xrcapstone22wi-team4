@@ -50,7 +50,7 @@ public class PressMenuButton : MonoBehaviour
                 // set position of pause menu right in front of player
                 Vector3 playerPos = playerTransform.position;
                 Vector3 playerDirection = playerTransform.transform.forward;
-                float menuDistance = 0.31f;
+                float menuDistance = 0.305f;
 
                 Vector3 menuPosition = playerPos + (playerDirection * menuDistance);
 

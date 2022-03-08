@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/vr-menu-demo.unity
     guid: 9d10f25590ecd4e39aa18af6db0df952
   - enabled: 0
@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/02_24_2022_USA_Store.unity
     guid: 947fd43fdb3d29b4cbb7be7734603d31
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/02_24_2022_MEXICO_Store.unity
     guid: bda24b4e6efa8fe4aa486a244e3edbc0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/02_24_2022_CHINA_Store.unity
     guid: 7a0bee194e8a0fa48af4ec717273de51
   - enabled: 1

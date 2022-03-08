@@ -25,23 +25,23 @@ public class GrabToSelect : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        if (fadeOut && fadeOrb != null)
-        {
-            Color orbOpacity = fadeOrb.GetComponent<MeshRenderer>().material.color;
-            while (true)
-            {
-                orbOpacity.a += Time.deltaTime * fadeSpeed;
-                fadeOrb.GetComponent<MeshRenderer>().material.color = orbOpacity;
+    //private void Update()
+    //{
+    //    if (fadeOut && fadeOrb != null)
+    //    {
+    //        Color orbOpacity = fadeOrb.GetComponent<MeshRenderer>().material.color;
+    //        while (true)
+    //        {
+    //            orbOpacity.a += Time.deltaTime * fadeSpeed;
+    //            fadeOrb.GetComponent<MeshRenderer>().material.color = orbOpacity;
 
-                if (fadeOrb.GetComponent<MeshRenderer>().material.color.a >= 255)
-                {
-                    break;
-                }
-            }
-        }
-    }
+    //            if (fadeOrb.GetComponent<MeshRenderer>().material.color.a >= 255)
+    //            {
+    //                break;
+    //            }
+    //        }
+    //    }
+    //}
 
     // When object is selected
     public void OnGrabEnter()
@@ -49,7 +49,7 @@ public class GrabToSelect : MonoBehaviour
         if (this.name == "apple")
         {
             // call load USA scene
-            LoadNewScene("Assets/Scenes/02_24_2022_USA_Store.unity");
+            LoadNewScene("Assets/Scenes/03_07_2022_USA_Store_Annalice.unity");
         }
         else if (this.name == "avocado")
         {
@@ -86,24 +86,22 @@ public class GrabToSelect : MonoBehaviour
 
     void FadeToBlack()
     {
-        fadeOut = true;
+        if (fadeOrb == null)
+        {
+            return;
+        }
 
-        //if (fadeOrb == null)
-        //{
-        //    return;
-        //}
+        Color orbOpacity = fadeOrb.GetComponent<MeshRenderer>().material.color;
+        while (true)
+        {
+            orbOpacity.a += fadeSpeed;
+            fadeOrb.GetComponent<MeshRenderer>().material.color = orbOpacity;
 
-        //Color orbOpacity = fadeOrb.GetComponent<MeshRenderer>().material.color;
-        //while (true)
-        //{
-        //    orbOpacity.a += fadeSpeed;
-        //    fadeOrb.GetComponent<MeshRenderer>().material.color = orbOpacity;
-
-        //    if (fadeOrb.GetComponent<MeshRenderer>().material.color.a >= 255)
-        //    {
-        //        break;
-        //    }
-        //}
+            if (fadeOrb.GetComponent<MeshRenderer>().material.color.a >= 255)
+            {
+                break;
+            }
+        }
     }
 
     // Change price visibility toggle
