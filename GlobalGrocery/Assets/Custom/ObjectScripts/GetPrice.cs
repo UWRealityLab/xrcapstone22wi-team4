@@ -16,6 +16,7 @@ public class GetPrice : MonoBehaviour
         string name = gameObject.name.Split(' ')[0].Replace("(Clone)", " ");
         GameObject pricingManager = GameObject.Find("PricingManager");
         cost = pricingManager.GetComponent<PricingManager>().getPrice(name);
+        displayName = pricingManager.GetComponent<PricingManager>().getDisplayName(name);
     }
 
     public double getPrice()

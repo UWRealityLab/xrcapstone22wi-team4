@@ -18,7 +18,7 @@ public class DisplayItemPrice : MonoBehaviour
     {
         double price = pricingManager.getPrice(name);
         TextMeshPro text = gameObject.transform.GetComponent<TextMeshPro>();
-        text.text = name + "\n" + "Price: " + price;
+        text.text = pricingManager.getDisplayName(name) + "\n" + "Price: " + price;
         gameObject.transform.GetComponent<MeshRenderer>().enabled = true;
 
         text.transform.SetParent(GameObject.Find("Main Camera").transform, false);
