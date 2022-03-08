@@ -11,6 +11,17 @@ public class GrabToSelect : MonoBehaviour
     public GameObject exitObject;
     public GameObject togglePriceObject;
     public GameObject toggleCurrencyObject;
+    public GameObject fadeOrb;
+    public int fadeSpeed;
+
+    private void Start()
+    {
+        if (fadeOrb != null)
+        {
+            fadeOrb.GetComponent<MeshRenderer>().material.color = new Vector4(0, 0, 0, 0);
+        }
+    }
+
 
     // When object is selected
     public void OnGrabEnter()
@@ -49,7 +60,28 @@ public class GrabToSelect : MonoBehaviour
 
     void LoadNewScene(string sceneName)
     {
+        FadeToBlack();
         SceneManager.LoadScene(sceneName);
+    }
+
+    void FadeToBlack()
+    {
+        if (fadeOrb == null)
+        {
+            return;
+        }
+
+        Color orbOpacity = fadeOrb.GetComponent<MeshRenderer>().material.color;
+        while (true)
+        {
+            orbOpacity.a += fadeSpeed;
+            fadeOrb.GetComponent<MeshRenderer>().material.color = orbOpacity;
+
+            if (fadeOrb.GetComponent<MeshRenderer>().material.color.a >= 255)
+            {
+                break;
+            }
+        }
     }
 
     // Change price visibility toggle

@@ -9,24 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/vr-menu-demo.unity
     guid: 9d10f25590ecd4e39aa18af6db0df952
   - enabled: 0
-    path: Assets/Scenes/Older_scenes/USAStoreFinalSmall.unity
-    guid: 25965cec7df231443b0b9ee69cbe7e98
-  - enabled: 0
-    path: Assets/Scenes/Older_scenes/MEXICOStoreFinalSmall.unity
-    guid: f94fa92568e450d4780250c31f5f7b28
-  - enabled: 0
-    path: Assets/Scenes/Older_scenes/CHINAStoreFinalSmall.unity
-    guid: 29805090d377d194abff26f13e0ff78a
-  - enabled: 0
-    path: Assets/Scenes/USAStoreFinalTiny.unity
-    guid: 37e92bd4050d6554da7baca9dc9aca83
-  - enabled: 0
-    path: Assets/Scenes/MEXICOStoreFinalTiny.unity
-    guid: 49987bc21f159b24a805385eb9a216c8
-  - enabled: 0
-    path: Assets/Scenes/CHINAStoreFinalTiny.unity
-    guid: b08de077665f97e428d79dc940025511
-  - enabled: 0
     path: Assets/Scenes/Older_scenes/USAStoreFinalTinyNoAlc.unity
     guid: 7846afb45a74e0c4e9b6e4ca54f8985b
   - enabled: 0

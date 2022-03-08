@@ -26,7 +26,112 @@
 
 			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
-		
+		<section id="main" class="wrapper">
+			<div class="container">
+
+				<header class="major special">
+					<h2>Week 9</h2>
+					<p>More Bug Bashing!</p>
+				</header>
+
+				<header>
+					<h4>What We've Accomplished</h4>
+				</header>
+				<p>This week was pretty busy for all 3 of us, so we had less time to dedicate to the project. When we did work on our VR project, we focused mainly on bug fixing and modifying our groceries store to look more unique. We purchased more assets for each store, including fish and lanterns for the Chinese store as well as chili strings and more vegetables for Mexico.  We also worked on adding in transitions between scenes and modifying the audio of the store. We did more research on item costs between different countries and updated the spreadsheet of prices. We also compiled a master to-do list for the upcoming week with tasks we want to complete by the final demo day. This list combines feedback from the instructors, other teams, and our own observations.</p>
+				
+				<p>Download our Week 9 demo apk: <a href="https://drive.google.com/file/d/1hwn04gl7wTgN2N4GDJHwbpKDOTqzSB1y/view?usp=sharing">Link</a></p>
+
+				<header>
+					<h4>Individual Contributions</h4>
+				</header>
+				<p>Annalice: Started adding fade to black transitions between scenes, general bug fixing.</p>
+				
+				<p>Donna: Researched Mexican grocery store traits and asset packs, general bug fixing.</p>
+				
+				<p>Khushi: Modified and added more audio, general bug fixing.</p>
+
+				<header>
+					<h4>Code Updates</h4>
+				</header>
+				
+				<p>
+					Added code for facilitating transitioning camera to black between scenes
+					Added invert-rendered black sphere to XROrigin to cover the camera while transitioning between scenes
+
+				<header>
+					<h4>Plans for Next Week</h4>
+				</header>
+				<p>Next week we plan on doing a final push to get our application ready for Demo day. This will consist of polishing up the base version of the grocery store, adding decorations to each store, fixing cart interactions and more general bug fixing. </p>
+				
+				<header>
+					<h4>Files to review</h4>
+				</header>
+				<p>Nothing at the moment.</p>
+
+				<header>
+					<h4>Blockers</h4>
+				</header>
+				<p>None.</p>
+				
+			</div>
+		</section>
+
+		<section id="main" class="wrapper">
+			<div class="container">
+
+				<header class="major special">
+					<h2>Week 8</h2>
+					<p>Price Panel, Grocery Store Pop Music, and Team Feedback Round 2</p>
+				</header>
+
+				<header>
+					<h4>What We've Accomplished</h4>
+				</header>
+				<p>This week, we focused on getting our Global Grocery build to an improved state that could be tested by other teams. We decided to prioritize relatively essential application tasks like toggling a price display, displaying item prices on grab, and continuing to decrease the lag in the application by changing the item shaders over cosmetic differences in the store. We were able to fix the item lag to the point where it wasn’t super noticeable to teams who demoed our app, which was really helpful for developing more features on the app. Since we already completed some tasks in our PRD ahead of schedule (adding an interactable scene with items the user bought from each grocery store, adding background audio), we switched  the order of some target product tasks for the last few weeks before the final product demo. Some of the main feedback we got after user testing included fixing the cart to be more user friendly and adding more grabbable items into the store since we made many items static for fixing lag. We made a list of feedback that we’ll be addressing and fixing in the application in the coming weeks, in addition to making the different country stores more unique.</p>
+				
+				<p>Download our Week 8 demo apk: <a href="https://drive.google.com/file/d/1Dxk05x19Schbxz4mGmYbH5qnXdYdDKiz/view?usp=sharing">Link</a></p>
+				
+				<header>
+					<h4>Individual Contributions</h4>
+				</header>
+				<p>Annalice: Created panel for displaying item prices, debugged price manager linking with canvas text display, connected new scenes together for final demo</p>
+				
+				<p>Donna: Created panel for displaying item prices, edited price manager to link with the canvas that displays the text</p>
+				
+				<p>Khushi: Added background audio to store scenes</p>
+
+				<header>
+					<h4>Code Updates</h4>
+				</header>
+				
+				<p>
+					Added background music object in all store scenes
+					Added toggle options in store pause menu to allow user to change whether price is visible and which currency to use
+					&emsp;Connected toggle fruits to script actions using the XRGrabInteractable component
+					&emsp;Added public methods to GrabToSelect script to control toggling
+					Added price display panel for when price toggle is on
+					&emsp;The panel only displays in front of the user when a store item is grabbed and shows the item name and price
+					Enabled changing currency and making currency change synced in price display panel
+				</p>
+
+				<header>
+					<h4>Plans for Next Week</h4>
+				</header>
+				<p>The next few weeks before the final demo deadline will consist of decorating each country’s grocery store to be more unique, fixing the cart interaction more, and addressing as many bugs / features as possible from our compiled list. These items include: changing some item prices to be more accurate, adding more grabbable items to the grocery store, adding audio for grabbing / dropping items, etc.</p>
+				
+				<header>
+					<h4>Files to review</h4>
+				</header>
+				<p>Nothing at the moment.</p>
+
+				<header>
+					<h4>Blockers</h4>
+				</header>
+				<p>None for this week as we're just continuing to work through our list of desired features.</p>
+				
+			</div>
+		</section>
+
 <!-- Main -->
 		<section id="main" class="wrapper">
 			<div class="container">
