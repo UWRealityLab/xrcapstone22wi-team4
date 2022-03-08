@@ -33,20 +33,6 @@ public class PricingManager : MonoBehaviour
         prices_MEXICO = new Dictionary<string, double>();
         displayNames = new Dictionary<string, string>();
 
-        // parse csv file of prices
-        /*string path =  "Assets\\Custom"+ "\\Pricing_CSV.csv";
-        StreamReader reader = null;
-        if (!File.Exists(path))
-        {
-            Debug.Log(path + " file doesn't exist");
-            return;
-        }*/
-
-        /*reader = new StreamReader(File.OpenRead(path));
-        string header = reader.ReadLine();
-        // put each line in a map
-        while (!reader.EndOfStream)
-        {*/
         var file = Resources.Load<TextAsset>("CSVs/Pricing_CSV");
         string text = file.text;
         string[] lines = text.Split('\n');
@@ -54,7 +40,7 @@ public class PricingManager : MonoBehaviour
         for (int i = 1; i < lines.Length; i++) {
             var line = lines[i]; //reader.ReadLine();
             var values = line.Split(',');
-            if (values.Length != 4) continue;
+            if (values.Length < 4) continue;
             string item = values[0];
             double price_usa = Convert.ToDouble(values[1]);
             double price_china = Convert.ToDouble(values[2]);
@@ -63,6 +49,14 @@ public class PricingManager : MonoBehaviour
             prices_USA.Add(item, price_usa);
             prices_CHINA.Add(item, price_china);
             prices_MEXICO.Add(item, price_mexico);
+
+            // add display info
+            if (values.Length == 5 && !values[4].Contains("0")) // has alt name
+            {
+                Debug.Log(values[4]);
+                displayNames.Add(item, values[4]);
+            }
+
         }
     }
 
@@ -122,6 +116,17 @@ public class PricingManager : MonoBehaviour
             Debug.Log("location not recognized");
         }
         return Math.Round(cost * getScaler(), 2);
+    }
+
+    public string getDisplayName(String item)
+    {
+        item = item.Split(' ')[0].Replace("(Clone)", " ");
+        string displayName = item;
+        if (displayNames.ContainsKey(item))
+        {
+            displayName = displayNames[item];
+        }
+        return displayName;
     }
 
     public string getLocation()
