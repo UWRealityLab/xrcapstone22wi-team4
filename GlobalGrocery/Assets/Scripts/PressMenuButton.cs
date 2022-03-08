@@ -46,11 +46,11 @@ public class PressMenuButton : MonoBehaviour
         if (targetDevice.TryGetFeatureValue(CommonUsages.menuButton, out bool menuValue))
         {
             if (menuValue) {
+
                 // set position of pause menu right in front of player
                 Vector3 playerPos = playerTransform.position;
                 Vector3 playerDirection = playerTransform.transform.forward;
-                Quaternion playerRotation = playerTransform.rotation;
-                float menuDistance = 0.42f;
+                float menuDistance = 0.31f;
 
                 Vector3 menuPosition = playerPos + (playerDirection * menuDistance);
 
@@ -58,14 +58,19 @@ public class PressMenuButton : MonoBehaviour
                 Vector3 yOffset = (transform.up * 1.6f);
 
                 pauseMenu.transform.position = menuPosition;
-                pauseMenu.transform.rotation = playerRotation;
 
+                // sets pause menu rotation to follow camera head
+                pauseMenu.transform.SetParent(GameObject.Find("Main Camera").transform, false);
+
+                // set all grabbables and menu active
                 pauseMenu.SetActive(true);
                 continueObject.SetActive(true);
                 exitObject.SetActive(true);
                 priceToggleObject.SetActive(true);
                 currencyToggleObject.SetActive(true);
 
+
+                // Show toggle text according to other changed variables
                 Text toggleCurrencyText = GameObject.Find("Toggle_currency_variable").GetComponent<Text>();
                 PricingManager pricingManager = GameObject.Find("PricingManager").GetComponent<PricingManager>();
                 toggleCurrencyText.text = pricingManager.getCurrency();

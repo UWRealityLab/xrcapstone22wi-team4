@@ -14,14 +14,34 @@ public class GrabToSelect : MonoBehaviour
     public GameObject fadeOrb;
     public int fadeSpeed;
 
+    private bool fadeOut = false;
+
     private void Start()
     {
         if (fadeOrb != null)
         {
             fadeOrb.GetComponent<MeshRenderer>().material.color = new Vector4(0, 0, 0, 0);
+            fadeOut = false;
         }
     }
 
+    private void Update()
+    {
+        if (fadeOut && fadeOrb != null)
+        {
+            Color orbOpacity = fadeOrb.GetComponent<MeshRenderer>().material.color;
+            while (true)
+            {
+                orbOpacity.a += Time.deltaTime * fadeSpeed;
+                fadeOrb.GetComponent<MeshRenderer>().material.color = orbOpacity;
+
+                if (fadeOrb.GetComponent<MeshRenderer>().material.color.a >= 255)
+                {
+                    break;
+                }
+            }
+        }
+    }
 
     // When object is selected
     public void OnGrabEnter()
@@ -66,22 +86,24 @@ public class GrabToSelect : MonoBehaviour
 
     void FadeToBlack()
     {
-        if (fadeOrb == null)
-        {
-            return;
-        }
+        fadeOut = true;
 
-        Color orbOpacity = fadeOrb.GetComponent<MeshRenderer>().material.color;
-        while (true)
-        {
-            orbOpacity.a += fadeSpeed;
-            fadeOrb.GetComponent<MeshRenderer>().material.color = orbOpacity;
+        //if (fadeOrb == null)
+        //{
+        //    return;
+        //}
 
-            if (fadeOrb.GetComponent<MeshRenderer>().material.color.a >= 255)
-            {
-                break;
-            }
-        }
+        //Color orbOpacity = fadeOrb.GetComponent<MeshRenderer>().material.color;
+        //while (true)
+        //{
+        //    orbOpacity.a += fadeSpeed;
+        //    fadeOrb.GetComponent<MeshRenderer>().material.color = orbOpacity;
+
+        //    if (fadeOrb.GetComponent<MeshRenderer>().material.color.a >= 255)
+        //    {
+        //        break;
+        //    }
+        //}
     }
 
     // Change price visibility toggle

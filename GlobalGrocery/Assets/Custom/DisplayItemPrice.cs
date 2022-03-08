@@ -13,13 +13,15 @@ public class DisplayItemPrice : MonoBehaviour
         pricingManager = GameObject.Find("PricingManager").GetComponent<PricingManager>();
     }
 
-    // Update is called once per frame
+    // called when pricing text display is on
     public void onDisplay(string name)
     {
         double price = pricingManager.getPrice(name);
         TextMeshPro text = gameObject.transform.GetComponent<TextMeshPro>();
         text.text = name + "\n" + "Price: " + price;
         gameObject.transform.GetComponent<MeshRenderer>().enabled = true;
+
+        text.transform.SetParent(GameObject.Find("Main Camera").transform, false);
     }
 
     public void offDisplay()
