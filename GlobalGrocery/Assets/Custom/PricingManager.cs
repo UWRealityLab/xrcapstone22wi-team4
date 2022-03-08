@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System;
 using System.IO;
 using UnityEngine;
+using System.Text.RegularExpressions;
 using UnityEngine.UI;
 
 public class PricingManager : MonoBehaviour
@@ -53,8 +54,9 @@ public class PricingManager : MonoBehaviour
             // add display info
             if (values.Length == 5 && !values[4].Contains("0")) // has alt name
             {
-                Debug.Log(values[4]);
-                displayNames.Add(item, values[4]);
+                string cleanedName = Regex.Replace(item, "[^A-Za-z0-9 -]", "");
+                Debug.Log(cleanedName);
+                displayNames.Add(item, cleanedName);
             }
 
         }

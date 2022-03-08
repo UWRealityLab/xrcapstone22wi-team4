@@ -51,6 +51,9 @@ CakePrairie,2.96,30.53,12.57,WaveCakeMix
 CakeSucres,4.42,45.59,18.77,LemonLoafMix
 CandyPack,0,0,0,M&M10oz
 CandyPack_2,0,0,0,BubbleBluzz10oz
+CansPackZapSoda,0,0,0,0
+CansPackSodaPop,0,0,0,0
+CansPackCola,0,0,0,0
 Capsule,0,0,0,DetergentCapsule
 CapsuleBoum,0,0,0,0
 CapsuleCemagik,0,0,0,0
@@ -198,6 +201,9 @@ SweetJarBrown,7.87,81.18,33.42,0
 SweetJarOrange,15.02,154.93,63.78,CookieJar
 SweetJarRed,19.89,205.17,84.47,StrawberryJam
 TeaboxAsian,2.48,25.58,10.53,GreenTea
+TeaboxPink,0,0,0,0
+TeaboxBlue,0,0,0,0
+TeaboxYellow,0,0,0,0
 TeaboxCylinderBlack,10.82,111.61,45.95,EarlGreyTea
 TeaboxCylinderGreen,9.38,96.75,39.83,MatchaTea
 TeaboxCylinderWhite,4.94,50.96,20.98,HoneyLemonTea
@@ -205,6 +211,9 @@ TinCanTunaMedium,1.56,15.21,3.42,TunaSmall
 TinCanTunaSmall,0.68,7.01,2.89,TunaMed
 TinCanTunaLarge,3.28,33.83,13.93,TunaLarge
 Tomato,1.95,20.11,8.28,0
+WaterBottleFlotie,0,0,0,WaterFlotie
+WaterBottleMonCuo,0,0,0,WaterMonCuo
+WaterBottleFortLacs,0,0,0,WaterFortLacs
 Watermelon,6.98,72,29.64,0
 WineBottle5Y,4.98,51.37,21.15,MoscatelWhiteWine
 WineBottleChebon,9.98,102.94,42.38,MerlotRedWine
