@@ -21,6 +21,7 @@ public class CheckOut : MonoBehaviour
         double cost = 0;
         Dictionary<string, double> item_price = new Dictionary<string, double>();
         Dictionary<string, int> item_count = new Dictionary<string, int>();
+
         if (pricingManager.getLocation() == "USA")
         {
             PlayerHistory.USA = new List<string>();
@@ -80,7 +81,39 @@ public class CheckOut : MonoBehaviour
         foreach (string item in item_price.Keys) {
             text += item + " x" + item_count[item] + "     " + item_price[item] + "\n";
         }
-        text += "Total Cost:  " + cost + " " + pricingManager.getReceiptCurrency();
+        text += "Total Cost:  " + cost + " " + pricingManager.getReceiptCurrency() + "\n\n";
+
+        // goal cost difference
+        double costDiff;
+        string goalDiff;
+        if (pricingManager.getLocation() == "USA")
+        {
+            costDiff = cost - 30;
+            goalDiff = "Goal: 30 USD";
+        }
+        else if (pricingManager.getLocation() == "CHINA")
+        {
+            costDiff = cost - 190;
+            goalDiff = "Goal: 190 yuan";
+        }
+        else
+        {
+            costDiff = cost - 620;
+            goalDiff = "Goal: 620 pesos";
+        }
+
+        text += goalDiff + "\n";
+
+        // determine goal diff
+        if (costDiff < 0)
+        {
+            text += "You spent " + Mathf.Abs((float)costDiff) + " " + pricingManager.getReceiptCurrency() + " under the goal";
+        } else
+        {
+            text += "You spent " + Mathf.Abs((float)costDiff) + " " + pricingManager.getReceiptCurrency() + " over the goal";
+        }
+
+        // set receipt text
         receipt.GetComponent<TextMeshPro>().text = text;
 
         if (pricingManager.getLocation() == "USA")
