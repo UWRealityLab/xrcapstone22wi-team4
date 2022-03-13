@@ -54,9 +54,12 @@ public class PricingManager : MonoBehaviour
             // add display info
             if (values.Length == 5 && !values[4].Contains("0")) // has alt name
             {
-                string cleanedName = Regex.Replace(item, "[^A-Za-z0-9 -]", "");
+                string cleanedName = Regex.Replace(values[4], "[^A-Za-z0-9 -]", "");
                 Debug.Log(cleanedName);
-                displayNames.Add(item, cleanedName);
+                if (!displayNames.ContainsKey(cleanedName))
+                {
+                    displayNames.Add(item, cleanedName);
+                }
             }
 
         }

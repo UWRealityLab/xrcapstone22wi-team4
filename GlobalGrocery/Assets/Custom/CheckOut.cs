@@ -17,6 +17,7 @@ public class CheckOut : MonoBehaviour
         Debug.Log("Entered Checkout Zone");
         Transform cart_items = GameObject.Find("Cart_Items").transform;
         PricingManager pricingManager = GameObject.Find("PricingManager").GetComponent<PricingManager>();
+        /*pricingManager.currency = pricingManager.receiptCurrency;*/
 
         double cost = 0;
         Dictionary<string, double> item_price = new Dictionary<string, double>();

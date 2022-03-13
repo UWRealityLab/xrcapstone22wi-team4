@@ -397,6 +397,8 @@ MonoBehaviour:
   exitObject: {fileID: 7093097247440126806}
   togglePriceObject: {fileID: 8248043668601952228}
   toggleCurrencyObject: {fileID: 8248043669385097407}
+  fadeOrb: {fileID: 0}
+  fadeSpeed: 0
 --- !u!114 &7093097247440126805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -611,7 +613,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 10
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &7093097248044897510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1179,6 +1181,8 @@ MonoBehaviour:
   exitObject: {fileID: 0}
   togglePriceObject: {fileID: 8248043668601952228}
   toggleCurrencyObject: {fileID: 8248043669385097407}
+  fadeOrb: {fileID: 0}
+  fadeSpeed: 0
 --- !u!114 &8248043668601952250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1955,6 +1959,8 @@ MonoBehaviour:
   exitObject: {fileID: 0}
   togglePriceObject: {fileID: 8248043668601952228}
   toggleCurrencyObject: {fileID: 8248043669385097407}
+  fadeOrb: {fileID: 0}
+  fadeSpeed: 0
 --- !u!114 &8248043669385097405
 MonoBehaviour:
   m_ObjectHideFlags: 0

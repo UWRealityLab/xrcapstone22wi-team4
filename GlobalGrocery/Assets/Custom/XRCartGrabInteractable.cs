@@ -1,5 +1,6 @@
 using System;
 using UnityEngine.Serialization;
+using System.Collections;
 
 namespace UnityEngine.XR.Interaction.Toolkit
 {
@@ -460,9 +461,16 @@ namespace UnityEngine.XR.Interaction.Toolkit
                     if (isSelected)
                     {
                         if (m_CurrentMovementType == MovementType.Kinematic)
+                        {
                             PerformKinematicUpdate(updatePhase);
+                            Debug.Log("Kinematic");
+                        }
                         else if (m_CurrentMovementType == MovementType.VelocityTracking)
+                        {
                             PerformVelocityTrackingUpdate(Time.deltaTime, updatePhase);
+                            Debug.Log("velocity tracking");
+                        }
+                            
                     }
 
                     break;
@@ -480,7 +488,11 @@ namespace UnityEngine.XR.Interaction.Toolkit
                         SmoothVelocityUpdate(interactor);
 
                         if (m_CurrentMovementType == MovementType.Instantaneous)
+                        {
                             PerformInstantaneousUpdate(updatePhase);
+                            Debug.Log("instant update");
+                        }
+                            
                     }
 
                     break;
@@ -497,7 +509,11 @@ namespace UnityEngine.XR.Interaction.Toolkit
                         UpdateTarget(interactor, Time.deltaTime);
 
                         if (m_CurrentMovementType == MovementType.Instantaneous)
+                        {
                             PerformInstantaneousUpdate(updatePhase);
+                            Debug.Log("instant update");
+                        }
+                            
                     }
 
                     break;
@@ -552,9 +568,18 @@ namespace UnityEngine.XR.Interaction.Toolkit
 
         void UpdateTarget(IXRInteractor interactor, float timeDelta)
         {
+            Debug.Log("Updating targetttt");
             // Compute the unsmoothed target world position and rotation
             var rawTargetWorldPosition = GetWorldAttachPosition(interactor);
             var rawTargetWorldRotation = GetWorldAttachRotation(interactor);
+            /*rawTargetWorldRotation.x = 0f;
+            rawTargetWorldRotation.z = 0f;
+            rawTargetWorldRotation.w = 0f;
+            m_TargetWorldRotation.x = 0f;
+            m_TargetWorldRotation.z = 0f;
+            m_TargetWorldRotation.w = 0f;*/
+            /*float yRotation = m_TargetWorldRotation.eulerAngles.y;
+            m_TargetWorldRotation = new Vector3(0f, yRotation, 0f);*/
 
             // Apply smoothing (if configured)
             if (m_AttachEaseInTime > 0f && m_CurrentAttachEaseTime <= m_AttachEaseInTime)
@@ -586,10 +611,29 @@ namespace UnityEngine.XR.Interaction.Toolkit
                     m_TargetWorldRotation = rawTargetWorldRotation;
                 }
             }
+
+            /*m_TargetWorldPosition = rawTargetWorldPosition;
+            m_TargetWorldRotation = rawTargetWorldRotation;*//*
+            rawTargetWorldPosition.x = interactor.transform.position.x;
+            rawTargetWorldPosition.y = interactor.transform.position.y;
+            //rawTargetWorldPosition = rawTargetWorldPosition + rawTargetWorldPosition.normalized * 0.6f;
+            *//*
+            rawTargetWorldPosition.Normalize();
+            rawTargetWorldPosition = rawTargetWorldPosition * 1.5f;*//*
+            Vector3 vec = rawTargetWorldRotation.eulerAngles;
+            vec.x = 0;
+            vec.z = 0;
+            if (vec.y < 130) vec.y = 130;
+            if (vec.y > 210) vec.y = 210;
+            m_TargetWorldPosition = rawTargetWorldPosition;
+            m_TargetWorldRotation = Quaternion.Euler(vec);
+            Debug.Log("rotation =" + m_TargetWorldRotation.eulerAngles);
+            Debug.Log("position =" + m_TargetWorldPosition);*/
         }
 
         void PerformInstantaneousUpdate(XRInteractionUpdateOrder.UpdatePhase updatePhase)
         {
+            Debug.Log("Performing instantaneous updateee");
             if (updatePhase == XRInteractionUpdateOrder.UpdatePhase.Dynamic ||
                 updatePhase == XRInteractionUpdateOrder.UpdatePhase.OnBeforeRender)
             {
@@ -612,6 +656,7 @@ namespace UnityEngine.XR.Interaction.Toolkit
 
         void PerformKinematicUpdate(XRInteractionUpdateOrder.UpdatePhase updatePhase)
         {
+            Debug.Log("Performing kinematic updateeeeee");
             if (updatePhase == XRInteractionUpdateOrder.UpdatePhase.Fixed)
             {
                 if (m_TrackPosition)
@@ -637,6 +682,7 @@ namespace UnityEngine.XR.Interaction.Toolkit
 
         void PerformVelocityTrackingUpdate(float timeDelta, XRInteractionUpdateOrder.UpdatePhase updatePhase)
         {
+            Debug.Log("VELOCITY TRAKCING UPDATE PAIN");
             if (updatePhase == XRInteractionUpdateOrder.UpdatePhase.Fixed)
             {
                 // Do velocity tracking
@@ -680,6 +726,7 @@ namespace UnityEngine.XR.Interaction.Toolkit
 
         void UpdateInteractorLocalPose(IXRInteractor interactor)
         {
+            Debug.Log("Update Interactor local pose");
             if (m_AttachPointCompatibilityMode == AttachPointCompatibilityMode.Legacy)
             {
                 UpdateInteractorLocalPoseLegacy(interactor);
@@ -743,6 +790,7 @@ namespace UnityEngine.XR.Interaction.Toolkit
         /// <seealso cref="Drop"/>
         protected virtual void Grab()
         {
+            /*StartCoroutine("delayGrab");*/
             var thisTransform = transform;
             m_OriginalSceneParent = thisTransform.parent;
             thisTransform.SetParent(null);
@@ -763,6 +811,49 @@ namespace UnityEngine.XR.Interaction.Toolkit
             UpdateInteractorLocalPose(interactor);
 
             SmoothVelocityStart(interactor);
+        }
+
+        /*// added this to try and make grab script wait?
+        IEnumerator delayGrab()
+        {
+            yield return new WaitForSeconds(0.5f);
+            var thisTransform = transform;
+            m_OriginalSceneParent = thisTransform.parent;
+            thisTransform.SetParent(null);
+
+            UpdateCurrentMovementType();
+            SetupRigidbodyGrab(m_Rigidbody);
+
+            // Reset detach velocities
+            m_DetachVelocity = Vector3.zero;
+            m_DetachAngularVelocity = Vector3.zero;
+
+            // Initialize target pose for easing and smoothing
+            m_TargetWorldPosition = m_AttachPointCompatibilityMode == AttachPointCompatibilityMode.Default ? thisTransform.position : m_Rigidbody.worldCenterOfMass;
+            m_TargetWorldRotation = thisTransform.rotation;
+            m_CurrentAttachEaseTime = 0f;
+
+            var interactor = interactorsSelecting[0];
+            UpdateInteractorLocalPose(interactor);
+
+            SmoothVelocityStart(interactor);
+        }*/
+
+        public override bool IsSelectableBy(IXRSelectInteractor interactor)
+        {
+            Debug.Log(interactor.transform.name);
+            bool isgrabbed = isSelected && !interactor.Equals(interactorsSelecting[0]);
+            return base.IsSelectableBy(interactor) && !isgrabbed && interactor.transform.name.Equals("RightHand Controller");
+        }
+
+        public void OnSecondHandGrab(XRBaseInteractor interactor)
+        {
+            Debug.Log("Second hand grab");
+        }
+
+        public void OnSecondHandRelease(XRBaseInteractor interactor)
+        {
+            Debug.Log("Second hand release");
         }
 
         /// <summary>
