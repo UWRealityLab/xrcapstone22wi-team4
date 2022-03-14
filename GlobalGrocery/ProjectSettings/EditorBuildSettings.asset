@@ -9,13 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/vr-menu-demo.unity
     guid: 9d10f25590ecd4e39aa18af6db0df952
   - enabled: 1
-    path: Assets/Scenes/03_07_2022_USA_Store.unity
+    path: Assets/Scenes/Final_USA_Store.unity
     guid: 9147fc5022f3d45f6bfb1d8250057e06
   - enabled: 1
-    path: Assets/Scenes/03_07_2022_MEXICO_Store.unity
+    path: Assets/Scenes/Final_MEXICO_Store.unity
     guid: cc49b7a49b83f4c1d8bf1d7664e1ca4f
   - enabled: 1
-    path: Assets/Scenes/03_07_2022_CHINA_Store.unity
+    path: Assets/Scenes/Final_CHINA_Store.unity
     guid: 77946569e289d4c8cbef5801b3f55ebe
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 66b92476fd334a0488b12f8c40bebdc4, type: 2}
