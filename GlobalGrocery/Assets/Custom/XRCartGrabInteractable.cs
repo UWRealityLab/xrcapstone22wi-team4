@@ -971,6 +971,12 @@ namespace UnityEngine.XR.Interaction.Toolkit
             m_TeleportationProvider.endLocomotion -= OnEndTeleportation;
             m_TeleportationProvider = null;
         }
+        public override bool IsSelectableBy(IXRSelectInteractor interactor)
+        {
+            Debug.Log(interactor.transform.name);
+            bool isgrabbed = isSelected && !interactor.Equals(interactorsSelecting[0]);
+            return base.IsSelectableBy(interactor) && !isgrabbed && interactor.transform.name.Equals("RightHand Controller");
+        }
     }
 }
 /*using System;
