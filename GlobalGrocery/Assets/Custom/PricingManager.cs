@@ -117,7 +117,7 @@ public class PricingManager : MonoBehaviour
         {
             Debug.Log("location not recognized");
         }
-        return Math.Round(cost * getScaler(), 2);
+        return Math.Round(cost, 2);
     }
 
     public string getDisplayName(String item)

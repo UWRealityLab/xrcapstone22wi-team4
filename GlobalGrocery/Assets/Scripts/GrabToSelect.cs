@@ -49,17 +49,17 @@ public class GrabToSelect : MonoBehaviour
         if (this.name == "apple")
         {
             // call load USA scene
-            LoadNewScene("Assets/Scenes/03_07_2022_USA_Store.unity");
+            LoadNewScene("Assets/Scenes/Final_USA_Store.unity");
         }
         else if (this.name == "avocado")
         {
             // call load Mexico scene
-            LoadNewScene("Assets/Scenes/03_07_2022_MEXICO_Store.unity");
+            LoadNewScene("Assets/Scenes/Final_MEXICO_Store.unity");
         }
         else if (this.name == "orange")
         {
             // call load China scene
-            LoadNewScene("Assets/Scenes/03_07_2022_CHINA_Store.unity");
+            LoadNewScene("Assets/Scenes/Final_CHINA_Store.unity");
         }
     }
 
